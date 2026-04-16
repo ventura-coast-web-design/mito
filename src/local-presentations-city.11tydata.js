@@ -1,8 +1,8 @@
 module.exports = {
   eleventyComputed: {
-    title: (data) => `${data.city.city} — Local classes`,
+    title: (data) => `${data.city.city} — Local Presentations`,
     description: (data) =>
-      `Address, schedule, and contact for Myth of Satan classes in ${data.city.city}.`,
+      `Address, schedule, and contact for Myth of Satan presentations in ${data.city.city}.`,
     mapEmbedSrc: (data) => {
       const q = data.city && data.city.mapEmbedQuery;
       if (!q || typeof q !== "string") return "";

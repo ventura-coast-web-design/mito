@@ -1,0 +1,5 @@
+{
+  "layout": "transcript.njk",
+  "tags": "transcript",
+  "mainClass": "site-main--bright"
+}

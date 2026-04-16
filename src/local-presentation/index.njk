@@ -1,15 +1,16 @@
 ---
 layout: base.njk
-title: "Local classes"
-description: "Find Myth of Satan class series near you — venue, schedule, and local contact."
+title: "Local Presentations"
+description: "Find a Myth of Satan presentation near you — venue, schedule, and local contact."
+permalink: /local-presentations/
 ---
 
 <div class="local-hub">
   <header class="section local-hub__intro">
     <div class="container">
-      <h1 class="local-hub__title">Local classes</h1>
+      <h1 class="local-hub__title">Local Presentations</h1>
       <p class="local-hub__lede">
-        We run this series in several cities. Pick yours to see the venue address, schedule and speakers, and
+        This presentation will be held in the following cities. Pick yours to see the venue address, schedule and speakers, and
         to send a message to the local organizers.
       </p>
       <button type="button" class="btn btn--primary" id="open-city-modal">Choose your city</button>
@@ -19,7 +20,7 @@ description: "Find Myth of Satan class series near you — venue, schedule, and 
           <p>Select a city:</p>
           <ul>
             {% for c in cities %}
-              <li><a href="/local-classes/{{ c.slug }}/">{{ c.city }}{% if c.region %}, {{ c.region }}{% endif %}</a></li>
+              <li><a href="/local-presentations/{{ c.slug }}/">{{ c.city }}{% if c.region %}, {{ c.region }}{% endif %}</a></li>
             {% endfor %}
           </ul>
         </div>
@@ -37,7 +38,7 @@ description: "Find Myth of Satan class series near you — venue, schedule, and 
     <ul class="city-modal__list" role="list">
       {% for c in cities %}
         <li>
-          <a class="city-modal__choice" href="/local-classes/{{ c.slug }}/">
+          <a class="city-modal__choice" href="/local-presentations/{{ c.slug }}/">
             <span class="city-modal__choice-city">{{ c.city }}</span>
             {% if c.region %}
               <span class="city-modal__choice-region">{{ c.region }}</span>

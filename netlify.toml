@@ -4,10 +4,30 @@
 
 [[redirects]]
   from = "/contact"
-  to = "/local-classes/"
+  to = "/local-presentations/"
   status = 301
 
 [[redirects]]
   from = "/contact/"
-  to = "/local-classes/"
+  to = "/local-presentations/"
+  status = 301
+
+[[redirects]]
+  from = "/local-presentation"
+  to = "/local-presentations/"
+  status = 301
+
+[[redirects]]
+  from = "/local-presentation/"
+  to = "/local-presentations/"
+  status = 301
+
+[[redirects]]
+  from = "/christadelphians"
+  to = "/about/"
+  status = 301
+
+[[redirects]]
+  from = "/christadelphians/"
+  to = "/about/"
   status = 301
