@@ -1,7 +1,7 @@
 <section id="locations" class="section locations" aria-labelledby="locations-title">
   <div class="container">
     <header class="section__head">
-      <h2 id="locations-title">Where classes meet</h2>
+      <h2 id="locations-title">Where Presentations will be held</h2>
     </header>
 
     <ul class="locations__list" role="list">
@@ -19,7 +19,7 @@
             {% endfor %}
           </address>
           <p class="location-card__actions">
-            <a class="location-card__link location-card__link--primary" href="/local-classes/{{ place.slug }}/">
+            <a class="location-card__link location-card__link--primary" href="/local-presentations/{{ place.slug }}/">
               Location details
             </a>
             {% if place.mapUrl %}
@@ -36,7 +36,7 @@
         Join online instead. We send a link so you can participate remotely from wherever you are.
       </p>
       <p class="locations__virtual-actions">
-        <a class="btn btn--primary" href="/virtual-classes/#virtual-signup">Sign up for the virtual link</a>
+        <a class="btn btn--primary" href="/virtual-presentations/#virtual-signup">Sign up for the virtual link</a>
       </p>
     </aside>
   </div>

@@ -3,7 +3,7 @@ pagination:
   data: cities
   size: 1
   alias: city
-permalink: "local-classes/{{ city.slug }}/index.html"
+permalink: "local-presentations/{{ city.slug }}/index.html"
 layout: base.njk
 eleventyExcludeFromCollections: true
 ---
@@ -12,7 +12,7 @@ eleventyExcludeFromCollections: true
   <header class="city-page__hero section">
     <div class="container">
       <nav class="city-page__crumb" aria-label="Breadcrumb">
-        <a href="/local-classes/">Local classes</a>
+        <a href="/local-presentations/">Local Presentations</a>
         <span aria-hidden="true"> / </span>
         <span>{{ city.city }}{% if city.region %}, {{ city.region }}{% endif %}</span>
       </nav>
@@ -48,7 +48,7 @@ eleventyExcludeFromCollections: true
           <div class="city-page__map">
             <iframe
               class="city-page__map-frame"
-              title="Map centered on the {{ city.city }} class venue (approximate)"
+              title="Map centered on the {{ city.city }} Presentation venue (approximate)"
               src="{{ mapEmbedSrc }}"
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
@@ -62,7 +62,7 @@ eleventyExcludeFromCollections: true
 
   <section class="section city-page__schedule" aria-labelledby="schedule-title">
     <div class="container">
-      <h2 id="schedule-title">Class schedule</h2>
+      <h2 id="schedule-title">Presentation schedule</h2>
       {% if city.scheduleIntro %}
         <p class="city-page__schedule-intro">{{ city.scheduleIntro }}</p>
       {% endif %}
