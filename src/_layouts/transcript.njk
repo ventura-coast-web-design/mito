@@ -1,0 +1,35 @@
+---
+layout: base.njk
+mainClass: site-main--bright
+---
+
+<div class="page-header page-header--bright transcript-page__banner">
+  {{ title }}
+</div>
+
+<div class="container transcript-page">
+  {% if videoTitle or youtubeVideoId %}
+    <div class="transcript-page__toolbar">
+      {% if youtubeVideoId and videoTitle %}
+        <a class="btn btn--bright-primary transcript-page__watch" href="https://www.youtube.com/watch?v={{ youtubeVideoId }}">Watch &ldquo;{{ videoTitle }}&rdquo;</a>
+      {% elif youtubeVideoId %}
+        <a class="btn btn--bright-primary transcript-page__watch" href="https://www.youtube.com/watch?v={{ youtubeVideoId }}">Watch on YouTube</a>
+      {% elif videoTitle %}
+        <span class="transcript-page__video-label">{{ videoTitle }}</span>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <article class="transcript-prose">
+    {{ content | safe }}
+  </article>
+
+  <nav class="transcript-page__footer-nav" aria-label="Transcript navigation">
+    {% if backUrl %}
+      <a class="btn btn--bright-ghost" href="{{ backUrl }}">{{ backLabel or "Back" }}</a>
+    {% else %}
+      <a class="btn btn--bright-ghost" href="/transcripts/">All transcripts</a>
+      <a class="btn btn--bright-ghost" href="/about/">About</a>
+    {% endif %}
+  </nav>
+</div>

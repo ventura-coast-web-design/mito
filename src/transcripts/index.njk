@@ -1,0 +1,34 @@
+---
+title: "Transcripts"
+description: "Transcripts for presentation videos."
+permalink: /transcripts/
+layout: base.njk
+mainClass: site-main--bright
+tags: []
+eleventyExcludeFromCollections: true
+---
+
+<div class="page-header page-header--bright">
+  Transcripts
+</div>
+
+<div class="container transcript-index">
+  <p class="bright-lead transcript-index__intro">
+    Transcripts for videos on this site. Open a page to read or print; each file lives in <code class="transcript-index__code">src/transcripts/</code> as Markdown.
+  </p>
+
+  {% if collections.transcript | length %}
+    <ul class="transcript-index__list">
+      {% for item in collections.transcript | sort(false, false, "data.title") %}
+        <li>
+          <a class="transcript-index__link" href="{{ item.url }}">{{ item.data.title }}</a>
+          {% if item.data.description %}
+            <p class="transcript-index__desc">{{ item.data.description }}</p>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p class="bright-muted">No transcripts yet.</p>
+  {% endif %}
+</div>

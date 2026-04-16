@@ -5,66 +5,75 @@ description: "About this series, who Christadelphians are, what we believe, and 
 permalink: /about/
 mainClass: site-main--bright
 # Optional: set to a YouTube video id (11 characters) to show an embedded overview.
-youtubeVideoId: ""
+youtubeVideoId: "IGbjT0MQ-Ew"
+# Transcript link under the video: either set transcriptSlug (matches src/transcripts/{{ slug }}.md permalink) or set transcriptUrl to a full path.
+transcriptSlug: "about-overview"
+# transcriptUrl: "/transcripts/custom-path/"
 ---
 
 <div class="page-header page-header--bright">
   About The Christadelphians
-</div>
-
-<div class="container bright-section about-intro">
-  <p class="bright-lead">
-    This site supports a series of Bible presentations. The talks are prepared and given by Christadelphians&mdash;people who try to follow Christ and who look to Scripture as the guide for belief and life.
-  </p>
-</div>
-
-<div class="container bright-section">
-  <header class="bright-section__head">
-    <h2>Who are the Christadelphians?</h2>
+  <div class="container bright-section about-intro">
     <p class="bright-lead">
-      The name <em>Christadelphian</em> comes from Greek and means &ldquo;brothers and sisters in Christ.&rdquo;
-      Christadelphians aim to follow the good news Jesus taught and lived, using the Bible as the authority for faith and practice&mdash;the same hope the apostles spoke of as the hope of Israel.
+      This site supports a series of Bible presentations. The talks are prepared and given by Christadelphians&mdash;people who try to follow Christ and who look to Scripture as the guide for belief and life.
     </p>
-  </header>
+  </div>
 </div>
 
-<section class="bright-section bright-section--video" aria-labelledby="video-overview-title">
-  <div class="container">
-    <h2 id="video-overview-title">Video overview</h2>
-    <p class="bright-muted">
-      A short introduction to who we are and what we care about.
-    </p>
-    {% if youtubeVideoId %}
-      <div class="bright-video">
-        <div class="bright-video__embed">
-          <iframe
-            src="https://www.youtube.com/embed/{{ youtubeVideoId }}"
-            title="Overview of the Christadelphians"
-            loading="lazy"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </div>
-    {% else %}
-      <div class="bright-video-fallback">
-        <p>
-          Watch introductions and studies on
-          <a href="https://christadelphianvideo.org/who-are-the-christadelphians/">ChristadelphianVideo.org</a>
-          &mdash; including material on who Christadelphians are and what they stand for.
+<section class="bright-section bright-section--who-video" aria-labelledby="who-title">
+  <div class="container about-who-video">
+    <div class="about-who-video__text">
+      <header class="bright-section__head about-who-video__head">
+        <h2 id="who-title">Who are we?</h2>
+        <p class="bright-lead">
+          The name <em>Christadelphian</em> comes from Greek and means &ldquo;brothers in Christ.&rdquo;
+          Christadelphians aim to follow the good news Jesus taught and lived, using the Bible as the authority for faith and practice&mdash;the same hope the apostles spoke of as the hope of Israel.
         </p>
-        <a class="btn btn--bright-primary" href="https://christadelphianvideo.org/who-are-the-christadelphians/">Open ChristadelphianVideo.org</a>
-      </div>
-    {% endif %}
+      </header>
+    </div>
+    <div class="about-who-video__media">
+      <h3 class="about-who-video__video-heading" id="video-overview-title">Video overview</h3>
+      <p class="bright-muted about-who-video__video-lead">
+        A short introduction to who we are and what we care about.
+      </p>
+      {% if youtubeVideoId %}
+        <div class="bright-video">
+          <div class="bright-video__embed">
+            <iframe
+              src="https://www.youtube.com/embed/{{ youtubeVideoId }}"
+              title="Overview of the Christadelphians"
+              loading="lazy"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      {% else %}
+        <div class="bright-video-fallback">
+          <p>
+            Watch introductions and studies on
+            <a href="https://christadelphianvideo.org/who-are-the-christadelphians/">ChristadelphianVideo.org</a>
+            &mdash; including material on who Christadelphians are and what they stand for.
+          </p>
+          <a class="btn btn--bright-primary" href="https://christadelphianvideo.org/who-are-the-christadelphians/">Open ChristadelphianVideo.org</a>
+        </div>
+      {% endif %}
+      {% set transcriptHref = transcriptUrl if transcriptUrl else (("/transcripts/" ~ transcriptSlug ~ "/") if transcriptSlug else "") %}
+      {% if transcriptHref %}
+        <p class="about-who-video__transcript">
+          <a class="about-who-video__transcript-link" href="{{ transcriptHref }}">Read the transcript</a>
+        </p>
+      {% endif %}
+    </div>
   </div>
 </section>
 
 <section class="bright-section bright-section--basf-summary" aria-labelledby="basf-title">
   <div class="container">
-    <h2 id="basf-title">The Birmingham Amended Statement of Faith (BASF)</h2>
+    <h2 id="basf-title">Our Statement of Faith</h2>
     <p class="bright-muted">
-      Christadelphian communities hold to a common summary of Bible teaching. The BASF sets out the doctrines we believe Scripture teaches. Below, the first four foundation points follow the usual BASF wording many ecclesias use in summary form; further points continue underneath.
+      Christadelphian communities hold to a common summary of Bible teaching. This statement of faith sets out the doctrines we believe Scripture teaches. Below, are the foundation points that summarize the wording our Ecclesias use.
     </p>
 
     <div class="basf-summary-panel">
@@ -97,40 +106,50 @@ youtubeVideoId: ""
             That the Holy Spirit is the power of God, manifested in creation, in the inspiration of the prophets and apostles, in the conception and empowering of Jesus Christ.
           </p>
         </li>
+        <li class="basf-card">
+          <span class="basf-card__badge" aria-hidden="true">5</span>
+          <h3 class="basf-card__title">Human nature</h3>
+          <p class="basf-card__text">
+            That man is mortal, subject to death as a consequence of sin. We do not possess an immortal soul, but instead await the resurrection that will take place at Christ&rsquo;s return.
+          </p>
+        </li>
+        <li class="basf-card">
+          <span class="basf-card__badge" aria-hidden="true">6</span>
+          <h3 class="basf-card__title">Sin and salvation</h3>
+          <p class="basf-card__text">
+            That sin brings death, but through Christ&rsquo;s sacrifice we can receive forgiveness. Salvation comes through faith in Jesus Christ, repentance from sin, and baptism by full immersion in water.
+          </p>
+        </li>
+        <li class="basf-card">
+          <span class="basf-card__badge" aria-hidden="true">7</span>
+          <h3 class="basf-card__title">The return of Christ</h3>
+          <p class="basf-card__text">
+            That Jesus Christ will personally return to the earth to establish the Kingdom of God, to raise and judge the dead, and to reward the faithful with eternal life in that Kingdom.
+          </p>
+        </li>
+        <li class="basf-card">
+          <span class="basf-card__badge" aria-hidden="true">8</span>
+          <h3 class="basf-card__title">The kingdom of God</h3>
+          <p class="basf-card__text">
+            That God will establish His Kingdom on earth with Jerusalem as its capital. Christ will reign as King, bringing peace, righteousness, and prosperity to all nations.
+          </p>
+        </li>
+        <li class="basf-card">
+          <span class="basf-card__badge" aria-hidden="true">9</span>
+          <h3 class="basf-card__title">Israel</h3>
+          <p class="basf-card__text">
+            That the promises made to Abraham and David will be literally fulfilled. Israel will be regathered to their land, and through them God&rsquo;s purpose with the earth will be accomplished.
+          </p>
+        </li>
+        <li class="basf-card">
+          <span class="basf-card__badge basf-card__badge--wide" aria-hidden="true">10</span>
+          <h3 class="basf-card__title">Resurrection and judgment</h3>
+          <p class="basf-card__text">
+            That at Christ&rsquo;s return, the dead will be raised and both living and dead believers will be judged. The righteous will receive eternal life, while the wicked will be destroyed.
+          </p>
+        </li>
       </ul>
     </div>
-
-    <h3 class="basf-continued-title" id="basf-continued">Further foundation points</h3>
-    <ol class="basf-list basf-list--continued" start="5">
-      <li>
-        <h3>Human nature</h3>
-        <p>That man is mortal, subject to death as a consequence of sin. We do not possess an immortal soul, but instead await the resurrection that will take place at Christ&rsquo;s return.</p>
-      </li>
-      <li>
-        <h3>Sin and salvation</h3>
-        <p>That sin brings death, but through Christ&rsquo;s sacrifice we can receive forgiveness. Salvation comes through faith in Jesus Christ, repentance from sin, and baptism by full immersion in water.</p>
-      </li>
-      <li>
-        <h3>The return of Christ</h3>
-        <p>That Jesus Christ will personally return to the earth to establish the Kingdom of God, to raise and judge the dead, and to reward the faithful with eternal life in that Kingdom.</p>
-      </li>
-      <li>
-        <h3>The kingdom of God</h3>
-        <p>That God will establish His Kingdom on earth with Jerusalem as its capital. Christ will reign as King, bringing peace, righteousness, and prosperity to all nations.</p>
-      </li>
-      <li>
-        <h3>Israel</h3>
-        <p>That the promises made to Abraham and David will be literally fulfilled. Israel will be regathered to their land, and through them God&rsquo;s purpose with the earth will be accomplished.</p>
-      </li>
-      <li>
-        <h3>Resurrection and judgment</h3>
-        <p>That at Christ&rsquo;s return, the dead will be raised and both living and dead believers will be judged. The righteous will receive eternal life, while the wicked will be destroyed.</p>
-      </li>
-    </ol>
-
-    <p class="bright-muted basf-footnote">
-      For the full BASF text, see Christadelphian publishers or your local ecclesia.
-    </p>
   </div>
 </section>
 
