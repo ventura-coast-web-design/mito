@@ -9,11 +9,10 @@ body.nav-open {
 
 .nav-primary {
   @include mixins.container;
-  position: sticky;
-  top: 0;
+  position: relative;
   z-index: 10001;
-  background-color: #fff;
-  border-bottom: 1px solid rgba(20, 17, 16, 0.12);
+  background-color: variables.$background-color;
+  border-bottom: 1px solid variables.$border-color;
 
   @include mixins.responsive(variables.$breakpoint-md) {
     display: flex;
@@ -25,7 +24,6 @@ body.nav-open {
 
 .site-header {
   background-color: transparent;
-  backdrop-filter: blur(10px);
 
   @include mixins.responsive(variables.$breakpoint-md) {
     flex: 0 0 auto;
@@ -45,15 +43,27 @@ body.nav-open {
   &__logo {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
     line-height: 0;
     position: relative;
     z-index: 10004;
+    width: clamp(6.5rem, 16vmin, 9.5rem);
+    height: clamp(6.5rem, 16vmin, 9.5rem);
+    border-radius: 50%;
+    border: 3px solid #fff;
+    background-color: #fff;
+    padding: 0.4rem;
+    box-sizing: border-box;
+    overflow: hidden;
 
     img {
       display: block;
-      height: clamp(7.3125rem, 15.75vmin, 10.6875rem);
+      max-width: 100%;
+      max-height: 100%;
       width: auto;
-      max-width: min(58.5rem, 95vw);
+      height: auto;
+      object-fit: contain;
     }
   }
 
@@ -90,9 +100,9 @@ body.nav-open {
       z-index: 10003;
       width: min(18.5rem, 88vw);
       max-width: 100%;
-      background: #fff;
-      border-left: 1px solid rgba(20, 17, 16, 0.12);
-      box-shadow: -8px 0 32px rgba(10, 9, 9, 0.12);
+      background: variables.$background-color;
+      border-left: 1px solid variables.$border-color;
+      box-shadow: -8px 0 32px rgba(0, 0, 0, 0.45);
       padding: max(1.25rem, env(safe-area-inset-top)) 1.25rem 1.5rem max(1.25rem, env(safe-area-inset-right));
       transform: translateX(100%);
       transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1);
@@ -134,7 +144,7 @@ body.nav-open {
     border: none;
     background: transparent;
     cursor: pointer;
-    color: variables.$text-color;
+    color: variables.$accent-yellow;
     z-index: 10004;
     position: relative;
 
@@ -191,7 +201,7 @@ body.nav-open {
 
   &__link {
     display: block;
-    color: variables.$text-color;
+    color: variables.$accent-yellow;
     font-family: variables.$font-family-display;
     font-weight: 600;
     font-size: 0.9rem;
@@ -199,7 +209,7 @@ body.nav-open {
     text-transform: uppercase;
     transition: color 0.2s ease;
     padding: 0.65rem 0;
-    border-bottom: 1px solid rgba(20, 17, 16, 0.08);
+    border-bottom: 1px solid variables.$border-color;
 
     @include mixins.responsive(variables.$breakpoint-md) {
       padding: 0.35rem 0;
@@ -207,7 +217,7 @@ body.nav-open {
     }
 
     &:hover {
-      color: variables.$primary-color;
+      color: color.adjust(variables.$accent-yellow, $lightness: 12%);
     }
   }
 }
