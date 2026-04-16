@@ -9,8 +9,8 @@
 .local-hub__title {
   font-family: variables.$font-family-display;
   font-size: clamp(2rem, 4vw, 2.75rem);
-  font-weight: 700;
-  letter-spacing: 0.02em;
+  font-weight: 400;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
@@ -40,13 +40,13 @@
   transform: translate(-50%, -50%);
   margin: 0;
   padding: 0;
-  border: 1px solid variables.$border-color;
-  border-radius: 0.5rem;
+  border: 3px solid variables.$primary-color;
+  border-radius: 2px;
   max-width: min(36rem, calc(100vw - 2rem));
   max-height: min(calc(100vh - 2rem), 90vh);
   overflow-y: auto;
-  background: variables.$background-color;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.18);
+  background: variables.$light-background;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.55);
 
   &::backdrop {
     background: rgba(10, 9, 9, 0.45);
@@ -64,9 +64,9 @@
 .city-modal__head h2 {
   font-family: variables.$font-family-display;
   font-size: 1.35rem;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
   margin-bottom: 0.5rem;
 }
 
@@ -91,8 +91,8 @@
   align-items: baseline;
   gap: 0.35rem 0.75rem;
   padding: 0.85rem 1rem;
-  border-radius: 0.35rem;
-  border: 1px solid variables.$border-color;
+  border-radius: 2px;
+  border: 2px solid variables.$border-strong;
   text-decoration: none;
   color: variables.$text-color;
   font-weight: 700;
@@ -138,9 +138,11 @@
   padding-bottom: 2rem;
   background: linear-gradient(
     180deg,
-    color.change(variables.$light-background, $alpha: 0.65),
-    variables.$background-color
+    color.change(variables.$primary-color, $alpha: 0.12) 0%,
+    variables.$background-color 55%,
+    variables.$ink 100%
   );
+  border-bottom: 3px solid color.change(variables.$primary-color, $alpha: 0.65);
 }
 
 .city-page__crumb {
@@ -149,12 +151,13 @@
   color: variables.$light-text;
 
   a {
-    color: variables.$primary-color;
+    color: variables.$accent-yellow;
     font-weight: 700;
     text-decoration: none;
 
     &:hover {
       text-decoration: underline;
+      color: color.adjust(variables.$accent-yellow, $lightness: 8%);
     }
   }
 }
@@ -162,8 +165,8 @@
 .city-page__title {
   font-family: variables.$font-family-display;
   font-size: clamp(2rem, 4vw, 2.75rem);
-  font-weight: 700;
-  letter-spacing: 0.02em;
+  font-weight: 400;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   margin: 0;
 }
@@ -220,13 +223,13 @@
 .city-page__map {
   position: relative;
   width: 100%;
-  border-radius: 0.5rem;
+  border-radius: 2px;
   overflow: hidden;
-  border: 1px solid variables.$border-color;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  border: 2px solid variables.$border-strong;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
   aspect-ratio: 8 / 3;
   min-height: 110px;
-  background: variables.$light-background;
+  background: variables.$surface-elevated;
 }
 
 .city-page__map-frame {
@@ -258,7 +261,7 @@
 
   a {
     font-weight: 700;
-    color: variables.$primary-color;
+    color: variables.$accent-yellow;
   }
 }
 
@@ -276,16 +279,19 @@
 }
 
 .city-page__session {
-  border: 1px solid variables.$border-color;
-  border-radius: 0.35rem;
+  border: 2px solid variables.$border-strong;
+  border-radius: 2px;
   padding: 1.1rem 1.2rem;
-  background: variables.$background-color;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+  background: variables.$light-background;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.22);
 }
 
 .city-page__session-title {
+  font-family: variables.$font-family-condensed;
   font-size: 1.05rem;
-  font-weight: 800;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
   margin: 0 0 0.75rem;
   line-height: 1.35;
 }

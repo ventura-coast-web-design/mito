@@ -1,8 +1,7 @@
+@use "sass:color";
 @use "variables";
 @use "mixins";
 
-// Drawer/backdrop must stay OUTSIDE .site-header: backdrop-filter on the header
-// creates a containing block and breaks viewport-fixed overlay positioning.
 
 body.nav-open {
   overflow: hidden;

@@ -4,11 +4,10 @@
 .home {
   margin-top: 0;
   padding-top: 0;
-  background: linear-gradient(180deg, variables.$light-background 0%, transparent 220px);
+  background: variables.$ink;
 }
 
-// Alternate section bands — editorial rhythm
 .home > section.section:nth-child(even) {
-  background-color: color.mix(variables.$light-background, variables.$ink, 94%);
-  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.04);
+  background-color: color.mix(variables.$light-background, variables.$ink, 88%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
 }

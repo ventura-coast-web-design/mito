@@ -3,11 +3,11 @@
 
 .contact-form {
   max-width: 62ch;
-  border: 1px solid variables.$border-color;
-  border-radius: 0.35rem;
+  border: 2px solid variables.$border-strong;
+  border-radius: 2px;
   padding: 1.25rem;
-  background: variables.$background-color;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  background: variables.$light-background;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
   display: grid;
   gap: 1rem;
 }
@@ -19,24 +19,30 @@
 
 .contact-form label {
   font-weight: 800;
+  font-family: variables.$font-family-condensed;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: variables.$text-color;
 }
 
 .contact-form input,
 .contact-form textarea,
 .contact-form select {
   width: 100%;
-  border: 1px solid variables.$border-color;
-  border-radius: 0.35rem;
+  border: 2px solid variables.$border-color;
+  border-radius: 2px;
   padding: 0.9rem 0.95rem;
   font: inherit;
   color: variables.$text-color;
-  background: variables.$background-color;
+  background: variables.$surface-elevated;
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 .contact-form select {
   cursor: pointer;
   appearance: none;
+  background-color: variables.$surface-elevated;
   background-image: linear-gradient(45deg, transparent 50%, variables.$text-color 50%),
     linear-gradient(135deg, variables.$text-color 50%, transparent 50%);
   background-position: calc(100% - 1.15rem) 1.1rem, calc(100% - 0.75rem) 1.1rem;
@@ -53,14 +59,16 @@
 .contact-form textarea:focus,
 .contact-form select:focus {
   outline: none;
-  border-color: variables.$primary-color;
-  box-shadow: 0 0 0 4px color.change(variables.$primary-color, $alpha: 0.22);
+  border-color: variables.$accent-yellow;
+  box-shadow: 0 0 0 3px color.change(variables.$accent-yellow, $alpha: 0.2);
 }
 
 .contact-form__hint {
   font-weight: 400;
-  color: color.adjust(variables.$text-color, $lightness: 12%);
+  color: variables.$light-text;
   font-size: 0.9em;
+  text-transform: none;
+  letter-spacing: 0;
 }
 
 .contact-form__hp {
@@ -81,17 +89,19 @@
 
 .virtual-page__title {
   font-family: variables.$font-family-display;
-  font-size: clamp(1.75rem, 3vw, 2.25rem);
-  font-weight: 700;
-  letter-spacing: 0.02em;
+  font-size: clamp(1.75rem, 3vw, 2.75rem);
+  font-weight: 400;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   margin-bottom: 0.75rem;
+  color: variables.$text-color;
 }
 
 .virtual-page__intro {
   max-width: 62ch;
   margin: 0 0 2rem;
   line-height: 1.6;
+  color: variables.$light-text;
 }
 
 .virtual-page__form-wrap {
@@ -99,7 +109,11 @@
 }
 
 .virtual-page__form-heading {
-  font-size: 1.15rem;
-  font-weight: 800;
+  font-family: variables.$font-family-condensed;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
   margin: 0 0 1rem;
+  color: variables.$accent-yellow;
 }

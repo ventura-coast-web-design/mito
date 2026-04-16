@@ -22,11 +22,12 @@
 
 .video-card__embed {
   position: relative;
-  border: 1px solid variables.$border-color;
-  border-radius: 0.35rem;
+  border: 2px solid variables.$border-strong;
+  border-radius: 2px;
   overflow: hidden;
-  background: color.adjust(variables.$text-color, $alpha: -0.86);
+  background: variables.$surface-elevated;
   aspect-ratio: 16 / 9;
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .video-card__embed iframe {
@@ -44,20 +45,29 @@
   align-items: flex-end;
   justify-content: flex-start;
   padding: 0.9rem;
-  background: linear-gradient(180deg, transparent 35%, rgba(0, 0, 0, 0.55) 100%);
+  background: linear-gradient(180deg, transparent 35%, rgba(0, 0, 0, 0.72) 100%);
   color: #fff;
   pointer-events: none;
   font-size: 0.95rem;
   font-weight: 700;
+  font-family: variables.$font-family-condensed;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .video-card__overlay span {
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(0, 0, 0, 0.55);
   padding: 0.35rem 0.55rem;
-  border-radius: 0.6rem;
+  border-radius: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .video-card__title {
   margin: 0;
   font-weight: 700;
+  font-family: variables.$font-family-condensed;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  color: variables.$text-color;
 }
