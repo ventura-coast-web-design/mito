@@ -11,3 +11,13 @@
   from = "/contact/"
   to = "/local-classes/"
   status = 301
+
+[[redirects]]
+  from = "/christadelphians"
+  to = "/about/"
+  status = 301
+
+[[redirects]]
+  from = "/christadelphians/"
+  to = "/about/"
+  status = 301

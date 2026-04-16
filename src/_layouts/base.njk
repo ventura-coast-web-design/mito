@@ -14,7 +14,7 @@
 <body>
     {% include "../_includes/header.njk" %}
 
-    <main class="site-main">
+    <main class="site-main{% if mainClass %} {{ mainClass }}{% endif %}">
         {{ content | safe }}
     </main>
 
