@@ -1,0 +1,85 @@
+---
+layout: base.njk
+pagination:
+  data: videos
+  size: 1
+  alias: video
+permalink: "/videos/{{ video.slug }}/index.html"
+mainClass: site-main--videos
+eleventyComputed:
+  title: "{{ video.title }} — Watch the Videos"
+  description: "{{ video.title }} — part of the Myth of Satan presentation series."
+---
+
+{% set n = videos | length %}
+{% set i = pagination.pageNumber %}
+{% if i > 0 %}
+  {% set prevHref = "/videos/" + videos[i - 1].slug + "/" %}
+{% else %}
+  {% set prevHref = "/videos/" + videos[n - 1].slug + "/" %}
+{% endif %}
+{% if i < n - 1 %}
+  {% set nextHref = "/videos/" + videos[i + 1].slug + "/" %}
+{% else %}
+  {% set nextHref = "/videos/" + videos[0].slug + "/" %}
+{% endif %}
+
+<div
+  class="video-viewer"
+  data-video-nav
+  data-prev="{{ prevHref }}"
+  data-next="{{ nextHref }}"
+>
+  <div class="container video-viewer__inner">
+    <nav class="video-viewer__toolbar" aria-label="Video navigation">
+      <a class="btn btn--ghost video-viewer__all" href="/videos/">All videos</a>
+      <span class="video-viewer__count">{{ i + 1 }} / {{ n }}</span>
+    </nav>
+
+    <header class="video-viewer__head">
+      <h1 class="video-viewer__title">{{ video.title }}</h1>
+    </header>
+
+    <div class="video-viewer__stage">
+      <a class="video-viewer__arrow video-viewer__arrow--prev" href="{{ prevHref }}" aria-label="Previous video">
+        <span aria-hidden="true">‹</span>
+      </a>
+      <div class="video-viewer__embed">
+        <iframe
+          src="https://www.youtube.com/embed/{{ video.youtubeId }}"
+          title="{{ video.title }}"
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <a class="video-viewer__arrow video-viewer__arrow--next" href="{{ nextHref }}" aria-label="Next video">
+        <span aria-hidden="true">›</span>
+      </a>
+    </div>
+
+    <p class="video-viewer__hint">Tip: press <kbd>←</kbd> and <kbd>→</kbd> to change video when focus is outside the player.</p>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var root = document.querySelector("[data-video-nav]");
+    if (!root) return;
+    var prev = root.getAttribute("data-prev");
+    var next = root.getAttribute("data-next");
+    document.addEventListener("keydown", function (ev) {
+      if (!prev || !next) return;
+      var tag = ev.target && ev.target.tagName;
+      if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || ev.target.isContentEditable) return;
+      if (ev.key === "ArrowLeft") {
+        ev.preventDefault();
+        window.location.href = prev;
+      } else if (ev.key === "ArrowRight") {
+        ev.preventDefault();
+        window.location.href = next;
+      }
+    });
+  })();
+</script>

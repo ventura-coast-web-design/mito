@@ -1,0 +1,38 @@
+---
+layout: base.njk
+title: "Watch the Videos"
+description: "Watch the Myth of Satan presentation videos one at a time, with full focus and easy navigation between talks."
+permalink: /videos/
+mainClass: site-main--videos
+---
+
+<div class="videos-hub">
+  <header class="section videos-hub__intro">
+    <div class="container">
+      <h1 class="videos-hub__title">Watch the Videos</h1>
+      <p class="videos-hub__lede">
+        Open any talk for a full-page player. Use the on-screen arrows or your keyboard’s left and right arrow keys to move between videos.
+      </p>
+      <p class="videos-hub__back">
+        <a class="btn btn--ghost" href="/">← Back to home</a>
+      </p>
+    </div>
+  </header>
+
+  <section class="section videos-hub__list-wrap" aria-labelledby="videos-hub-list-title">
+    <div class="container">
+      <h2 id="videos-hub-list-title" class="videos-hub__list-title">Talks in this series</h2>
+      <ol class="videos-hub__list" role="list">
+        {% for v in videos %}
+          <li>
+            <a class="videos-hub__row" href="/videos/{{ v.slug }}/">
+              <span class="videos-hub__num">{{ loop.index }}</span>
+              <span class="videos-hub__name">{{ v.title }}</span>
+              <span class="videos-hub__go" aria-hidden="true">→</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ol>
+    </div>
+  </section>
+</div>
