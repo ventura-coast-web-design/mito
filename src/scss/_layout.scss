@@ -113,7 +113,7 @@
   background-color: variables.$background-color;
 
   @include mixins.responsive(variables.$breakpoint-md) {
-    padding: 3rem 0;
+    padding: 0rem 0;
   }
 
   &--home {

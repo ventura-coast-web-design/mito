@@ -4,12 +4,12 @@
 
 [[redirects]]
   from = "/contact"
-  to = "/local-classes/"
+  to = "/local-presentations/"
   status = 301
 
 [[redirects]]
   from = "/contact/"
-  to = "/local-classes/"
+  to = "/local-presentations/"
   status = 301
 
 [[redirects]]
