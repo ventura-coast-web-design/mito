@@ -1,7 +1,7 @@
 <section class="section city-page__contact" id="contact" aria-labelledby="city-contact-title">
   <div class="container">
     <header class="section__head">
-      <h2 id="city-contact-title">Contact us</h2>
+      <h2 id="city-contact-title">Register</h2>
       <p>Sign up for information and updates about the upcoming presentation in {{ city.city }}.</p>
     </header>
 
@@ -24,13 +24,13 @@
       <input type="hidden" name="city-label" value="{{ city.city }}{% if city.region %}, {{ city.region }}{% endif %}" />
 
       <div class="contact-form__field">
-        <label for="contact-name-{{ city.slug }}">Name</label>
-        <input id="contact-name-{{ city.slug }}" name="name" type="text" autocomplete="name" required />
+        <label for="contact-name-{{ city.slug }}">First Name</label>
+        <input id="contact-first-name-{{ city.slug }}" name="first-name" type="text" autocomplete="first-name" required />
       </div>
 
       <div class="contact-form__field">
-        <label for="contact-city-{{ city.slug }}">City</label>
-        <input id="contact-city-{{ city.slug }}" name="city" type="text" autocomplete="city" required />
+        <label for="contact-last-name-{{ city.slug }}">Last Name</label>
+        <input id="contact-last-name-{{ city.slug }}" name="last-name" type="text" autocomplete="last-name" required />
       </div>
 
       <div class="contact-form__field">
