@@ -2,35 +2,34 @@
   <div class="container">
     <header class="section__head">
       <h2 id="videos-title">Watch the Videos</h2>
-      <p>While we wait for the presentations to start, watch the videos to get a taste of what we'll be covering.</p>
+      <p>
+        While we wait for the presentations to start, get a taste of what we’ll be covering. Each talk opens on its own page so you can focus, then step through the series with arrows or your keyboard.
+      </p>
     </header>
 
-    {%- set videos = [
-      { "title": "Demons aren't what you think", "id": "EXqtpw8-KZE?pp=0gcJCdkKAYcqIYzv" },
-      { "title": "The Serpent and the Promise", "id": "-GF2Judmm2U" },
-      { "title": "Lucifer and Misread Prophecy", "id": "2R8qmJH_p_4" },
-      { "title": "Satan in Job and Zechariah", "id": "KKtjLxcgJ64" },
-      { "title": "The New Testament's Use of Satan", "id": "P81E_5MLcDM" },
-      { "title": "Hope, Resurrection, and Kingdom", "id": "IGbjT0MQ-Ew" },
-      { "title": "Conclusion", "id": "IGbjT0MQ-Ew" }
-    ] -%}
-
     <div class="videos__grid">
-      {%- for v in videos %}
-        <article class="video-card">
-          <div class="video-card__embed">
-            <iframe
-              src="https://www.youtube.com/embed/{{ v.id }}"
-              title="{{ v.title }}"
-              loading="lazy"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <p class="video-card__title">{{ v.title }}</p>
+      {% for v in videos %}
+        <article class="video-card video-card--teaser">
+          <a class="video-card__teaser-link" href="/videos/{{ v.slug }}/">
+            <div class="video-card__thumb">
+              <img
+                src="https://img.youtube.com/vi/{{ v.youtubeId }}/hqdefault.jpg"
+                alt=""
+                width="480"
+                height="360"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="video-card__play" aria-hidden="true">Play</span>
+            </div>
+            <p class="video-card__title">{{ v.title }}</p>
+          </a>
         </article>
-      {%- endfor %}
+      {% endfor %}
     </div>
+
+    <p class="videos__cta">
+      <a class="btn btn--primary" href="/videos/">Video hub &amp; full list</a>
+    </p>
   </div>
 </section>
