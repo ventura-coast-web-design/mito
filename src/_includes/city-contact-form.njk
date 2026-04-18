@@ -44,8 +44,18 @@
       </div>
 
       <div class="contact-form__field">
+        <label for="contact-how-many-{{ city.slug }}">How many people will be attending? <span class="contact-form__hint">(optional)</span></label>
+        <input id="contact-how-many-{{ city.slug }}" name="how-many" type="number" min="1" value="1" inputmode="numeric" autocomplete="off" />
+      </div>
+
+      <div class="contact-form__field">
         <label for="contact-message-{{ city.slug }}">Message</label>
         <textarea id="contact-message-{{ city.slug }}" name="message" rows="5" required></textarea>
+      </div>
+
+      <div class="contact-form__field">
+        <label for="contact-notes-{{ city.slug }}">How did you hear of us? <span class="contact-form__hint">(optional)</span></label>
+        <textarea id="contact-notes-{{ city.slug }}" name="how-heard" rows="5"></textarea>
       </div>
 
       <button class="btn btn--primary" type="submit">Send</button>
