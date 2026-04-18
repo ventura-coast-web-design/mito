@@ -111,7 +111,7 @@
     "venueName": "Venue — update with hall or meeting address",
     "addressLines": [
       "Address line 1",
-      "San Diego, CA"
+      "Nor-Cal Region, CA"
     ],
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nor-Cal+Region%2C+CA",
     "mapEmbedQuery": "Nor-Cal Region, CA",
