@@ -103,5 +103,26 @@
         "speaker": "Speaker TBC"
       }
     ]
+  },
+  {
+    "slug": "Nor-Cal-Region",
+    "city": "Nor-Cal Region",
+    "region": "CA",
+    "venueName": "Venue — update with hall or meeting address",
+    "addressLines": [
+      "Address line 1",
+      "Nor-Cal Region, CA"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nor-Cal+Region%2C+CA",
+    "mapEmbedQuery": "Nor-Cal Region, CA",
+    "netlifyFormName": "local-contact-nor-cal-region",
+    "scheduleIntro": "Zoom class link will be sent to registered attendees.",
+    "sessions": [
+      {
+        "title": "Public class — title TBC",
+        "when": "Date TBC",
+        "speaker": "Speaker TBC"
+      }
+    ]
   }
 ]
