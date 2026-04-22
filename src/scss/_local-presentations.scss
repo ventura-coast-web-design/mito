@@ -133,26 +133,53 @@
   justify-content: center;
 }
 
+// Match home hero: ink, red glow, film grain (same noise tile as _hero-banner.scss).
+$city-hero-noise: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+
 .city-page__hero {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  background: linear-gradient(
-    180deg,
-    color.change(variables.$primary-color, $alpha: 0.12) 0%,
-    variables.$background-color 55%,
-    variables.$ink 100%
-  );
-  border-bottom: 3px solid color.change(variables.$primary-color, $alpha: 0.65);
+  position: relative;
+  margin: 0;
+  padding: 0;
+  min-height: clamp(15rem, 38vh, 26rem);
+  color: #f5f2ef;
+  background:
+    radial-gradient(ellipse 100% 90% at 50% 100%, color.change(variables.$primary-color, $alpha: 0.35), transparent 58%),
+    radial-gradient(420px 220px at 0% 0%, color.change(variables.$primary-color, $alpha: 0.28), transparent 55%),
+    radial-gradient(380px 200px at 100% 10%, rgba(245, 184, 0, 0.08), transparent 50%),
+    linear-gradient(165deg, variables.$ink 0%, #140808 45%, #0a0505 100%);
+  border-bottom: 4px solid variables.$primary-color;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.16;
+    background-image: $city-hero-noise;
+    mix-blend-mode: overlay;
+  }
+}
+
+.city-page__hero-inner {
+  position: relative;
+  z-index: 1;
+  padding-block: clamp(2.25rem, 6vw, 3.75rem);
+  padding-inline: 0;
 }
 
 .city-page__crumb {
-  font-size: 0.9rem;
-  margin-bottom: 1rem;
-  color: variables.$light-text;
+  font-size: 0.88rem;
+  margin-bottom: 1.35rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-family: variables.$font-family-condensed;
+  color: rgba(245, 242, 239, 0.72);
 
   a {
     color: variables.$accent-yellow;
-    font-weight: 700;
+    font-weight: 800;
     text-decoration: none;
 
     &:hover {
@@ -162,19 +189,47 @@
   }
 }
 
-.city-page__title {
-  font-family: variables.$font-family-display;
-  font-size: clamp(2rem, 4vw, 2.75rem);
-  font-weight: 400;
-  letter-spacing: 0.04em;
+.city-page__crumb-current {
+  color: rgba(245, 242, 239, 0.92);
+}
+
+.city-page__kicker {
+  margin: 0 0 0.65rem;
+  font-family: variables.$font-family-condensed;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  font-weight: 800;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
+  color: variables.$accent-yellow;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.45);
+}
+
+.city-page__title {
   margin: 0;
+  max-width: 18ch;
+  font-family: variables.$font-family-display;
+  font-size: clamp(2.75rem, 9vw, 4.5rem);
+  font-weight: 400;
+  line-height: 0.95;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow:
+    0 2px 0 rgba(0, 0, 0, 0.55),
+    0 0 48px rgba(211, 47, 47, 0.28);
 }
 
 .city-page__region {
-  margin: 0.35rem 0 0;
-  font-weight: 600;
-  color: variables.$light-text;
+  margin: 1rem 0 0;
+  max-width: 40ch;
+  font-family: variables.$font-family-condensed;
+  font-size: clamp(1.15rem, 2.8vw, 1.65rem);
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.88);
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
 }
 
 .city-page > .section:not(.city-page__hero) {
@@ -196,15 +251,38 @@
   }
 }
 
-.city-page__venue h2,
-.city-page__schedule h2,
+.city-page__venue.section h2,
 .city-page__schedule-title {
-  font-family: variables.$font-family-display;
+  position: relative;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.85rem;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: min(100%, 6.5rem);
+    height: 5px;
+  }
 }
 
-.city-page__venue h2,
-.city-page__schedule-title {
-  margin-bottom: 1.25rem;
+// Header graphics in the schedule / register two-column block (replaces prior h2 titles).
+.city-page__schedule-pair__img {
+  display: block;
+  width: auto;
+  max-width: min(100%, 20rem);
+  height: auto;
+  margin: 0 auto 1.15rem;
+  border-radius: 2px;
+}
+
+.city-page__schedule-pair__schedule > .city-page__schedule-pair__img {
+  margin-bottom: 1.35rem;
+}
+
+.city-page__contact--pair .section__head .city-page__schedule-pair__img {
+  margin-bottom: 1rem;
 }
 
 .city-page__schedule-pair-grid {
@@ -254,8 +332,10 @@
   width: 100%;
   border-radius: 2px;
   overflow: hidden;
-  border: 2px solid variables.$border-strong;
-  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.25);
+  border: 2px solid color.change(#000, $alpha: 0.4);
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.06),
+    0 5px 0 rgba(0, 0, 0, 0.32);
   aspect-ratio: 8 / 3;
   min-height: 110px;
   background: variables.$surface-elevated;
@@ -275,9 +355,15 @@
 }
 
 .city-page__venue-name {
-  font-weight: 700;
-  font-size: 1.1rem;
   margin: 0 0 0.5rem;
+  font-family: variables.$font-family-display;
+  font-size: clamp(1.25rem, 2.5vw, 1.6rem);
+  font-weight: 400;
+  letter-spacing: 0.07em;
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: variables.$accent-yellow;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.35);
 }
 
 .city-page__address {
@@ -308,21 +394,40 @@
 }
 
 .city-page__session {
-  border: 2px solid variables.$border-strong;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid color.change(#000, $alpha: 0.35);
   border-radius: 2px;
-  padding: 1.1rem 1.2rem;
+  padding: 1.15rem 1.2rem 1.2rem 1.35rem;
   background: variables.$light-background;
-  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.22);
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.06),
+    0 4px 0 rgba(0, 0, 0, 0.28);
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 5px;
+    background: linear-gradient(
+      180deg,
+      variables.$primary-color 0%,
+      color.adjust(variables.$primary-color, $lightness: -16%) 100%
+    );
+  }
 }
 
 .city-page__session-title {
-  font-family: variables.$font-family-condensed;
-  font-size: 1.05rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
   margin: 0 0 0.75rem;
-  line-height: 1.35;
+  padding-left: 0.15rem;
+  font-family: variables.$font-family-display;
+  font-size: clamp(1.15rem, 2.4vw, 1.5rem);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: variables.$text-color;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.35);
 }
 
 .city-page__session-meta {
@@ -339,11 +444,12 @@
 
   dt {
     margin: 0;
-    font-size: 0.75rem;
+    font-family: variables.$font-family-condensed;
+    font-size: 0.72rem;
     font-weight: 800;
     text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: variables.$light-text;
+    letter-spacing: 0.1em;
+    color: color.change(variables.$accent-yellow, $alpha: 0.85);
   }
 
   dd {

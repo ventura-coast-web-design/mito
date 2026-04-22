@@ -8,14 +8,15 @@ layout: base.njk
 eleventyExcludeFromCollections: true
 ---
 <article class="city-page">
-  <header class="city-page__hero section">
-    <div class="container">
+  <header class="city-page__hero" aria-labelledby="city-page-title">
+    <div class="city-page__hero-inner container">
       <nav class="city-page__crumb" aria-label="Breadcrumb">
         <a href="/local-presentations/">Local Presentations</a>
         <span aria-hidden="true"> / </span>
-        <span>{{ city.city }}{% if city.region %}, {{ city.region }}{% endif %}</span>
+        <span class="city-page__crumb-current">{{ city.city }}{% if city.region %}, {{ city.region }}{% endif %}</span>
       </nav>
-      <h1 class="city-page__title">{{ city.city }}</h1>
+      <p class="city-page__kicker">Exposing a myth</p>
+      <h1 id="city-page-title" class="city-page__title">{{ city.city }}</h1>
       {% if city.region %}
         <p class="city-page__region">{{ city.region }}</p>
       {% endif %}
@@ -24,7 +25,7 @@ eleventyExcludeFromCollections: true
   <section class="section city-page__schedule-pair" aria-labelledby="schedule-title">
     <div class="container city-page__schedule-pair-grid">
       <div class="city-page__schedule-pair__schedule">
-        <h2 id="schedule-title" class="city-page__schedule-title">Presentation schedule</h2>
+        <img id="schedule-title" src="/assets/presentation-schedule.png" alt="Exposing a myth" class="city-page__schedule-pair__img" />
         {% if city.scheduleIntro %}
           <p class="city-page__schedule-intro">{{ city.scheduleIntro }}</p>
         {% endif %}
