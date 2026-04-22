@@ -7,10 +7,35 @@ permalink: "local-presentations/{{ city.slug }}/index.html"
 layout: base.njk
 eleventyExcludeFromCollections: true
 ---
-
-{% include "city-contact-form.njk" %}
-
-
+  <section class="section city-page__schedule-pair" aria-labelledby="schedule-title">
+    <div class="container city-page__schedule-pair-grid">
+      <div class="city-page__schedule-pair__schedule">
+        <h2 id="schedule-title" class="city-page__schedule-title">Presentation schedule</h2>
+        {% if city.scheduleIntro %}
+          <p class="city-page__schedule-intro">{{ city.scheduleIntro }}</p>
+        {% endif %}
+        <ol class="city-page__sessions">
+          {% for session in city.sessions %}
+            <li class="city-page__session">
+              <h3 class="city-page__session-title">{{ session.title }}</h3>
+              <dl class="city-page__session-meta">
+                <div>
+                  <dt>When</dt>
+                  <dd>{{ session.when }}</dd>
+                </div>
+                <div>
+                  <dt>Speaker</dt>
+                  <dd>{{ session.speaker }}</dd>
+                </div>
+              </dl>
+            </li>
+          {% endfor %}
+        </ol>
+      </div>
+      {% set layoutSchedulePair = true %}
+      {% include "city-contact-form.njk" %}
+    </div>
+  </section>
 <article class="city-page">
   <header class="city-page__hero section">
     <div class="container">
@@ -63,30 +88,6 @@ eleventyExcludeFromCollections: true
     </div>
   </section>
 
-  <section class="section city-page__schedule" aria-labelledby="schedule-title">
-    <div class="container">
-      <h2 id="schedule-title">Presentation schedule</h2>
-      {% if city.scheduleIntro %}
-        <p class="city-page__schedule-intro">{{ city.scheduleIntro }}</p>
-      {% endif %}
-      <ol class="city-page__sessions">
-        {% for session in city.sessions %}
-          <li class="city-page__session">
-            <h3 class="city-page__session-title">{{ session.title }}</h3>
-            <dl class="city-page__session-meta">
-              <div>
-                <dt>When</dt>
-                <dd>{{ session.when }}</dd>
-              </div>
-              <div>
-                <dt>Speaker</dt>
-                <dd>{{ session.speaker }}</dd>
-              </div>
-            </dl>
-          </li>
-        {% endfor %}
-      </ol>
-    </div>
-  </section>
+
 
 </article>

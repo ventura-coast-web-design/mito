@@ -1,5 +1,9 @@
+{% if layoutSchedulePair %}
+<div class="city-page__contact city-page__contact--pair" id="contact" aria-labelledby="city-contact-title">
+{% else %}
 <section class="section city-page__contact" id="contact" aria-labelledby="city-contact-title">
   <div class="container">
+{% endif %}
     <header class="section__head">
       <h2 id="city-contact-title">Register</h2>
       <p>Sign up for information and updates about the upcoming presentation in {{ city.city }}.</p>
@@ -60,5 +64,9 @@
 
       <button class="btn btn--primary" type="submit">Send</button>
     </form>
+{% if layoutSchedulePair %}
+</div>
+{% else %}
   </div>
 </section>
+{% endif %}

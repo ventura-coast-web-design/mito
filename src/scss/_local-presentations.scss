@@ -197,12 +197,41 @@
 }
 
 .city-page__venue h2,
-.city-page__schedule h2 {
+.city-page__schedule h2,
+.city-page__schedule-title {
   font-family: variables.$font-family-display;
 }
 
-.city-page__venue h2 {
+.city-page__venue h2,
+.city-page__schedule-title {
   margin-bottom: 1.25rem;
+}
+
+.city-page__schedule-pair-grid {
+  display: grid;
+  gap: 2.25rem;
+  align-items: start;
+
+  @include mixins.responsive(variables.$breakpoint-md) {
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+    gap: 2rem 2.5rem;
+  }
+}
+
+.city-page__schedule-pair__schedule {
+  min-width: 0;
+}
+
+.city-page__contact--pair {
+  min-width: 0;
+
+  .section__head {
+    margin-bottom: 1.25rem;
+  }
+
+  .contact-form {
+    max-width: none;
+  }
 }
 
 .city-page__venue-grid {
