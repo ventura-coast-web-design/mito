@@ -7,6 +7,20 @@ permalink: "local-presentations/{{ city.slug }}/index.html"
 layout: base.njk
 eleventyExcludeFromCollections: true
 ---
+<article class="city-page">
+  <header class="city-page__hero section">
+    <div class="container">
+      <nav class="city-page__crumb" aria-label="Breadcrumb">
+        <a href="/local-presentations/">Local Presentations</a>
+        <span aria-hidden="true"> / </span>
+        <span>{{ city.city }}{% if city.region %}, {{ city.region }}{% endif %}</span>
+      </nav>
+      <h1 class="city-page__title">{{ city.city }}</h1>
+      {% if city.region %}
+        <p class="city-page__region">{{ city.region }}</p>
+      {% endif %}
+    </div>
+  </header>
   <section class="section city-page__schedule-pair" aria-labelledby="schedule-title">
     <div class="container city-page__schedule-pair-grid">
       <div class="city-page__schedule-pair__schedule">
@@ -36,20 +50,6 @@ eleventyExcludeFromCollections: true
       {% include "city-contact-form.njk" %}
     </div>
   </section>
-<article class="city-page">
-  <header class="city-page__hero section">
-    <div class="container">
-      <nav class="city-page__crumb" aria-label="Breadcrumb">
-        <a href="/local-presentations/">Local Presentations</a>
-        <span aria-hidden="true"> / </span>
-        <span>{{ city.city }}{% if city.region %}, {{ city.region }}{% endif %}</span>
-      </nav>
-      <h1 class="city-page__title">{{ city.city }}</h1>
-      {% if city.region %}
-        <p class="city-page__region">{{ city.region }}</p>
-      {% endif %}
-    </div>
-  </header>
 
   <section class="section city-page__venue" aria-labelledby="venue-title">
     <div class="container">
