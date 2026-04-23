@@ -161,6 +161,19 @@
   text-transform: uppercase;
 }
 
+// Title-style links: avoid bright-page prose underline (see `.site-main--bright a:not(.btn)` in _about.scss).
+.site-main--bright .transcript-index__link {
+  text-decoration: none;
+  color: variables.$ink;
+
+  &:hover {
+    color: variables.$primary-color;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.12em;
+  }
+}
+
 .transcript-index__desc {
   margin: 0.35rem 0 0;
   font-size: 0.98rem;
