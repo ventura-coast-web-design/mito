@@ -24,6 +24,12 @@
             </div>
             <p class="video-card__title">{{ v.title }}</p>
           </a>
+          {% if v.transcript != false %}
+            {% set transcriptSlug = v.transcriptSlug | default(v.slug) %}
+            <p class="video-card__transcript-wrap">
+              <a class="video-card__transcript" href="/transcripts/{{ transcriptSlug }}/">Transcript</a>
+            </p>
+          {% endif %}
         </article>
       {% endfor %}
     </div>

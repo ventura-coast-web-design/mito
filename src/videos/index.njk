@@ -24,12 +24,16 @@ mainClass: site-main--videos
       <h2 id="videos-hub-list-title" class="videos-hub__list-title">Talks in this series</h2>
       <ol class="videos-hub__list" role="list">
         {% for v in videos %}
-          <li>
+          <li class="videos-hub__item{% if v.transcript == false %} videos-hub__item--no-transcript{% endif %}">
             <a class="videos-hub__row" href="/videos/{{ v.slug }}/">
               <span class="videos-hub__num">{{ loop.index }}</span>
               <span class="videos-hub__name">{{ v.title }}</span>
               <span class="videos-hub__go" aria-hidden="true">→</span>
             </a>
+            {% if v.transcript != false %}
+              {% set transcriptSlug = v.transcriptSlug | default(v.slug) %}
+              <a class="videos-hub__transcript" href="/transcripts/{{ transcriptSlug }}/">Transcript</a>
+            {% endif %}
           </li>
         {% endfor %}
       </ol>

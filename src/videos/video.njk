@@ -38,6 +38,12 @@ eleventyComputed:
 
     <header class="video-viewer__head">
       <h1 class="video-viewer__title">{{ video.title }}</h1>
+      {% if video.transcript != false %}
+        {% set transcriptSlug = video.transcriptSlug | default(video.slug) %}
+        <p class="video-viewer__transcript-wrap">
+          <a class="video-viewer__transcript" href="/transcripts/{{ transcriptSlug }}/">Read transcript</a>
+        </p>
+      {% endif %}
     </header>
 
     <div class="video-viewer__stage">
