@@ -90,12 +90,7 @@
   width: 100%;
 }
 
-// Poster / "SEE THE EVIDENCE" style CTA: heavy mottled amber, 1px black frame, hard shadow,
-// black strip then matching yellow rule (reference uses explicit black gap, not page bg).
-$hero-register-noise-coarse: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.52' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23a)'/%3E%3C/svg%3E");
-$hero-register-noise-fine: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='b'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.35' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23b)'/%3E%3C/svg%3E");
-$hero-register-noise-grit: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='c'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='2.1' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23c)'/%3E%3C/svg%3E");
-
+// Gold CTA: black frame, hard shadow, bottom rule — no film grain / “burnt” mottle.
 .hero__cta-register {
   --reg-gold: #b8890a;
   --reg-gold-light: #d4a41a;
@@ -134,27 +129,9 @@ $hero-register-noise-grit: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' 
     z-index: -1;
     inset: 1px;
     pointer-events: none;
-    background-color: var(--reg-gold);
     background-image:
-      linear-gradient(155deg, color.change(#fff, $alpha: 0.12) 0%, transparent 38%, color.change(#2a1400, $alpha: 0.35) 100%),
-      radial-gradient(ellipse 55% 45% at 14% 24%, color.change(#4a2000, $alpha: 0.55), transparent 58%),
-      radial-gradient(ellipse 60% 48% at 82% 72%, color.change(#3d1800, $alpha: 0.5), transparent 52%),
-      radial-gradient(ellipse 35% 28% at 48% 48%, color.change(#000, $alpha: 0.18), transparent 58%),
-      radial-gradient(ellipse 40% 32% at 92% 18%, color.change(#ffd44a, $alpha: 0.35), transparent 55%),
-      $hero-register-noise-coarse,
-      $hero-register-noise-fine,
-      $hero-register-noise-grit;
-    background-size:
-      auto,
-      auto,
-      auto,
-      auto,
-      auto,
-      128px 128px,
-      72px 72px,
-      48px 48px;
-    background-blend-mode: soft-light, multiply, multiply, multiply, soft-light, overlay, overlay, multiply;
-    opacity: 1;
+      linear-gradient(180deg, color.change(#fff, $alpha: 0.2) 0%, transparent 42%),
+      linear-gradient(165deg, var(--reg-gold-light) 0%, var(--reg-gold) 52%, #8a6810 100%);
   }
 
   // 1px black gap (reads with bottom border as ~2px separation) + yellow rule; must stay above page bg
