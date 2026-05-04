@@ -49,12 +49,7 @@
 
       <div class="contact-form__field">
         <label for="contact-how-many-{{ city.slug }}">How many people will be attending? <span class="contact-form__hint">(optional)</span></label>
-        <input id="contact-how-many-{{ city.slug }}" name="how-many" type="number" min="1" value="1" inputmode="numeric" autocomplete="off" />
-      </div>
-
-      <div class="contact-form__field">
-        <label for="contact-message-{{ city.slug }}">Message</label>
-        <textarea id="contact-message-{{ city.slug }}" name="message" rows="5" required></textarea>
+        <input id="contact-how-many-{{ city.slug }}" name="how-many" type="number" min="1" value="1" inputmode="numeric" autocomplete="off" required/>
       </div>
 
       <div class="contact-form__field">
