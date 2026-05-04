@@ -291,8 +291,13 @@ $city-hero-noise: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='ht
   align-items: start;
 
   @include mixins.responsive(variables.$breakpoint-md) {
-    grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+    // Form left, schedule right; wider track follows the schedule column.
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
     gap: 2rem 2.5rem;
+
+    .city-page__contact--pair {
+      order: -1;
+    }
   }
 }
 
