@@ -54,7 +54,7 @@
 
       <div class="contact-form__field">
         <label for="contact-notes-{{ city.slug }}">How did you hear of us? <span class="contact-form__hint">(optional)</span></label>
-        <textarea id="contact-notes-{{ city.slug }}" name="how-heard" rows="5"></textarea>
+        <textarea id="contact-notes-{{ city.slug }}" name="how-heard" rows="{% if layoutSchedulePair %}3{% else %}5{% endif %}"></textarea>
       </div>
 
       <button class="btn btn--primary" type="submit">Register</button>
