@@ -90,12 +90,8 @@
   width: 100%;
 }
 
-// Gold CTA: black frame, hard shadow, bottom rule — no film grain / “burnt” mottle.
+// Gold CTA: black frame, hard shadow, bottom rule — fill uses site accent yellow.
 .hero__cta-register {
-  --reg-gold: #b8890a;
-  --reg-gold-light: #d4a41a;
-  --reg-rule: #c9950e;
-
   position: relative;
   z-index: 0;
   isolation: isolate;
@@ -129,9 +125,8 @@
     z-index: -1;
     inset: 1px;
     pointer-events: none;
-    background-image:
-      linear-gradient(180deg, color.change(#fff, $alpha: 0.2) 0%, transparent 42%),
-      linear-gradient(165deg, var(--reg-gold-light) 0%, var(--reg-gold) 52%, #8a6810 100%);
+    background-color: variables.$accent-yellow;
+    background-image: linear-gradient(180deg, color.change(#fff, $alpha: 0.2) 0%, transparent 42%);
   }
 
   // 1px black gap (reads with bottom border as ~2px separation) + yellow rule; must stay above page bg
@@ -147,8 +142,8 @@
       to bottom,
       #000 0,
       #000 1px,
-      var(--reg-rule) 1px,
-      var(--reg-rule) 4px
+      variables.$accent-yellow 1px,
+      variables.$accent-yellow 4px
     );
     box-shadow: 2px 2px 0 #000;
     pointer-events: none;
