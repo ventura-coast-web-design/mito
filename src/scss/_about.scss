@@ -401,7 +401,9 @@ $basf-panel-bg: #e7e5e4;
 }
 
 // Bright-page buttons: use `a.btn` + both classes so `.site-main--bright a:not(.btn)` never overrides.
-.site-main--bright a.btn.btn--bright-primary {
+// About page: bottom CTA is a `button` — include it only under `.about-bottom-cta` so other pages stay unchanged.
+.site-main--bright a.btn.btn--bright-primary,
+.site-main--bright .about-bottom-cta button.btn.btn--bright-primary {
   text-decoration: none;
   background: linear-gradient(180deg, $bright-accent-hover 0%, $bright-accent 100%);
   border: 2px solid color.adjust($bright-accent, $lightness: -4%);
@@ -419,6 +421,22 @@ $basf-panel-bg: #e7e5e4;
     border-color: color.adjust($bright-accent, $lightness: 2%);
     color: #fff;
   }
+}
+
+// About page only: larger, centered bottom CTA (does not affect other `btn--bright-primary` links).
+.site-main--bright .about-bottom-cta {
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem 1rem 3.5rem;
+}
+
+.site-main--bright .about-bottom-cta .btn.btn--bright-primary {
+  width: min(100%, 26rem);
+  padding: 1.1rem 2.5rem;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  text-align: center;
+  cursor: pointer;
 }
 
 .site-main--bright a.btn.btn--bright-ghost {
