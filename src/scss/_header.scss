@@ -12,7 +12,6 @@ body.nav-open {
   position: relative;
   z-index: 10001;
   background-color: variables.$background-color;
-  border-bottom: 1px solid variables.$border-color;
 
   @include mixins.responsive(variables.$breakpoint-md) {
     display: flex;
