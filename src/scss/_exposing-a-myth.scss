@@ -2,6 +2,12 @@
 @use "variables";
 @use "mixins";
 
+// Default `.section__head` is `max-width: 60ch` — allow this intro to use the full container width.
+.exposing-a-myth .section__head {
+  max-width: none;
+  width: 100%;
+}
+
 .exposing-a-myth__card-wrap {
   max-width: min(56rem, 100%);
   margin-inline: auto;
