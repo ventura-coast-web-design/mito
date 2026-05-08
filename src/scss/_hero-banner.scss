@@ -7,14 +7,13 @@
   flex-direction: column;
   margin: 0;
   color: #f5f2ef;
-  min-height: clamp(22rem, 52vh, 40rem);
   background:
     radial-gradient(ellipse 100% 90% at 50% 100%, color.change(variables.$primary-color, $alpha: 0.35), transparent 58%),
     radial-gradient(420px 220px at 0% 0%, color.change(variables.$primary-color, $alpha: 0.28), transparent 55%),
     radial-gradient(380px 200px at 100% 10%, rgba(245, 184, 0, 0.08), transparent 50%),
     linear-gradient(165deg, variables.$ink 0%, #140808 45%, #0a0505 100%);
   border-bottom: 4px solid variables.$primary-color;
-  overflow: hidden;
+  overflow: visible;
 
   &::before {
     content: "";
@@ -34,7 +33,7 @@
   max-width: variables.$container-max-width;
   margin-inline: auto;
   padding-inline: clamp(1.25rem, 5vw, 2.75rem);
-  padding-block: clamp(3rem, 8vw, 5.25rem);
+  padding-block: 0;
   flex: 1;
   box-sizing: border-box;
   display: grid;
@@ -44,7 +43,7 @@
     "content";
   align-items: center;
   justify-items: center;
-  gap: clamp(1.75rem, 4vw, 2.5rem);
+  gap: 0;
   text-align: center;
 }
 
@@ -54,7 +53,7 @@
   width: 100%;
 
   .hero__subtitle {
-    padding-top: 2rem;
+    padding-top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,10 +74,6 @@
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 2px;
-  box-shadow:
-    0 0 0 1px rgba(0, 0, 0, 0.5),
-    0 16px 48px rgba(0, 0, 0, 0.55);
 }
 
 .hero__cta {
@@ -86,7 +81,7 @@
   flex-direction: column;
   align-items: stretch;
   gap: 1rem;
-  margin-top: 2rem;
+  margin-top: 0;
   width: 100%;
 }
 
@@ -172,10 +167,10 @@
 
 @media (min-width: variables.$breakpoint-md) {
   .hero__inner {
-    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+    grid-template-columns: minmax(min-content, 1.1fr) minmax(0, 0.9fr);
     grid-template-areas: "content media";
     gap: clamp(2rem, 4vw, 3.5rem);
-    align-items: center;
+    align-items: start;
     justify-items: stretch;
     text-align: left;
   }
