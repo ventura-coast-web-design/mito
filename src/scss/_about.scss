@@ -99,10 +99,10 @@ $basf-panel-bg: #e7e5e4;
     background: rgba(255, 255, 255, 0.45);
   }
 
-  &--distinct {
-    background: rgba(255, 255, 255, 0.35);
-    border-top: 1px solid $bright-border;
-  }
+  // &--distinct {
+  //   background: rgba(255, 255, 255, 0.35);
+  //   border-top: 1px solid $bright-border;
+  // }
 
   &--cta {
     padding-bottom: 3.5rem;
@@ -323,7 +323,7 @@ $basf-panel-bg: #e7e5e4;
 
 .basf-card__title {
   margin: 0 0 0.85rem;
-  padding: 0 0.5rem;
+  padding: 3.6rem 0.5rem 0;
   font-size: clamp(1.05rem, 2.2vw, 1.2rem);
   letter-spacing: 0.03em;
   text-transform: none;
@@ -336,6 +336,14 @@ $basf-panel-bg: #e7e5e4;
   font-size: 0.98rem;
   line-height: 1.6;
   color: $bright-muted;
+  text-wrap: pretty;
+}
+
+// Scripture lines sit on their own block so citations don’t widow under narrow columns.
+.basf-card__refs {
+  display: block;
+  margin-top: 0.45rem;
+  text-wrap: pretty;
 }
 
 .basf-footnote {
@@ -343,40 +351,40 @@ $basf-panel-bg: #e7e5e4;
   margin-bottom: 0;
 }
 
-.distinct-grid {
-  list-style: none;
-  margin: 1.5rem 0 0;
-  padding: 0;
-  display: grid;
-  gap: 1rem;
+// .distinct-grid {
+//   list-style: none;
+//   margin: 1.5rem 0 0;
+//   padding: 0;
+//   display: grid;
+//   gap: 1rem;
 
-  @include mixins.responsive(variables.$breakpoint-md) {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.15rem;
-  }
-}
+//   @include mixins.responsive(variables.$breakpoint-md) {
+//     grid-template-columns: repeat(2, 1fr);
+//     gap: 1.15rem;
+//   }
+// }
 
-.distinct-card {
-  margin: 0;
-  padding: 1.15rem 1.2rem;
-  border-radius: 10px;
-  background: $bright-surface;
-  border: 1px solid $bright-border;
-  box-shadow: 0 4px 16px rgba(28, 25, 23, 0.04);
+// .distinct-card {
+//   margin: 0;
+//   padding: 1.15rem 1.2rem;
+//   border-radius: 10px;
+//   background: $bright-surface;
+//   border: 1px solid $bright-border;
+//   box-shadow: 0 4px 16px rgba(28, 25, 23, 0.04);
 
-  h3 {
-    margin-bottom: 0.5rem;
-    font-size: 1rem;
-    letter-spacing: 0.06em;
-  }
+//   h3 {
+//     margin-bottom: 0.5rem;
+//     font-size: 1rem;
+//     letter-spacing: 0.06em;
+//   }
 
-  p {
-    margin: 0;
-    font-size: 0.98rem;
-    color: $bright-muted;
-    line-height: 1.55;
-  }
-}
+//   p {
+//     margin: 0;
+//     font-size: 0.98rem;
+//     color: $bright-muted;
+//     line-height: 1.55;
+//   }
+// }
 
 .bright-cta {
   text-align: center;
