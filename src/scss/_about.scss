@@ -170,6 +170,16 @@ $basf-panel-bg: #e7e5e4;
   }
 }
 
+.about-bottom-cta {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+
 .site-main--bright .about-who-video__transcript-link {
   font-weight: 700;
   font-family: variables.$font-family-condensed;
