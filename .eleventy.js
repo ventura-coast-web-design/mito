@@ -10,6 +10,23 @@ module.exports = function(eleventyConfig) {
   // Watch for CSS changes
   eleventyConfig.addWatchTarget("./src/css/main.css");
 
+  eleventyConfig.addFilter("navIsActive", function (href, pageUrl) {
+    if (!pageUrl || !href) return false;
+
+    const hashIndex = href.indexOf("#");
+    const path = hashIndex === -1 ? href : href.slice(0, hashIndex);
+
+    if (path === "/" && hashIndex === -1) {
+      return pageUrl === "/";
+    }
+
+    if (hashIndex !== -1) {
+      return false;
+    }
+
+    return pageUrl === path || pageUrl.startsWith(path);
+  });
+
   return {
     dir: {
       input: "src",

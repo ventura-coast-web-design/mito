@@ -20,11 +20,16 @@
     <div class="nav__backdrop" aria-hidden="true"></div>
     <div class="nav__drawer">
         <ul id="nav-menu" class="nav__menu">
-            <li><a href="/" class="nav__link">Home</a></li>
-            <li><a href="/#locations" class="nav__link">Locations</a></li>
-            <li><a href="/videos/" class="nav__link">Videos</a></li>
-            <li><a href="/about/" class="nav__link">About</a></li>
-            <li><a href="/local-presentations/" class="nav__link nav__link--cta">Local Presentations</a></li>
+            {% for item in nav %}
+                {% set isActive = item.href | navIsActive(page.url) %}
+                <li>
+                    <a
+                        href="{{ item.href }}"
+                        class="nav__link{% if item.cta %} nav__link--cta{% endif %}{% if isActive %} nav__link--current{% endif %}"
+                        {% if isActive %}aria-current="page"{% endif %}
+                    >{{ item.label }}</a>
+                </li>
+            {% endfor %}
         </ul>
     </div>
 </div>
