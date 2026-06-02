@@ -124,5 +124,26 @@
         "speaker": "Speaker TBC"
       }
     ]
+  },  
+  {
+    "slug": "Escondido",
+    "city": "Escondido",
+    "region": "CA",
+    "venueName": "Venue — update with hall or meeting address",
+    "addressLines": [
+      "Address line 1",
+      "Escondido, CA"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Escondido%2C+CA",
+    "mapEmbedQuery": "Escondido City Hall, Escondido, CA 92025",
+    "netlifyFormName": "local-contact-escondido",
+    "scheduleIntro": "Schedule and times — confirm locally (times are usually evenings, Pacific).",
+    "sessions": [
+      {
+        "title": "Public class — title TBC",
+        "when": "Date TBC",
+        "speaker": "Speaker TBC"
+      }
+    ]
   }
 ]
