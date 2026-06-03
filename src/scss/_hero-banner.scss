@@ -1,17 +1,26 @@
 @use "sass:color";
 @use "variables";
 
+$hero-noise: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+$hero-nav-overlap: calc(2rem + clamp(6.5rem, 16vmin, 9.5rem));
+
+$hero-background:
+  radial-gradient(ellipse 100% 90% at 50% 100%, color.change(variables.$primary-color, $alpha: 0.35), transparent 58%),
+  radial-gradient(420px 220px at 0% 0%, color.change(variables.$primary-color, $alpha: 0.28), transparent 55%),
+  radial-gradient(380px 200px at 100% 10%, rgba(245, 184, 0, 0.08), transparent 50%),
+  linear-gradient(165deg, variables.$ink 0%, #140808 45%, #0a0505 100%);
+
+$hero-background-mobile:
+  radial-gradient(ellipse 110% 90% at 50% 100%, color.change(variables.$primary-color, $alpha: 0.38), transparent 58%),
+  linear-gradient(180deg, variables.$ink 0%, variables.$ink 30%, #140808 68%, #1a0808 100%);
+
 .hero {
   position: relative;
   display: flex;
   flex-direction: column;
   margin: 0;
   color: #f5f2ef;
-  background:
-    radial-gradient(ellipse 100% 90% at 50% 100%, color.change(variables.$primary-color, $alpha: 0.35), transparent 58%),
-    radial-gradient(420px 220px at 0% 0%, color.change(variables.$primary-color, $alpha: 0.28), transparent 55%),
-    radial-gradient(380px 200px at 100% 10%, rgba(245, 184, 0, 0.08), transparent 50%),
-    linear-gradient(165deg, variables.$ink 0%, #140808 45%, #0a0505 100%);
+  background: $hero-background;
   border-bottom: 4px solid variables.$primary-color;
   overflow: visible;
 
@@ -21,8 +30,23 @@
     inset: 0;
     pointer-events: none;
     opacity: 0.16;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-image: $hero-noise;
     mix-blend-mode: overlay;
+  }
+
+  @media (max-width: #{variables.$breakpoint-md - 0.02px}) {
+    background: transparent;
+
+    &::after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      left: 0;
+      right: 0;
+      top: calc(-1 * #{$hero-nav-overlap});
+      bottom: 0;
+      background: $hero-background-mobile;
+    }
   }
 }
 

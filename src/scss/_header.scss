@@ -50,6 +50,12 @@ body.nav-open {
   z-index: 10001;
   background-color: variables.$background-color;
 
+  @media (max-width: #{variables.$breakpoint-md - 0.02px}) {
+    &:has(+ .site-main--home) {
+      background-color: transparent;
+    }
+  }
+
   @include mixins.responsive(variables.$breakpoint-md) {
     display: flex;
     align-items: center;
