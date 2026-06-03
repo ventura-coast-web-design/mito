@@ -7,6 +7,43 @@ body.nav-open {
   overflow: hidden;
 }
 
+.site-preheader {
+  position: relative;
+  z-index: 10002;
+  background: variables.$light-background;
+  border-bottom: 1px solid variables.$border-color;
+
+  &__inner {
+    padding-block: 0.45rem;
+    text-align: center;
+  }
+
+  &__text {
+    margin: 0;
+    font-size: 0.82rem;
+    line-height: 1.4;
+    color: variables.$light-text;
+    font-family: variables.$font-family;
+  }
+
+  a {
+    color: variables.$accent-yellow;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.15em;
+
+    &:hover {
+      color: #fff;
+    }
+
+    &:focus-visible {
+      outline: 2px solid variables.$primary-color;
+      outline-offset: 2px;
+    }
+  }
+}
+
 .nav-primary {
   @include mixins.container;
   position: relative;
