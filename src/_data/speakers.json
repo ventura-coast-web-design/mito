@@ -1,0 +1,21 @@
+[
+  {
+    "slug": "david-collister",
+    "name": "Mr. Dave Collister",
+    "photo": "/assets/david_collister_bio_image.jpeg",
+    "bio": [
+      "Mr. Dave Collister has been a follower of Christ and a member of the Christadelphians since he was 17 years old. When he was in his twenties, he lived in Central America for five years as a missionary and member of Christadelphian congregations in Costa Rica and El Salvador, during which time, he learned Spanish and gave many Bible classes and talks. While living in El Salvador, he met and married his wife. They moved to the United States in 1988 with their small family. Dave is still involved with the missionary work in Central America and Mexico, and makes yearly visits to Costa Rica and Mexico to support the congregations in those countries. He is also an active member of the Verdugo Hills Christadelphian Ecclesia in Tujunga, the congregation he has been a member of since he was baptized in 1979."
+    ]
+  },
+  {
+    "slug": "jason-hensley",
+    "name": "Dr. Jason Hensley",
+    "credentials": "PhD (Holocaust and Genocide Studies), Dmin (Biblical Studies)",
+    "photo": "/assets/jason_hensley_bio_image.jpg",
+    "bio": [
+      "Dr. Jason Hensley teaches religious studies at a private school in Los Angeles. He is a fellow of the Michael LaPrade Holocaust Education Institute of the Anti-Defamation League, a higher-education ambassador for the Council on Foreign Relations, and the award-winning author of 12 books. His work has been featured in The Huffington Post as well as the BBC, and he has served as the historical advisor for a Holocaust documentary."
+    ],
+    "website": "https://jasonhensley.net",
+    "websiteLabel": "jasonhensley.net"
+  }
+]
