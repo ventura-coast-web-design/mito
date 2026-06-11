@@ -12,5 +12,10 @@ module.exports = {
         "&output=embed"
       );
     },
+    speaker: (data) => {
+      const slug = data.city && data.city.speakerSlug;
+      if (!slug) return null;
+      return (data.speakers || []).find((s) => s.slug === slug) || null;
+    },
   },
 };

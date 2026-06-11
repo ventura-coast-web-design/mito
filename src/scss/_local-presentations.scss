@@ -496,3 +496,82 @@ $city-hero-noise: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='ht
     margin: 0;
   }
 }
+
+.city-page__speaker {
+  margin-top: 2rem;
+  padding-top: 1.75rem;
+  border-top: 2px solid color.change(#000, $alpha: 0.2);
+}
+
+.city-page__speaker-title {
+  margin: 0 0 1.15rem;
+  font-family: variables.$font-family-display;
+  font-size: clamp(1.15rem, 2.4vw, 1.5rem);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: variables.$text-color;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.35);
+}
+
+.city-page__speaker-card {
+  display: grid;
+  gap: 1.25rem;
+  align-items: start;
+  border: 2px solid color.change(#000, $alpha: 0.35);
+  border-radius: 2px;
+  padding: 1.15rem 1.2rem 1.2rem;
+  background: variables.$light-background;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.06),
+    0 4px 0 rgba(0, 0, 0, 0.28);
+
+  @include mixins.responsive(variables.$breakpoint-md) {
+    grid-template-columns: minmax(7.5rem, 9.5rem) minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+.city-page__speaker-photo {
+  display: block;
+  width: 100%;
+  max-width: 9.5rem;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 2px;
+  border: 2px solid color.change(#000, $alpha: 0.35);
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.22);
+}
+
+.city-page__speaker-name {
+  margin: 0 0 0.75rem;
+  font-family: variables.$font-family-display;
+  font-size: clamp(1.05rem, 2.2vw, 1.3rem);
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: variables.$accent-yellow;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.35);
+}
+
+.city-page__speaker-copy {
+  min-width: 0;
+
+  p {
+    margin: 0 0 0.85rem;
+    line-height: 1.65;
+    max-width: 65ch;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  a {
+    font-weight: 700;
+    color: variables.$accent-yellow;
+  }
+}
