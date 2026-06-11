@@ -11,12 +11,13 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Simi+Valley%2C+CA",
     "mapEmbedQuery": "Simi Valley Town Center, Simi Valley, CA 93065",
     "netlifyFormName": "local-contact-simi-valley",
+    "speakerSlug": "jason-hensley",
     "scheduleIntro": "Schedule and times — confirm locally (times are usually evenings, Pacific).",
     "sessions": [
       {
         "title": "Public class — title TBC",
         "when": "Date TBC",
-        "speaker": "Speaker TBC"
+        "speaker": "Dr. Jason Hensley"
       }
     ]
   },
@@ -53,12 +54,13 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Verdugo+City%2C+CA",
     "mapEmbedQuery": "Verdugo City, Glendale, CA 91202",
     "netlifyFormName": "local-contact-verdugo",
+    "speakerSlug": "david-collister",
     "scheduleIntro": "Schedule and times — confirm locally (times are usually evenings, Pacific).",
     "sessions": [
       {
         "title": "Public class — title TBC",
         "when": "Date TBC",
-        "speaker": "Speaker TBC"
+        "speaker": "Mr. Dave Collister"
       }
     ]
   },
