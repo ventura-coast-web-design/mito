@@ -45,7 +45,6 @@ body.nav-open {
 }
 
 .nav-primary {
-  @include mixins.container;
   position: relative;
   z-index: 10001;
   background-color: variables.$background-color;
@@ -56,11 +55,15 @@ body.nav-open {
     }
   }
 
-  @include mixins.responsive(variables.$breakpoint-md) {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
+  &__inner {
+    @include mixins.container;
+
+    @include mixins.responsive(variables.$breakpoint-md) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
   }
 }
 

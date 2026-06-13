@@ -6,37 +6,39 @@
     </div>
 </div>
 <div class="nav-primary">
-    <header class="site-header">
-        <nav class="nav" aria-label="Main navigation">
-            <div class="nav__container">
-                <a href="/" class="nav__logo"><img src="/assets/logo.png" alt="The Myth of Satan" /></a>
-                <button
-                    class="nav__toggle"
-                    type="button"
-                    aria-expanded="false"
-                    aria-controls="nav-menu"
-                    aria-label="Open menu"
-                >
-                    <span class="nav__toggle-bar" aria-hidden="true"></span>
-                    <span class="nav__toggle-bar" aria-hidden="true"></span>
-                    <span class="nav__toggle-bar" aria-hidden="true"></span>
-                </button>
-            </div>
-        </nav>
-    </header>
-    <div class="nav__backdrop" aria-hidden="true"></div>
-    <div class="nav__drawer">
-        <ul id="nav-menu" class="nav__menu">
-            {% for item in nav %}
-                {% set isActive = item.href | navIsActive(page.url) %}
-                <li>
-                    <a
-                        href="{{ item.href }}"
-                        class="nav__link{% if item.cta %} nav__link--cta{% endif %}{% if isActive %} nav__link--current{% endif %}"
-                        {% if isActive %}aria-current="page"{% endif %}
-                    >{{ item.label }}</a>
-                </li>
-            {% endfor %}
-        </ul>
+    <div class="nav-primary__inner">
+        <header class="site-header">
+            <nav class="nav" aria-label="Main navigation">
+                <div class="nav__container">
+                    <a href="/" class="nav__logo"><img src="/assets/logo.png" alt="The Myth of Satan" /></a>
+                    <button
+                        class="nav__toggle"
+                        type="button"
+                        aria-expanded="false"
+                        aria-controls="nav-menu"
+                        aria-label="Open menu"
+                    >
+                        <span class="nav__toggle-bar" aria-hidden="true"></span>
+                        <span class="nav__toggle-bar" aria-hidden="true"></span>
+                        <span class="nav__toggle-bar" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <div class="nav__drawer">
+            <ul id="nav-menu" class="nav__menu">
+                {% for item in nav %}
+                    {% set isActive = item.href | navIsActive(page.url) %}
+                    <li>
+                        <a
+                            href="{{ item.href }}"
+                            class="nav__link{% if item.cta %} nav__link--cta{% endif %}{% if isActive %} nav__link--current{% endif %}"
+                            {% if isActive %}aria-current="page"{% endif %}
+                        >{{ item.label }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
     </div>
+    <div class="nav__backdrop" aria-hidden="true"></div>
 </div>
