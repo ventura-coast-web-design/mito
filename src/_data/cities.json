@@ -3,20 +3,20 @@
     "slug": "simi-valley",
     "city": "Simi Valley",
     "region": "CA",
-    "venueName": "Venue — update with hall or meeting address",
+    "venueName": "Rancho Simi Recreation and Park District, Guardian Building",
     "addressLines": [
-      "Address line 1",
-      "Simi Valley, CA"
+      "4201 Guardian Street",
+      "Simi Valley, CA 93063"
     ],
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Simi+Valley%2C+CA",
-    "mapEmbedQuery": "Simi Valley Town Center, Simi Valley, CA 93065",
+    "mapEmbedQuery": "Rancho Simi Recreation and Park District, Guardian Building, Simi Valley, CA 93063",
     "netlifyFormName": "local-contact-simi-valley",
     "speakerSlug": "jason-hensley",
-    "scheduleIntro": "Schedule and times — confirm locally (times are usually evenings, Pacific).",
+    "scheduleIntro": "Schedule and times",
     "sessions": [
       {
-        "title": "Public class — title TBC",
-        "when": "Date TBC",
+        "title": "Public class",
+        "when": "4pm, Saturday, September 26",
         "speaker": "Dr. Jason Hensley"
       }
     ]
@@ -25,19 +25,19 @@
     "slug": "thousand-oaks",
     "city": "Thousand Oaks",
     "region": "CA",
-    "venueName": "Venue — update with hall or meeting address",
+    "venueName": "Thousand Oaks Christadelphian Hall",
     "addressLines": [
-      "Address line 1",
-      "Thousand Oaks, CA"
+      "101 East Wilbur Road",
+      "Thousand Oaks, CA 91360"
     ],
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Thousand+Oaks%2C+CA",
-    "mapEmbedQuery": "The Oaks Mall, Thousand Oaks, CA 91360",
+    "mapEmbedQuery": "Thousand Oaks Christadelphian Hall, Thousand Oaks, CA 91360",
     "netlifyFormName": "local-contact-thousand-oaks",
-    "scheduleIntro": "Schedule and times — confirm locally (times are usually evenings, Pacific).",
+    "scheduleIntro": "Schedule and times",
     "sessions": [
       {
-        "title": "Public class — title TBC",
-        "when": "Date TBC",
+        "title": "Public class",
+        "when": "4pm, Sunday, October 4",
         "speaker": "Mr. Jason Robinson"
       }
     ]
@@ -46,21 +46,21 @@
     "slug": "verdugo",
     "city": "Verdugo",
     "region": "CA",
-    "venueName": "Venue — update with hall or meeting address (Verdugo / Glendale area)",
+    "venueName": "Verdugo Hills Christadelphian Hall",
     "addressLines": [
-      "Address line 1",
-      "Los Angeles area, CA"
+      "10210 Commerce Ave.",
+      "Tujunga, CA 91042"
     ],
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Verdugo+City%2C+CA",
-    "mapEmbedQuery": "Verdugo City, Glendale, CA 91202",
+    "mapEmbedQuery": "Verdugo Hills Christadelphian Hall, Tujunga, CA 91042",
     "netlifyFormName": "local-contact-verdugo",
     "speakerSlug": "david-collister",
     "scheduleIntro": "Schedule and times — confirm locally (times are usually evenings, Pacific).",
     "sessions": [
       {
-        "title": "Public class — title TBC",
-        "when": "Date TBC",
-        "speaker": "Mr. Dave Collister"
+        "title": "Public class",
+        "when": "4pm, Sunday, September 20",
+        "speaker": "Mr. Christian Russell"
       }
     ]
   },
@@ -68,20 +68,20 @@
     "slug": "los-angeles",
     "city": "Los Angeles",
     "region": "CA",
-    "venueName": "Venue — update with hall or meeting address",
+    "venueName": "Los Angeles Christadelphian Hall",
     "addressLines": [
-      "Address line 1",
-      "Los Angeles, CA"
+      "10721 Pioneer Blvd.",
+      "Santa Fe Springs, CA 90670"
     ],
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Los+Angeles%2C+CA",
-    "mapEmbedQuery": "Los Angeles City Hall, Los Angeles, CA 90012",
+    "mapEmbedQuery": "Los Angeles Christadelphian Hall, Santa Fe Springs, CA 90670",
     "netlifyFormName": "local-contact-los-angeles",
-    "scheduleIntro": "Schedule and times — confirm locally (times are usually evenings, Pacific).",
+    "scheduleIntro": "Schedule and times",
     "sessions": [
       {
-        "title": "Public class — title TBC",
-        "when": "Date TBC",
-        "speaker": "Speaker TBC"
+        "title": "Public class",
+        "when": "4pm, Saturday, September 26",
+        "speaker": "Mr. Christian Russell"
       }
     ]
   },
@@ -89,62 +89,41 @@
     "slug": "Pomona",
     "city": "Pomona",
     "region": "CA",
-    "venueName": "Venue — update with hall or meeting address",
+    "venueName": "Pomona Christadelphian Hall",
     "addressLines": [
-      "Address line 1",
-      "Pomona, CA"
+      "890 South Gibbs St.",
+      "Pomona, CA 91766"
     ],
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pomona%2C+CA",
-    "mapEmbedQuery": "Pomona City Hall, Pomona, CA 91766",
+    "mapEmbedQuery": "Pomona Christadelphian Hall, Pomona, CA 91766",
     "netlifyFormName": "local-contact-pomona",
     "scheduleIntro": "Schedule and times — confirm locally (times are usually evenings, Pacific).",
     "sessions": [
       {
         "title": "Public class — title TBC",
-        "when": "Date TBC",
-        "speaker": "Speaker TBC"
+        "when": "4pm, Sunday, September 20",
+        "speaker": "Mr. Allen Laban"
       }
     ]
-  },
+  }, 
   {
-    "slug": "Nor-Cal-Region",
-    "city": "Nor-Cal Region",
+    "slug": "san-diego",
+    "city": "San Diego",
     "region": "CA",
-    "venueName": "Venue — update with hall or meeting address",
+    "venueName": "San Diego Christadelphian Hall",
     "addressLines": [
-      "Address line 1",
-      "Nor-Cal Region, CA"
+      "651 West 7th Ave.",
+      "San Diego, CA 92025"
     ],
-    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Nor-Cal+Region%2C+CA",
-    "mapEmbedQuery": "Nor-Cal Region, CA",
-    "netlifyFormName": "local-contact-nor-cal-region",
-    "scheduleIntro": "Zoom class link will be sent to registered attendees.",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=San+Diego%2C+CA",
+    "mapEmbedQuery": "San Diego Christadelphian Hall, San Diego, CA 92025",
+    "netlifyFormName": "local-contact-san-diego",
+    "scheduleIntro": "Schedule and times",
     "sessions": [
       {
         "title": "Public class — title TBC",
-        "when": "Date TBC",
-        "speaker": "Speaker TBC"
-      }
-    ]
-  },  
-  {
-    "slug": "Escondido",
-    "city": "Escondido",
-    "region": "CA",
-    "venueName": "Venue — update with hall or meeting address",
-    "addressLines": [
-      "Address line 1",
-      "Escondido, CA"
-    ],
-    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Escondido%2C+CA",
-    "mapEmbedQuery": "Escondido City Hall, Escondido, CA 92025",
-    "netlifyFormName": "local-contact-escondido",
-    "scheduleIntro": "Schedule and times — confirm locally (times are usually evenings, Pacific).",
-    "sessions": [
-      {
-        "title": "Public class — title TBC",
-        "when": "Date TBC",
-        "speaker": "Speaker TBC"
+        "when": "4pm, Sunday, September 27",
+        "speaker": "Mr. Allen Laban"
       }
     ]
   }
