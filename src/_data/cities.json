@@ -33,6 +33,7 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Thousand+Oaks%2C+CA",
     "mapEmbedQuery": "Thousand Oaks Christadelphian Hall, Thousand Oaks, CA 91360",
     "netlifyFormName": "local-contact-thousand-oaks",
+    "speakerSlug": "jason-robinson",
     "scheduleIntro": "Schedule and times",
     "sessions": [
       {
@@ -76,6 +77,7 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Los+Angeles%2C+CA",
     "mapEmbedQuery": "Los Angeles Christadelphian Hall, Santa Fe Springs, CA 90670",
     "netlifyFormName": "local-contact-los-angeles",
+    "speakerSlug": "christian-russell",
     "scheduleIntro": "Schedule and times",
     "sessions": [
       {
@@ -97,6 +99,7 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pomona%2C+CA",
     "mapEmbedQuery": "Pomona Christadelphian Hall, Pomona, CA 91766",
     "netlifyFormName": "local-contact-pomona",
+    "speakerSlug": "allen-laban",
     "scheduleIntro": "Schedule and times — confirm locally (times are usually evenings, Pacific).",
     "sessions": [
       {
@@ -118,12 +121,35 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=San+Diego%2C+CA",
     "mapEmbedQuery": "San Diego Christadelphian Hall, San Diego, CA 92025",
     "netlifyFormName": "local-contact-san-diego",
+    "speakerSlug": "allen-laban",
     "scheduleIntro": "Schedule and times",
     "sessions": [
       {
         "title": "Public class — title TBC",
         "when": "4pm, Sunday, September 27",
         "speaker": "Mr. Allen Laban"
+      }
+    ]
+  },
+  {
+    "slug": "san-francisco",
+    "city": "San Francisco",
+    "region": "CA",
+    "venueName": "San Francisco Peninsula Christadelphian Hall",
+    "addressLines": [
+      "1536 James Ave.",
+      "Redwood City, CA 94062"
+    ],
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=San+Jose%2C+CA",
+    "mapEmbedQuery": "San Francisco Peninsula Christadelphian Hall, Redwood City, CA 94062",
+    "netlifyFormName": "local-contact-san-francisco",
+    "speakerSlug": "james-robinson",
+    "scheduleIntro": "Schedule and times",
+    "sessions": [
+      {
+        "title": "Public class",
+        "when": "7:30pm, Wednesday, September 30",
+        "speaker": "Mr. James Robinson"
       }
     ]
   }

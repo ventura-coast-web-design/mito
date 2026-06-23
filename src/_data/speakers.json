@@ -17,5 +17,45 @@
     ],
     "website": "https://jasonhensley.net",
     "websiteLabel": "jasonhensley.net"
+  },
+  {
+    "slug": "allen-laban",
+    "name": "Mr. Allen Laban",
+    "photo": "/assets/allen_laban_bio_image.jpg",
+    "bio": [
+      "Mr. Allen Laban is a member of the Christadelphian congregation in San Diego, California."
+    ]
+  },
+  {
+    "slug": "jason-robinson",
+    "name": "Mr. Jason Robinson",
+    "photo": "/assets/jason_robinson_bio_image.jpg",
+    "bio": [
+      "Mr. Jason Robinson is a member of the Christadelphian congregation in Thousand Oaks, California."
+    ]
+  },
+  {
+    "slug": "christian-russell",
+    "name": "Mr. Christian Russell",
+    "photo": "/assets/christian_russell_bio_image.jpg",
+    "bio": [
+      "Mr. Christian Russell is a member of the Christadelphian congregation in Los Angeles, California."
+    ]
+  },
+  {
+    "slug": "david-collister",
+    "name": "Mr. Dave Collister",
+    "photo": "/assets/david_collister_bio_image.jpeg",
+    "bio": [
+      "Mr. Dave Collister has been a follower of Christ and a member of the Christadelphians since he was 17 years old. When he was in his twenties, he lived in Central America for five years as a missionary and member of Christadelphian congregations in Costa Rica and El Salvador, during which time, he learned Spanish and gave many Bible classes and talks. While living in El Salvador, he met and married his wife. They moved to the United States in 1988 with their small family. Dave is still involved with the missionary work in Central America and Mexico, and makes yearly visits to Costa Rica and Mexico to support the congregations in those countries. He is also an active member of the Verdugo Hills Christadelphian Ecclesia in Tujunga, the congregation he has been a member of since he was baptized in 1979."
+    ]
+  },
+  {
+    "slug": "james-robinson",
+    "name": "Mr. James Robinson",
+    "photo": "/assets/james_robinson_bio_image.jpg",
+    "bio": [
+      "Mr. James Robinson grew up in Canada, but moved to Silicon Valley to work as a computer engineer. He has been a Christadelphian for 21 years, and tries to focus especially on the practical aspects of following Jesus in our modern world. He enjoys studying Romans, computers, and Japanese."
+    ]
   }
 ]
