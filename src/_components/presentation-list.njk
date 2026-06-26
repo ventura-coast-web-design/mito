@@ -1,7 +1,7 @@
 <section id="locations" class="section locations" aria-labelledby="locations-title">
   <div class="container">
     <header class="section__head">
-      <h2 id="locations-title">Where Presentations will be held</h2>
+      <h2 id="locations-title">DÓNDE SE REALIZARÁN LAS CLASES</h2>
     </header>
 
     <ul class="locations__list" role="list">
@@ -19,12 +19,12 @@
             {% endfor %}
           </address>
           <p class="location-card__actions">
-            <a href="/local-presentations/{{ place.slug }}/"><button class="btn btn--primary" type="button" >Register</button></a>
+            <a href="/local-presentations/{{ place.slug }}/"><button class="btn btn--primary" type="button" >Inscríbete</button></a>
             <a class="location-card__link location-card__link--primary" href="/local-presentations/{{ place.slug }}/">
-              Location details
+              Detalles del lugar
             </a>
             {% if place.mapUrl %}
-              <a class="location-card__link" href="{{ place.mapUrl }}" rel="noopener noreferrer">Open in Maps</a>
+              <a class="location-card__link" href="{{ place.mapUrl }}" rel="noopener noreferrer">Abrir en Maps</a>
             {% endif %}
           </p>
         </li>
