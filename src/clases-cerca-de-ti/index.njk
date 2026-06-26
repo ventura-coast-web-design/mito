@@ -1,23 +1,22 @@
 ---
 layout: base.njk
-title: "Local Presentations"
-description: "Find a Myth of Satan presentation near you — venue, schedule, and local contact."
-permalink: /local-presentations/
+title: "Clases cerca de ti"
+description: "Encuentra una clase de Satanás cerca de ti — ubicación, horario y contacto local."
+permalink: /clases-cerca-de-ti/
 ---
 
 <div class="local-hub">
   <header class="section local-hub__intro">
     <div class="container">
-      <h1 class="local-hub__title">Local Presentations</h1>
+      <h1 class="local-hub__title">Clases cerca de ti</h1>
       <p class="local-hub__lede">
-        This presentation will be held in the following cities. Pick yours to see the venue address, schedule and speakers, and
-        to send a message to the local organizers.
+        Esta clase se realizará en las siguientes ciudades. Selecciona la tuya para ver la dirección del lugar, el horario y los ponentes, y para enviar un mensaje a los organizadores locales.
       </p>
-      <button type="button" class="btn btn--primary" id="open-city-modal">Choose your city</button>
+      <button type="button" class="btn btn--primary" id="open-city-modal">Selecciona tu ciudad</button>
 
       <noscript>
         <div class="local-hub__noscript">
-          <p>Select a city:</p>
+          <p>Selecciona una ciudad:</p>
           <ul>
             {% for c in cities %}
               <li><a href="/local-presentations/{{ c.slug }}/">{{ c.city }}{% if c.region %}, {{ c.region }}{% endif %}</a></li>
@@ -32,8 +31,8 @@ permalink: /local-presentations/
 <dialog class="city-modal" id="city-modal" aria-labelledby="city-modal-title">
   <div class="city-modal__inner">
     <header class="city-modal__head">
-      <h2 id="city-modal-title">Where are you joining from?</h2>
-      <p class="city-modal__sub">You’ll go to that city’s page with full details and the contact form.</p>
+      <h2 id="city-modal-title">¿De dónde te unes?</h2>
+      <p class="city-modal__sub">Irás a la página de esa ciudad con todos los detalles y el formulario de contacto.</p>
     </header>
     <ul class="city-modal__list" role="list">
       {% for c in cities %}
@@ -48,7 +47,7 @@ permalink: /local-presentations/
       {% endfor %}
     </ul>
     <form method="dialog" class="city-modal__actions">
-      <button type="submit" class="btn btn--ghost city-modal__cancel">Cancel</button>
+      <button type="submit" class="btn btn--ghost city-modal__cancel">Cancelar</button>
     </form>
   </div>
 </dialog>
