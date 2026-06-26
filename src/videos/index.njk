@@ -1,7 +1,7 @@
 ---
 layout: base.njk
-title: "Watch the Videos"
-description: "Watch the Myth of Satan presentation videos one at a time, with full focus and easy navigation between talks."
+title: "Ver los videos"
+description: "Ver los videos de las clases de la serie del mito de Satanás, uno a la vez, con foco completo y navegación fácil entre las clases."
 permalink: /videos/
 mainClass: site-main--videos
 ---
@@ -9,19 +9,19 @@ mainClass: site-main--videos
 <div class="videos-hub">
   <header class="section videos-hub__intro">
     <div class="container">
-      <h1 class="videos-hub__title">Watch the Videos</h1>
+      <h1 class="videos-hub__title">Ver los Videos</h1>
       <p class="videos-hub__lede">
-        Open any talk for a full-page player. Use the on-screen arrows or your keyboard’s left and right arrow keys to move between videos.
+        Abre cualquier clase para verla en pantalla completa. Puedes usar las flechas en la pantalla o las teclas de flecha izquierda y derecha de tu teclado para pasar de un video a otro.
       </p>
       <p class="videos-hub__back">
-        <a class="btn btn--ghost" href="/">← Back to home</a>
+        <a class="btn btn--ghost" href="/">← Volver al inicio</a>
       </p>
     </div>
   </header>
 
   <section class="section videos-hub__list-wrap" aria-labelledby="videos-hub-list-title">
     <div class="container">
-      <h2 id="videos-hub-list-title" class="videos-hub__list-title">Talks in this series</h2>
+      <h2 id="videos-hub-list-title" class="videos-hub__list-title">Clases de esta serie</h2>
       <ol class="videos-hub__list" role="list">
         {% for v in videos %}
           <li class="videos-hub__item{% if v.transcript == false %} videos-hub__item--no-transcript{% endif %}">

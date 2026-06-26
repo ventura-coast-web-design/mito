@@ -7,8 +7,8 @@ pagination:
 permalink: "/videos/{{ video.slug }}/index.html"
 mainClass: site-main--videos
 eleventyComputed:
-  title: "{{ video.title }} — Watch the Videos"
-  description: "{{ video.title }} — part of the Myth of Satan presentation series."
+  title: "{{ video.title }} — Ver los Videos"
+  description: "{{ video.title }} — parte de la serie de clases del mito de Satanás."
 ---
 
 {% set n = videos | length %}
@@ -32,7 +32,7 @@ eleventyComputed:
 >
   <div class="container video-viewer__inner">
     <nav class="video-viewer__toolbar" aria-label="Video navigation">
-      <a class="btn btn--ghost video-viewer__all" href="/videos/">All videos</a>
+      <a class="btn btn--ghost video-viewer__all" href="/videos/">Todos los videos</a>
       <span class="video-viewer__count">{{ i + 1 }} / {{ n }}</span>
     </nav>
 
@@ -65,7 +65,7 @@ eleventyComputed:
       </a>
     </div>
 
-    <p class="video-viewer__hint">Tip: press <kbd>←</kbd> and <kbd>→</kbd> to change video when focus is outside the player.</p>
+    <p class="video-viewer__hint">Tip: presiona <kbd>←</kbd> y <kbd>→</kbd> para cambiar de video cuando el cursor esté fuera del reproductor.</p>
   </div>
 </div>
 
