@@ -1,7 +1,7 @@
 ---
 layout: base.njk
-title: "About"
-description: "About this series, who Christadelphians are, what we believe, and a short video overview."
+title: "Sobre los Cristadelfianos"
+description: "Sobre esta serie, quiénes son los Cristadelfianos, qué creemos, y un breve resumen del video."
 permalink: /about/
 mainClass: site-main--bright
 # Optional: set to a YouTube video id (11 characters) to show an embedded overview.
@@ -12,10 +12,10 @@ transcriptSlug: "about-overview"
 ---
 
 <div class="page-header page-header--bright">
-  About The Christadelphians
+  Sobre los Cristadelfianos
   <div class="container bright-section about-intro">
     <p class="bright-lead">
-      This site supports a series of Bible presentations. The talks are prepared and given by Christadelphians&mdash;people who try to follow Christ and who look to Scripture as the guide for belief and life.
+      Este sitio reúne una serie de clases bíblicas preparadas y presentadas por cristadelfianos. Somos una comunidad que busca seguir a Cristo y tomar la Biblia como guía para nuestras creencias y nuestra forma de vivir.
     </p>
   </div>
 </div>
@@ -24,17 +24,14 @@ transcriptSlug: "about-overview"
   <div class="container about-who-video">
     <div class="about-who-video__text">
       <header class="bright-section__head about-who-video__head">
-        <h2 id="who-title">Who are we?</h2>
+        <h2 id="who-title">¿Quiénes somos?</h2>
         <p class="bright-lead">
-          The Christadelphians (Brethren in Christ) are pleased to share this important Bible
-          teaching with you. Maybe you have had questions about a supernatural Satan for a
-          while? If you’d like to lean more about the Christadelphians, please watch this short
-          video.
+          Los cristadelfianos(“Hermanos en Cristo”) queremos compartir contigo esta importante enseñanza de la Biblia. Si alguna vez has tenido preguntas sobre la idea de un Satanás sobrenatural, este sitio busca ayudarte a explorar el tema usando la Biblia. Para conocer más sobre quiénes somos, te invitamos a ver este breve video.
         </p>
       </header>
     </div>
     <div class="about-who-video__media">
-      <h3 class="about-who-video__video-heading" id="video-overview-title">Video overview</h3>
+      <h3 class="about-who-video__video-heading" id="video-overview-title">Conoce más sobre nosotros</h3>
       <p class="bright-muted about-who-video__video-lead">
       </p>
       {% if youtubeVideoId %}
@@ -42,7 +39,7 @@ transcriptSlug: "about-overview"
           <div class="bright-video__embed">
             <iframe
               src="https://www.youtube.com/embed/{{ youtubeVideoId }}"
-              title="Overview of the Christadelphians"
+              title="Resumen de los Cristadelfianos"
               loading="lazy"
               referrerpolicy="strict-origin-when-cross-origin"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -53,9 +50,9 @@ transcriptSlug: "about-overview"
       {% else %}
         <div class="bright-video-fallback">
           <p>
-            Watch introductions and studies on
+            Ver introducciones y estudios en
             <a href="https://christadelphianvideo.org/who-are-the-christadelphians/">ChristadelphianVideo.org</a>
-            &mdash; including material on who Christadelphians are and what they stand for.
+            &mdash; incluyendo material sobre quiénes son los cristadelfianos y qué representan.
           </p>
           <a class="btn btn--bright-primary" href="https://christadelphianvideo.org/who-are-the-christadelphians/">Open ChristadelphianVideo.org</a>
         </div>
@@ -63,7 +60,7 @@ transcriptSlug: "about-overview"
       {% set transcriptHref = transcriptUrl if transcriptUrl else (("/transcripts/" ~ transcriptSlug ~ "/") if transcriptSlug else "") %}
       {% if transcriptHref %}
         <p class="about-who-video__transcript">
-          <a class="about-who-video__transcript-link" href="{{ transcriptHref }}">Read the transcript</a>
+          <a class="about-who-video__transcript-link" href="{{ transcriptHref }}">Leer el transcript</a>
         </p>
       {% endif %}
     </div>
@@ -72,7 +69,7 @@ transcriptSlug: "about-overview"
 
 <div class="about-bottom-cta">
   <p>
-    A summary of what we understand to be Bible teaching is provided here:
+    Aquí compartimos un resumen de nuestras creencias basadas en la Biblia:
   </p>
-  <button type="button" class="btn btn--bright-primary" onclick="window.location.href='/christadelphians/'">Learn More About the Christadelphians</button>
+  <button type="button" class="btn btn--bright-primary" onclick="window.location.href='/christadelphians/'">Conoce más sobre los Cristadelfianos</button>
 </div>
