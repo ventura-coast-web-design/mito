@@ -2,7 +2,7 @@ module.exports = {
   eleventyComputed: {
     title: (data) => `${data.city.city} — clases-cerca-de-ti`,
     description: (data) =>
-      `Address, schedule, and contact for Myth of Satan presentations in ${data.city.city}.`,
+      `Dirección, horario y contacto para las clases de Satanás en ${data.city.city}.`,
     mapEmbedSrc: (data) => {
       const q = data.city && data.city.mapEmbedQuery;
       if (!q || typeof q !== "string") return "";
