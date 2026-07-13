@@ -4,41 +4,72 @@
       <h2 id="locations-title">DÓNDE SE REALIZARÁN LAS CLASES</h2>
     </header>
 
-    <ul class="locations__list" role="list">
-      {% for place in cities %}
-        <li class="location-card">
-          <h3 class="location-card__title">
-            {{ place.city }}{% if place.region %}, {{ place.region }}{% endif %}
-          </h3>
-          {% if place.venueName %}
-            <p class="location-card__venue">{{ place.venueName }}</p>
+    <div class="locations__group" aria-labelledby="spanish-classes-title">
+      <h3 id="spanish-classes-title" class="locations__group-title">en Español</h3>
+      <p class="locations__group-lede">
+        Una sola clase impartida en español por Dave.
+      </p>
+      <ul class="locations__list" role="list">
+        {% for place in cities %}
+          {% if place.language == "es" %}
+            <li class="location-card location-card--featured">
+              <p class="location-card__badge">Clase en español</p>
+              <h4 class="location-card__title">
+                {{ place.city }}{% if place.region %}, {{ place.region }}{% endif %}
+              </h4>
+              {% if place.venueName %}
+                <p class="location-card__venue">{{ place.venueName }}</p>
+              {% endif %}
+              <address class="location-card__address">
+                {% for line in place.addressLines %}
+                  {{ line }}{% if not loop.last %}<br />{% endif %}
+                {% endfor %}
+              </address>
+              <p class="location-card__actions">
+                <a href="/local-presentations/{{ place.slug }}/"><button class="btn btn--primary" type="button">Inscríbete</button></a>
+                <a class="location-card__link location-card__link--primary" href="/local-presentations/{{ place.slug }}/">
+                  Detalles del lugar
+                </a>
+                {% if place.mapUrl %}
+                  <a class="location-card__link" href="{{ place.mapUrl }}" rel="noopener noreferrer">Abrir en Maps</a>
+                {% endif %}
+              </p>
+            </li>
           {% endif %}
-          <address class="location-card__address">
-            {% for line in place.addressLines %}
-              {{ line }}{% if not loop.last %}<br />{% endif %}
-            {% endfor %}
-          </address>
-          <p class="location-card__actions">
-            <a href="/local-presentations/{{ place.slug }}/"><button class="btn btn--primary" type="button" >Inscríbete</button></a>
-            <a class="location-card__link location-card__link--primary" href="/local-presentations/{{ place.slug }}/">
-              Detalles del lugar
-            </a>
-            {% if place.mapUrl %}
-              <a class="location-card__link" href="{{ place.mapUrl }}" rel="noopener noreferrer">Abrir en Maps</a>
-            {% endif %}
-          </p>
-        </li>
-      {% endfor %}
-    </ul>
+        {% endfor %}
+      </ul>
+    </div>
 
-    {# <aside class="locations__virtual" aria-labelledby="virtual-option-title">
-      <h3 id="virtual-option-title">Can’t attend in person?</h3>
-      <p>
-        Join online instead. We send a link so you can participate remotely from wherever you are.
-      </p>
-      <p class="locations__virtual-actions">
-        <a class="btn btn--primary" href="/virtual-presentations/#virtual-signup">Sign up for the virtual link</a>
-      </p>
-    </aside> #}
+    <div class="locations__group" aria-labelledby="english-classes-title">
+      <h3 id="english-classes-title" class="locations__group-title">In English</h3>
+      <ul class="locations__list" role="list">
+        {% for place in cities %}
+          {% if place.language != "es" %}
+            <li class="location-card">
+              <h4 class="location-card__title">
+                {{ place.city }}{% if place.region %}, {{ place.region }}{% endif %}
+              </h4>
+              {% if place.venueName %}
+                <p class="location-card__venue">{{ place.venueName }}</p>
+              {% endif %}
+              <address class="location-card__address">
+                {% for line in place.addressLines %}
+                  {{ line }}{% if not loop.last %}<br />{% endif %}
+                {% endfor %}
+              </address>
+              <p class="location-card__actions">
+                <a href="/local-presentations/{{ place.slug }}/"><button class="btn btn--primary" type="button">Inscríbete</button></a>
+                <a class="location-card__link location-card__link--primary" href="/local-presentations/{{ place.slug }}/">
+                  Detalles del lugar
+                </a>
+                {% if place.mapUrl %}
+                  <a class="location-card__link" href="{{ place.mapUrl }}" rel="noopener noreferrer">Abrir en Maps</a>
+                {% endif %}
+              </p>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </section>

@@ -12,12 +12,13 @@
     "mapEmbedQuery": "Rancho Simi Recreation and Park District, Guardian Building, Simi Valley, CA 93063",
     "netlifyFormName": "local-contact-simi-valley",
     "speakerSlug": "jason-hensley",
+    "language": "en",
     "scheduleIntro": "Horario",
     "sessions": [
       {
         "title": "Clase pública",
         "when": "4 p.m., sábado 26 de septiembre",
-        "speaker": "Dr. Jason Hensley"
+        "speaker": "Jason"
       }
     ]
   },
@@ -34,12 +35,13 @@
     "mapEmbedQuery": "Thousand Oaks Christadelphian Hall, Thousand Oaks, CA 91360",
     "netlifyFormName": "local-contact-thousand-oaks",
     "speakerSlug": "jason-robinson",
+    "language": "en",
     "scheduleIntro": "Horario",
     "sessions": [
       {
         "title": "Clase pública",
         "when": "4 p.m., domingo 4 de octubre",
-        "speaker": "Mr. Jason Robinson"
+        "speaker": "Jason"
       }
     ]
   },
@@ -55,13 +57,14 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Verdugo+City%2C+CA",
     "mapEmbedQuery": "Verdugo Hills Christadelphian Hall, Tujunga, CA 91042",
     "netlifyFormName": "local-contact-verdugo",
-    "speakerSlug": "christian-russell",
+    "speakerSlug": "david-collister",
+    "language": "es",
     "scheduleIntro": "Horario — confirma localmente (suelen ser por la tarde/noche, hora del Pacífico).",
     "sessions": [
       {
-        "title": "Clase pública",
+        "title": "Clase pública — en español",
         "when": "4 p.m., domingo 20 de septiembre",
-        "speaker": "Mr. Christian Russell"
+        "speaker": "Dave"
       }
     ]
   },
@@ -78,12 +81,13 @@
     "mapEmbedQuery": "Los Angeles Christadelphian Hall, Santa Fe Springs, CA 90670",
     "netlifyFormName": "local-contact-los-angeles",
     "speakerSlug": "christian-russell",
+    "language": "en",
     "scheduleIntro": "Horario",
     "sessions": [
       {
         "title": "Clase pública",
         "when": "4 p.m., sábado 26 de septiembre",
-        "speaker": "Mr. Christian Russell"
+        "speaker": "Christian"
       }
     ]
   },
@@ -100,12 +104,13 @@
     "mapEmbedQuery": "Pomona Christadelphian Hall, Pomona, CA 91766",
     "netlifyFormName": "local-contact-pomona",
     "speakerSlug": "allen-laban",
+    "language": "en",
     "scheduleIntro": "Horario — confirma localmente (suelen ser por la tarde/noche, hora del Pacífico).",
     "sessions": [
       {
         "title": "Clase pública — título por confirmar",
         "when": "4 p.m., domingo 20 de septiembre",
-        "speaker": "Mr. Allen Laban"
+        "speaker": "Allen"
       }
     ]
   },
@@ -122,12 +127,13 @@
     "mapEmbedQuery": "San Diego Christadelphian Hall, San Diego, CA 92025",
     "netlifyFormName": "local-contact-san-diego",
     "speakerSlug": "allen-laban",
+    "language": "en",
     "scheduleIntro": "Horario",
     "sessions": [
       {
         "title": "Clase pública — título por confirmar",
         "when": "4 p.m., domingo 27 de septiembre",
-        "speaker": "Mr. Allen Laban"
+        "speaker": "Allen"
       }
     ]
   },
@@ -144,12 +150,13 @@
     "mapEmbedQuery": "San Francisco Peninsula Christadelphian Hall, Redwood City, CA 94062",
     "netlifyFormName": "local-contact-san-francisco",
     "speakerSlug": "james-robinson",
+    "language": "en",
     "scheduleIntro": "Horario",
     "sessions": [
       {
         "title": "Clase pública",
         "when": "7:30 p.m., miércoles 30 de septiembre",
-        "speaker": "Mr. James Robinson"
+        "speaker": "James"
       }
     ]
   }

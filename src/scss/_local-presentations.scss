@@ -242,6 +242,19 @@ $city-hero-noise: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='ht
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
 }
 
+.city-page__language {
+  margin: 0.75rem 0 0;
+  max-width: 42ch;
+  font-family: variables.$font-family-condensed;
+  font-size: clamp(1rem, 2.4vw, 1.25rem);
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: variables.$accent-yellow;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+}
+
 .city-page > .section:not(.city-page__hero) {
   padding-top: 1.75rem;
   padding-bottom: 1.75rem;

@@ -20,6 +20,11 @@ eleventyExcludeFromCollections: true
       {% if city.region %}
         <p class="city-page__region">{{ city.region }}</p>
       {% endif %}
+      {% if city.language == "es" %}
+        <p class="city-page__language">Clase en español — Dave</p>
+      {% elif city.language == "en" %}
+        <p class="city-page__language">Class in English</p>
+      {% endif %}
     </div>
   </header>
   <section class="section city-page__schedule-pair" aria-labelledby="schedule-title">

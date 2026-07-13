@@ -2,6 +2,31 @@
 @use "variables";
 @use "mixins";
 
+.locations__group {
+  margin-top: 2rem;
+
+  &:first-of-type {
+    margin-top: 0.75rem;
+  }
+}
+
+.locations__group-title {
+  margin: 0 0 0.45rem;
+  font-family: variables.$font-family-display;
+  font-size: clamp(1.55rem, 3.5vw, 2rem);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  color: variables.$accent-yellow;
+}
+
+.locations__group-lede {
+  margin: 0 0 1.1rem;
+  max-width: 46ch;
+  line-height: 1.55;
+  color: variables.$light-text;
+}
+
 .locations__list {
   list-style: none;
   display: grid;
@@ -22,6 +47,36 @@
   position: relative;
   overflow: hidden;
   box-shadow: 0 4px 0 rgba(0, 0, 0, 0.28);
+}
+
+.location-card--featured {
+  border-color: color.change(variables.$accent-yellow, $alpha: 0.55);
+  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.28),
+    0 0 0 1px color.change(variables.$accent-yellow, $alpha: 0.12);
+
+  @include mixins.responsive(variables.$breakpoint-md) {
+    grid-column: 1 / -1;
+    max-width: 36rem;
+  }
+}
+
+.location-card__badge {
+  margin: 0 0 0.65rem;
+  padding-left: 0.1rem;
+  font-family: variables.$font-family-condensed;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: variables.$accent-yellow;
+}
+
+.location-card__speaker {
+  margin: 0 0 1rem;
+  padding-left: 0.1rem;
+  font-weight: 600;
+  line-height: 1.45;
+  color: variables.$text-color;
 }
 
 .location-card::before {
