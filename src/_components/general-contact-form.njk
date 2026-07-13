@@ -1,28 +1,30 @@
 <section class="section general-contact-form" id="general-contact-form" aria-labelledby="general-contact-form-title">
   <div class="container">
-    <h2 id="general-contact-form-title">Contáctanos</h2>
-    <p>¿Tienes alguna pregunta o comentario? Completa el formulario y con gusto te responderemos.</p>
+    <header class="section__head general-contact-form__intro">
+      <h2 id="general-contact-form-title">Contáctanos</h2>
+      <p>¿Tienes alguna pregunta o comentario? Completa el formulario y con gusto te responderemos.</p>
+    </header>
+
+    <form class="contact-form" name="general-contact-form" method="POST" action="/thanks/" data-netlify="true" netlify-honeypot="bot-field">
+      <p class="contact-form__hp">
+        <label>
+          No completes este campo si eres humano:
+          <input name="bot-field" tabindex="-1" autocomplete="off" />
+        </label>
+      </p>
+      <div class="contact-form__field">
+        <label for="contact-nombre">Nombre</label>
+        <input id="contact-nombre" name="nombre" type="text" autocomplete="nombre" required />
+      </div>
+      <div class="contact-form__field">
+        <label for="contact-correo">Correo</label>
+        <input id="contact-correo" name="correo" type="email" autocomplete="correo" required />
+      </div>
+      <div class="contact-form__field">
+        <label for="contact-mensaje">Mensaje</label>
+        <textarea id="contact-mensaje" name="mensaje" rows="5" required></textarea>
+      </div>
+      <button class="btn btn--primary" type="submit">Enviar</button>
+    </form>
   </div>
 </section>
-
-<form class="contact-form" name="general-contact-form" method="POST" action="/thanks/" data-netlify="true" netlify-honeypot="bot-field">
-  <p class="contact-form__hp">
-    <label>
-      No completes este campo si eres humano:
-      <input name="bot-field" tabindex="-1" autocomplete="off" />
-    </label>
-  </p>
-  <div class="contact-form__field">
-    <label for="contact-nombre">Nombre</label>
-    <input id="contact-nombre" name="nombre" type="text" autocomplete="nombre" required />
-  </div>
-  <div class="contact-form__field">
-    <label for="contact-correo">Correo</label>
-    <input id="contact-correo" name="correo" type="email" autocomplete="correo" required />
-  </div>
-  <div class="contact-form__field">
-    <label for="contact-mensaje">Mensaje</label>
-    <textarea id="contact-mensaje" name="mensaje" rows="5" required></textarea>
-  </div>
-  <button class="btn btn--primary" type="submit">Enviar</button>
-</form>
