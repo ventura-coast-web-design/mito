@@ -16,7 +16,7 @@
       class="contact-form"
       name="{{ city.netlifyFormName }}"
       method="POST"
-      action="/thanks/"
+      action="/thanks/registration/"
       data-netlify="true"
       netlify-honeypot="bot-field"
     >
@@ -27,6 +27,7 @@
         </label>
       </p>
 
+      <input type="hidden" name="form-name" value="{{ city.netlifyFormName }}" />
       <input type="hidden" name="city-slug" value="{{ city.slug }}" />
       <input type="hidden" name="city-label" value="{{ city.city }}{% if city.region %}, {{ city.region }}{% endif %}" />
 
