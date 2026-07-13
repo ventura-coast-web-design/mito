@@ -103,7 +103,7 @@ async function sendRegistrationEmail(formData) {
     from,
     to: recipient,
     replyTo: process.env.SMTP_REPLY_TO || from,
-    subject: "Registration Confirmed: Exposing the Satan Myth",
+    subject: "Registro confirmado: El mito de Satanás",
     html: renderTemplate(templates.html, values),
     text: renderTemplate(templates.text, values),
   });

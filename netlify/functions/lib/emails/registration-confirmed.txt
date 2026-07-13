@@ -1,20 +1,20 @@
-Hello {{FirstName}},
+Hola {{FirstName}},
 
-Thank you for registering for Exposing the Satan Myth in {{Location}}. We're glad you'll be joining us!
+Gracias por registrarte para El mito de Satanás en {{Location}}. ¡Nos alegra que te unas!
 
-Registration details
+Detalles del registro
 
-Name: {{FirstName}} {{LastName}}
-Location: {{Location}}
-Date: {{SeminarDate}}
-Time: {{SeminarTime}}
-Venue: {{VenueName}}
-Address: {{VenueAddress}}
-Number attending: {{AttendeeCount}}
+Nombre: {{FirstName}} {{LastName}}
+Ubicación: {{Location}}
+Fecha: {{SeminarDate}}
+Hora: {{SeminarTime}}
+Lugar: {{VenueName}}
+Dirección: {{VenueAddress}}
+Número de asistentes: {{AttendeeCount}}
 
-Dress for the event is casual, and you do not need to bring anything with you. A Bible may be helpful, but it is not required.
+La vestimenta es informal y no necesitas traer nada. Una Biblia puede ser útil, pero no es obligatoria.
 
-If you have any questions before the event, simply reply to this email.
+Si tienes alguna pregunta antes del evento, simplemente responde a este correo.
 
-Sincerely,
-The Exposing the Satan Myth Team
+Atentamente,
+El equipo de El mito de Satanás
