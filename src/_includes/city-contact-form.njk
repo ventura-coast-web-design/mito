@@ -5,11 +5,11 @@
   <div class="container">
 {% endif %}
     <header class="section__head">
-      <img id="city-contact-title" src="/assets/register-image-spanish.png" alt="Register now" class="city-page__schedule-pair__img" />
-      <p>Register for the presentation in {{ city.city }}.</p>
+      <img id="city-contact-title" src="/assets/register-image-spanish.png" alt="Regístrate" class="city-page__schedule-pair__img" />
+      <p>Regístrate para la presentación en {{ city.city }}.</p>
     </header>
-    <p>We collect this information only to provide class notification information. We will not use
-      or share this information for other purposes. We will not sell or rent this information to anyone.
+    <p>Recopilamos esta información solo para enviarte notificaciones sobre la clase. No la usaremos
+      ni la compartiremos para otros fines. No venderemos ni alquilaremos esta información a nadie.
     </p>
 
     <form
@@ -22,7 +22,7 @@
     >
       <p class="contact-form__hp">
         <label>
-          Do not fill this out if you are human:
+          No completes este campo si eres humano:
           <input name="bot-field" tabindex="-1" autocomplete="off" />
         </label>
       </p>
@@ -31,36 +31,36 @@
       <input type="hidden" name="city-label" value="{{ city.city }}{% if city.region %}, {{ city.region }}{% endif %}" />
 
       <div class="contact-form__field">
-        <label for="contact-name-{{ city.slug }}">First Name</label>
-        <input id="contact-first-name-{{ city.slug }}" name="first-name" type="text" autocomplete="first-name" required />
+        <label for="contact-first-name-{{ city.slug }}">Nombre</label>
+        <input id="contact-first-name-{{ city.slug }}" name="first-name" type="text" autocomplete="given-name" required />
       </div>
 
       <div class="contact-form__field">
-        <label for="contact-last-name-{{ city.slug }}">Last Name</label>
-        <input id="contact-last-name-{{ city.slug }}" name="last-name" type="text" autocomplete="last-name" required />
+        <label for="contact-last-name-{{ city.slug }}">Apellido</label>
+        <input id="contact-last-name-{{ city.slug }}" name="last-name" type="text" autocomplete="family-name" required />
       </div>
 
       <div class="contact-form__field">
-        <label for="contact-email-{{ city.slug }}">Email</label>
+        <label for="contact-email-{{ city.slug }}">Correo</label>
         <input id="contact-email-{{ city.slug }}" name="email" type="email" autocomplete="email" required />
       </div>
 
       <div class="contact-form__field">
-        <label for="contact-phone-{{ city.slug }}">Phone <span class="contact-form__hint">(optional)</span></label>
+        <label for="contact-phone-{{ city.slug }}">Teléfono <span class="contact-form__hint">(opcional)</span></label>
         <input id="contact-phone-{{ city.slug }}" name="phone" type="tel" autocomplete="tel" />
       </div>
 
       <div class="contact-form__field">
-        <label for="contact-how-many-{{ city.slug }}">How many people will be attending? <span class="contact-form__hint">(optional)</span></label>
+        <label for="contact-how-many-{{ city.slug }}">¿Cuántas personas asistirán? <span class="contact-form__hint">(opcional)</span></label>
         <input id="contact-how-many-{{ city.slug }}" name="how-many" type="number" min="1" value="1" inputmode="numeric" autocomplete="off" required/>
       </div>
 
       <div class="contact-form__field">
-        <label for="contact-notes-{{ city.slug }}">How did you hear of us? <span class="contact-form__hint">(optional)</span></label>
+        <label for="contact-notes-{{ city.slug }}">¿Cómo te enteraste de nosotros? <span class="contact-form__hint">(opcional)</span></label>
         <textarea id="contact-notes-{{ city.slug }}" name="how-heard" rows="{% if layoutSchedulePair %}3{% else %}5{% endif %}"></textarea>
       </div>
 
-      <button class="btn btn--primary" type="submit">Register</button>
+      <button class="btn btn--primary" type="submit">Regístrate</button>
     </form>
 {% if layoutSchedulePair %}
 </div>

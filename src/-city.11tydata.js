@@ -1,6 +1,6 @@
 module.exports = {
   eleventyComputed: {
-    title: (data) => `${data.city.city} — clases-cerca-de-ti`,
+    title: (data) => `${data.city.city} — Clases cerca de ti`,
     description: (data) =>
       `Dirección, horario y contacto para las clases de Satanás en ${data.city.city}.`,
     mapEmbedSrc: (data) => {
