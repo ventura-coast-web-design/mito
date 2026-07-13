@@ -1,6 +1,6 @@
 [
   { "label": "Inicio", "href": "/" },
-  { "label": "Ubicaciones", "href": "/ubicaciones/" },
+  { "label": "Ubicaciones", "href": "/#ubicaciones" },
   { "label": "Videos", "href": "/videos/" },
   { "label": "Quiénes somos", "href": "/quienes-somos/" },
   { "label": "Clases cerca de ti", "href": "/clases-cerca-de-ti/", "cta": true }
