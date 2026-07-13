@@ -46,27 +46,26 @@
     ]
   },
   {
-    "slug": "verdugo",
-    "city": "Verdugo",
+    "slug": "tujunga",
+    "city": "Tujunga",
     "region": "CA",
-    "venueName": "Verdugo Hills Christadelphian Hall",
+    "venueName": "Verdugo Hills Christadelphians",
     "addressLines": [
       "10210 Commerce Ave.",
       "Tujunga, CA 91042"
     ],
-    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Verdugo+City%2C+CA",
-    "mapEmbedQuery": "Verdugo Hills Christadelphian Hall, Tujunga, CA 91042",
-    "netlifyFormName": "local-contact-verdugo",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tujunga%2C+CA",
+    "mapEmbedQuery": "Tujunga Christadelphians, Tujunga, CA 91042",
+    "netlifyFormName": "local-contact-tujunga",
     "speakerSlug": "david-collister",
-    "language": "es",
-    "scheduleIntro": "Horario — confirma localmente (suelen ser por la tarde/noche, hora del Pacífico).",
+    "language": "en",
+    "scheduleIntro": "Horario",
     "sessions": [
       {
-        "title": "Clase pública — en español",
+        "title": "Clase pública",
         "when": "4 p.m., domingo 20 de septiembre",
         "speaker": "Dave"
-      }
-    ]
+      }]
   },
   {
     "slug": "los-angeles",
