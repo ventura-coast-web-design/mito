@@ -8,22 +8,52 @@
 
 [[redirects]]
   from = "/contact"
-  to = "/local-presentations/"
+  to = "/local-presentations/tujunga/"
   status = 301
 
 [[redirects]]
   from = "/contact/"
-  to = "/local-presentations/"
+  to = "/local-presentations/tujunga/"
   status = 301
 
 [[redirects]]
   from = "/local-presentation"
-  to = "/local-presentations/"
+  to = "/local-presentations/tujunga/"
   status = 301
 
 [[redirects]]
   from = "/local-presentation/"
-  to = "/local-presentations/"
+  to = "/local-presentations/tujunga/"
+  status = 301
+
+[[redirects]]
+  from = "/local-presentations"
+  to = "/local-presentations/tujunga/"
+  status = 301
+
+[[redirects]]
+  from = "/local-presentations/"
+  to = "/local-presentations/tujunga/"
+  status = 301
+
+[[redirects]]
+  from = "/clases-cerca-de-ti"
+  to = "/local-presentations/tujunga/"
+  status = 301
+
+[[redirects]]
+  from = "/clases-cerca-de-ti/"
+  to = "/local-presentations/tujunga/"
+  status = 301
+
+[[redirects]]
+  from = "/local-presentations/verdugo"
+  to = "/local-presentations/tujunga/"
+  status = 301
+
+[[redirects]]
+  from = "/local-presentations/verdugo/"
+  to = "/local-presentations/tujunga/"
   status = 301
 
 [[redirects]]
