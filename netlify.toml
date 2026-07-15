@@ -8,52 +8,62 @@
 
 [[redirects]]
   from = "/contact"
-  to = "/local-presentations/tujunga/"
+  to = "/local-presentations/los-angeles-espanol/"
   status = 301
 
 [[redirects]]
   from = "/contact/"
-  to = "/local-presentations/tujunga/"
+  to = "/local-presentations/los-angeles-espanol/"
   status = 301
 
 [[redirects]]
   from = "/local-presentation"
-  to = "/local-presentations/tujunga/"
+  to = "/local-presentations/los-angeles-espanol/"
   status = 301
 
 [[redirects]]
   from = "/local-presentation/"
-  to = "/local-presentations/tujunga/"
+  to = "/local-presentations/los-angeles-espanol/"
   status = 301
 
 [[redirects]]
   from = "/local-presentations"
-  to = "/local-presentations/tujunga/"
+  to = "/local-presentations/los-angeles-espanol/"
   status = 301
 
 [[redirects]]
   from = "/local-presentations/"
-  to = "/local-presentations/tujunga/"
+  to = "/local-presentations/los-angeles-espanol/"
   status = 301
 
 [[redirects]]
   from = "/clases-cerca-de-ti"
-  to = "/local-presentations/tujunga/"
+  to = "/local-presentations/los-angeles-espanol/"
   status = 301
 
 [[redirects]]
   from = "/clases-cerca-de-ti/"
-  to = "/local-presentations/tujunga/"
+  to = "/local-presentations/los-angeles-espanol/"
   status = 301
 
 [[redirects]]
   from = "/local-presentations/verdugo"
-  to = "/local-presentations/tujunga/"
+  to = "/local-presentations/los-angeles-espanol/"
   status = 301
 
 [[redirects]]
   from = "/local-presentations/verdugo/"
-  to = "/local-presentations/tujunga/"
+  to = "/local-presentations/los-angeles-espanol/"
+  status = 301
+
+[[redirects]]
+  from = "/local-presentations/tujunga"
+  to = "/local-presentations/los-angeles-espanol/"
+  status = 301
+
+[[redirects]]
+  from = "/local-presentations/tujunga/"
+  to = "/local-presentations/los-angeles-espanol/"
   status = 301
 
 [[redirects]]

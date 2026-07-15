@@ -46,24 +46,24 @@
     ]
   },
   {
-    "slug": "tujunga",
-    "city": "Tujunga",
+    "slug": "los-angeles-espanol",
+    "city": "Los Angeles",
     "region": "CA",
-    "venueName": "Verdugo Hills Christadelphians",
+    "venueName": "Los Angeles Christadelphians",
     "addressLines": [
-      "10210 Commerce Ave.",
-      "Tujunga, CA 91042"
+      "10721 Pioneer Blvd.",
+      "Santa Fe Springs, CA 90670"
     ],
-    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Tujunga%2C+CA",
-    "mapEmbedQuery": "Tujunga Christadelphians, Tujunga, CA 91042",
-    "netlifyFormName": "local-contact-tujunga",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Los+Angeles%2C+CA",
+    "mapEmbedQuery": "Los Angeles Christadelphians, Santa Fe Springs, CA 90670",
+    "netlifyFormName": "local-contact-los-angeles-hispanic",
     "speakerSlug": "david-collister",
     "language": "es",
     "scheduleIntro": "Horario",
     "sessions": [
       {
         "title": "Clase pública",
-        "when": "4 p.m., domingo 20 de septiembre",
+        "when": "4 p.m., domingo 13 de septiembre",
         "speaker": "Dave"
       }]
   },
