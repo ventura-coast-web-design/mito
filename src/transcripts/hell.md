@@ -3,7 +3,7 @@ title: "La Verdad Sobre El Infierno"
 description: "Transcripción del video sobre el infierno."
 permalink: /transcripts/la-verdad-sobre-el-infierno/
 videoTitle: "La Verdad Sobre El Infierno"
-youtubeVideoId: "_4USRQMmn18"
+youtubeVideoId: "MizbkWvGaaQ"
 backUrl: "/videos/"
 backLabel: "Volver a Videos"
 ---

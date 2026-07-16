@@ -3,7 +3,7 @@ title: "Jesús Destruyó las Obras del Diablo"
 description: "Transcripción del video sobre cómo Jesús destruyó las obras del diablo."
 permalink: /transcripts/jesus-destruyo-las-obras-del-diablo/
 videoTitle: "Jesús Destruyó las Obras del Diablo"
-youtubeVideoId: "wFwlGtvYVco"
+youtubeVideoId: "eHDAo8bUu58"
 backUrl: "/videos/"
 backLabel: "Volver a Videos"
 ---

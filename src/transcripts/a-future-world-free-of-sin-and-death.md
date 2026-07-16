@@ -3,7 +3,7 @@ title: "Un Mundo Libre de Pecado y Muerte"
 description: "Transcripción del video sobre un futuro mundo libre de pecado y muerte."
 permalink: /transcripts/un-mundo-libre-de-pecado-y-muerte/
 videoTitle: "Un Mundo Libre de Pecado y Muerte"
-youtubeVideoId: "ZB5tyumcuKo"
+youtubeVideoId: "NAtM2y7mJ9c"
 backUrl: "/videos/"
 backLabel: "Volver a Videos"
 ---

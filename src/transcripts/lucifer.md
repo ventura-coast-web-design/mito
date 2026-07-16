@@ -3,7 +3,7 @@ title: "¿Quién es Lucero?"
 description: "Transcripción del video sobre Lucero."
 permalink: /transcripts/quien-es-lucero/
 videoTitle: "¿Quién es Lucero?"
-youtubeVideoId: "XJ34oXKE-HI"
+youtubeVideoId: "C53QLuWExR8"
 backUrl: "/videos/"
 backLabel: "Volver a Videos"
 ---

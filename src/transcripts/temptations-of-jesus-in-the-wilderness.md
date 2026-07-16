@@ -3,7 +3,7 @@ title: "Las Tentaciones De Jesús en el Desierto"
 description: "Transcripción del video sobre las tentaciones de Jesús en el desierto."
 permalink: /transcripts/las-tentaciones-de-jesus-en-el-desierto/
 videoTitle: "Las Tentaciones De Jesús en el Desierto"
-youtubeVideoId: "Y8BOW6Fw9Ic"
+youtubeVideoId: "UOptHx6bLGs"
 backUrl: "/videos/"
 backLabel: "Volver a Videos"
 ---

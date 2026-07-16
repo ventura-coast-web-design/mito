@@ -3,7 +3,7 @@ title: "El Origen de Satanás y el Diablo"
 description: "Transcripción del video sobre el origen de Satanás y el Diablo."
 permalink: /transcripts/el-origen-de-satanas-y-el-diablo/
 videoTitle: "El Origen de Satanás y el Diablo"
-youtubeVideoId: "8EGldW9chMo"
+youtubeVideoId: "qjr2DEAAF44"
 backUrl: "/videos/"
 backLabel: "Volver a Videos"
 ---
