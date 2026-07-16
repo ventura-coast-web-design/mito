@@ -1,75 +1,41 @@
 ---
-title: "Jesus destroyed the Devil — video overview (transcript)"
-description: "Transcript for the video on Jesus destroyed the devil."
-permalink: /transcripts/jesus-destroyed-the-devil/
-videoTitle: "Jesus Destroyed the Devil"
-youtubeVideoId: "IGbjT0MQ-Ew"
+title: "Jesús Destruyó las Obras del Diablo"
+description: "Transcripción del video sobre cómo Jesús destruyó las obras del diablo."
+permalink: /transcripts/jesus-destruyo-las-obras-del-diablo/
+videoTitle: "Jesús Destruyó las Obras del Diablo"
+youtubeVideoId: "wFwlGtvYVco"
 backUrl: "/videos/"
-backLabel: "Back to Videos"
+backLabel: "Volver a Videos"
 ---
 
-The Devil and Satan are Biblical symbols of sin and the world of sin. Temptation and sin have been part of the human experience, dating back to the Garden of Eden. All of us struggle with our flesh, and our desire to do what is pleasing to ourselves, instead of following the commandments of God.
+# Jesús Destruyó las Obras del Diablo
 
-However, **the victory of Jesus Christ was that he destroyed the power of death.** Though he was tempted in all ways like we are, he was without sin. He chose to do his Father’s will instead of his own. When he died on the cross, it was a great victory, for he crucified sin in himself.
+Una de las declaraciones más sorprendentes del Nuevo Testamento aparece en el libro de Hebreos. Dice en Hebreos capítulo 2, versículo 14, que Jesús destruyó al diablo. Pero ¿qué significa esto realmente? ¿Destruyó Jesús a un ser sobrenatural, o la Biblia nos está señalando algo más profundo sobre el pecado y la muerte?
 
-That’s why Hebrews tells us:
+Para responder esta pregunta, debemos comenzar con el pasaje mismo. Hebreos nos dice:
 
-> Since therefore the children share in flesh and blood, he himself likewise partook of the same things, that through death he might destroy the one who has the power of death, that is, the devil  
-> — Hebrews 2:14 (ESV)
+> "Por tanto, por cuanto los hijos participaron de carne y sangre, él también participó de lo mismo, para destruir por medio de la muerte al que tenía el imperio de la muerte, esto es, al diablo."
 
-Jesus did what no man had done before or since. He conquered the flesh. He destroyed it.
+A primera vista, esta declaración plantea una pregunta importante. ¿Quién es el que tiene el imperio de la muerte? ¿Es un diablo sobrenatural, o la Escritura explica el origen de la muerte de otra manera?
 
-## What has the power of death?
+Bueno, para entenderlo, debemos remontarnos hasta el principio de la Biblia. En el libro de Génesis, Dios colocó a Adán y Eva en el huerto del Edén y les dio un mandamiento sencillo. Eran libres de disfrutar del huerto, pero no debían comer del árbol del conocimiento del bien y del mal. Por supuesto, Adán y Eva eligieron la desobediencia, y debido a esa elección el pecado entró en la experiencia humana, y con el pecado vino la muerte. Desde ese momento en adelante, la mortalidad se convirtió en la condición de toda la humanidad. La Biblia explica repetidamente esta conexión entre el pecado y la muerte, diciendo que el pecado conduce a la muerte. Así que, cuando Hebreos habla de aquel que tiene el imperio de la muerte, debemos preguntarnos: ¿qué es lo que realmente trae la muerte a la humanidad? Y la respuesta que da la Biblia es muy consistente. Es el pecado; el pecado trae la muerte.
 
-But what does it mean, “the one who has the power of death?” Does a supernatural being control death?
+La tentación y el pecado han sido parte de la vida humana desde el principio. Todos luchamos con nuestros propios deseos y con el tirón de nuestra naturaleza humana. Esta lucha se ilustra frecuentemente en la Escritura con el símbolo de una serpiente. En el huerto del Edén, la serpiente se describe como una bestia del campo, pero aunque sus palabras engañaron a Eva, la decisión de desobedecer a Dios finalmente les pertenecía a Adán y Eva mismos. La serpiente se convierte en un símbolo relacionado con el pecado y la rebelión. En el libro de Números, el pueblo de Israel se había estado quejando y rebelando contra Dios en el desierto, así que Dios envió serpientes ardientes que aparecieron entre ellos, y muchos fueron mordidos y murieron. Pero entonces Dios le indicó a Moisés que hiciera una serpiente de bronce, que la pusiera sobre un asta, y que cualquiera que mirara esa serpiente con fe sería sanado. Más tarde, Jesús se refirió directamente a ese suceso cuando dijo:
 
-The Bible is far from silent about what brings death to humans. It begins with Adam and Eve in the Garden, choosing disobedience over following the one commandment of God. The curse on Adam and Eve, which would be inherited by all their progeny, was mortality. **Sin brought about death.** The serpent in the Garden was a “beast of the field.” (Genesis 3:1) The words of the serpent deceived Eve, but the choice to sin was all hers and Adam’s.
+> "Como Moisés levantó la serpiente en el desierto, así es necesario que el Hijo del Hombre sea levantado, para que todo aquel que en él cree tenga vida eterna."
 
-The serpent is used frequently as a symbol of sin in Scripture. During the journey of Israel in the Wilderness under Moses, the people murmured and complained about God’s provision for them. He sent fiery serpents that bit people, and many died. Moses then formed a brass serpent on a pole in the Wilderness and raised it up. Those in Israel who looked on that serpent on a pole and believed were saved.
+En otras palabras, el levantamiento de la serpiente en el desierto apuntaba hacia adelante, hacia la crucifixión de Cristo. Cuando Jesús fue levantado en la cruz, estaba enfrentando el mismo problema que simbolizaba entonces la serpiente.
 
-Later, Jesus connects his own victory over sin to the serpent in the wilderness.
+Pero, a diferencia de todo otro ser humano, Jesús hizo algo que nadie más había hecho jamás. Vivió una vida sin pecado. Aunque fue tentado en todo sentido igual que nosotros, eligió hacer la voluntad de su Padre en lugar de seguir los deseos de la carne. Cuando Jesús murió en la cruz, condenó al pecado en sí mismo, lo venció. En ese sentido, Jesús destruyó el poder que conduce a la muerte; destruyó al diablo.
 
-> And as Moses lifted up the serpent in the wilderness, so must the Son of Man be lifted up, that whoever believes in him may have eternal life  
-> — John 3:14–15
+Pero la Biblia también nos enseña algo muy importante sobre el origen de la tentación. Jesús abordó esta cuestión en una ocasión mientras hablaba con los escribas y los fariseos. Ellos criticaban a sus discípulos por no seguir ciertas tradiciones sobre lavarse antes de comer. Pero Jesús utilizó ese momento para explicar algo mucho más profundo. Dijo que lo que entra a una persona desde afuera no la contamina. Más bien, lo que contamina a una persona proviene de su interior. Del corazón humano salen malos pensamientos, inmoralidad, robos, homicidios, envidia, orgullo, y muchos otros pecados. En otras palabras, la verdadera fuente del pecado no es algo externo, es el corazón humano. Santiago explica el mismo principio con mucha claridad. Escribe:
 
-When Jesus died on the cross, he crucified the serpent, a symbol of sin. Our salvation is tied to our belief in his victory.
+> "Cada uno es tentado cuando es atraído y seducido por su propia pasión. Luego, cuando ha concebido, la pasión da a luz al pecado, y el pecado, siendo consumado, da a luz la muerte."
 
-The serpent is used in the Revelation as a symbol of sin, being included with the dragon, the Devil, and Satan. It is representative of the world of sin, and our own desire to sin. This is what Jesus came to do. First, he destroyed the power of sin, the devil, in his own life. Today he helps us in our own battle against sin, leading us to be a holy people to God.
+Entonces, ¿de dónde viene el poder de la muerte? Viene de la reacción en cadena que comienza con el deseo humano, que conduce al pecado, y termina en la muerte.
 
-## Where sin comes from
+Ese es el enemigo que Jesús vino a vencer, y el Nuevo Testamento muestra que Jesús logró la victoria sobre él. Al vivir una vida sin pecado y vencer la muerte por medio de la resurrección, rompió el poder que el pecado ejerce sobre la humanidad. Esa batalla contra el pecado es algo que los creyentes todavía enfrentan hoy. Vivimos en un mundo donde el pecado está en todas partes. El apóstol Pablo describe este mundo como uno que sigue la corriente de la desobediencia y la rebelión contra Dios. Cada día estamos rodeados de influencias que fomentan el egoísmo, fomentan el orgullo, y fomentan la inmoralidad.
 
-The Bible is extremely clear about where sin comes from. It may have external sources for temptation, but it is all about what we do in our minds and hearts.
+Sin embargo, los creyentes son llamados a resistir esas influencias. Pablo describe esta lucha usando la imagen de un soldado. En el libro de Efesios, habla de ponerse toda la armadura de Dios para poder resistir las asechanzas del diablo. Esta armadura incluye la verdad, la justicia, la fe, la palabra de Dios, y la oración constante. En otras palabras, la batalla contra el pecado requiere vigilancia y compromiso, pero las buenas nuevas del evangelio son que la victoria decisiva ya ha sido ganada. Jesús venció al pecado. Venció a la muerte, y cuando regrese, esa victoria se realizará plenamente. Los muertos serán resucitados, los que pertenecen a Cristo recibirán la inmortalidad, y el poder de la muerte será finalmente eliminado para siempre.
 
-Jesus was debating with the scribes and Pharisees about the Jewish custom of washing hands before eating. The hungry disciples of Jesus were gathering and eating barley right off the stalk, not following the Jewish custom of hand washing. The scribes and Pharisees declared that they were breaking Jewish law by not washing before eating. Jesus used this occasion to be fully clear about where sin actually comes from.
-
-> And he said to them, “Then are you also without understanding? Do you not see that whatever goes into a person from outside cannot defile him, since it enters not his heart but his stomach, and is expelled?” (Thus he declared all foods clean.) And he said, “What comes out of a person is what defiles him. For from within, out of the heart of man, come evil thoughts, sexual immorality, theft, murder, adultery, coveting, wickedness, deceit, sensuality, envy, slander, pride, foolishness. All these evil things come from within, and they defile a person.”  
-> — Mark 7:15–23 (ESV)
-
-Who then has the power of sin? Is it a force outside the person? **Jesus is clear. It comes from within the heart of men and women.** This is the enemy. This is what Jesus destroyed on the cross.
-
-James wrote:
-
-> Blessed is the man who remains steadfast under trial, for when he has stood the test he will receive the crown of life, which God has promised to those who love him. Let no one say when he is tempted, “I am being tempted by God,” for God cannot be tempted with evil, and he himself tempts no one. But each person is tempted when he is lured and enticed by his own desire. Then desire when it has conceived gives birth to sin, and sin when it is fully grown brings forth death  
-> — James 1:12–15 (ESV)
-
-## Living in a world of disobedience
-
-Surely, we live in a world of sin. The Apostle Paul describes those who chose to live in a world of disobedience as “following the course of this world, following the prince of the power of the air, the spirit that is now at work in the sons of disobedience” (Ephesians 2:2). Each day we are confronted with a world that rejects the Creator and worships and serves the creature. (Romans 1:25) We are bombarded with messages and temptations each day. Jesus destroyed this power in his life. He rules today as our king to assist us in fighting that battle ourselves. We are encouraged to transform our thinking, to take on the mind of Christ.
-
-## The armor of God
-
-The Apostle Paul spoke of the battle against sin in Ephesians 6. He described a soldier who is able to “stand against the schemes of the devil.” These attacks are from the most powerful forces of darkness in the world, in “heavenly places,” which is Biblical language for the rulers of the kingdoms of men. They would not only be facing trials from their neighbors, but from the magistrates of the Roman Empire, which would bring about terrible persecution for believers.
-
-But the soldier of Christ is clothed with defensive weapons, or the armor of God. It includes truth, righteousness, preparation of the gospel of peace, faith, and the word of God. The soldier is to pray always, and watch with all perseverance.
-
-The battle against sin has always been the enemy for believers. Like the Lord Jesus Christ, we struggle with our own internal temptations. But, while he was tempted in all points like us, he was without sin. He crucified sin. He destroyed him who hath the power of death, that is, the devil.
-
-## Freedom for believers
-
-This represents a great freedom for believers. We are not fighting against a supernatural being that God has permitted to lead us to sin. That thought is illogical from what we know about God. God’s purpose in our lives is not to tempt us, as James said, but to save us from sin. He provided His son for this very purpose. He so loved the world, that he gave his only begotten son.
-
-Those who see the devil as a supernatural being are laden by superstition and anxiety. They wonder what evil force may be intruding into their lives. But the Bible is clear. **Sin comes from within us, out of our hearts.** While we live in a world of sin, we are to be soldiers of Christ, resisting the influences of the world.
-
-## The victory to come
-
-When Jesus returns, he will resurrect the dead and gather the living who are his followers. He will judge us all. For those who are found to be good and faithful servants, we will be granted immortality. We will no longer have bodies and minds tempted by the flesh and its impulses. We can serve our Lord with all our strength. This is the victory of Jesus. By his grace, we too will escape the power of death, that is the devil.
+Esta es la libertad que Jesús hizo posible. Hoy, los creyentes no viven con temor de alguna fuerza sobrenatural que controle sus vidas. Más bien, la Biblia dirige nuestra atención hacia la verdadera lucha: la batalla dentro del corazón humano. También nos da esperanza, porque a través de la vida, muerte y resurrección de Jesucristo, el poder del pecado y de la muerte ya ha sido quebrantado. Cuando Cristo regrese, aquellos que lo sigan compartirán esa victoria. Serán liberados por completo de la debilidad de la carne y del tirón del pecado. Este es el significado último de las palabras de Hebreos. Mediante su muerte, Jesús destruyó el poder del pecado, el poder de la muerte, y por la gracia de Dios esa victoria también puede ser nuestra.

@@ -41,7 +41,7 @@ eleventyComputed:
       {% if video.transcript != false %}
         {% set transcriptSlug = video.transcriptSlug | default(video.slug) %}
         <p class="video-viewer__transcript-wrap">
-          <a class="video-viewer__transcript" href="/transcripts/{{ transcriptSlug }}/">Read transcript</a>
+          <a class="video-viewer__transcript" href="/transcripts/{{ transcriptSlug }}/">Leer transcripción</a>
         </p>
       {% endif %}
     </header>

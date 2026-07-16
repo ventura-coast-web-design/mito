@@ -1,85 +1,65 @@
 ---
-title: "Hell — video overview (transcript)"
-description: "Transcript for the video on hell."
-permalink: /transcripts/hell/
-videoTitle: "Hell"
-youtubeVideoId: "IGbjT0MQ-Ew"
+title: "La Verdad Sobre El Infierno"
+description: "Transcripción del video sobre el infierno."
+permalink: /transcripts/la-verdad-sobre-el-infierno/
+videoTitle: "La Verdad Sobre El Infierno"
+youtubeVideoId: "_4USRQMmn18"
 backUrl: "/videos/"
-backLabel: "Back to Videos"
+backLabel: "Volver a Videos"
 ---
 
-## What this video covers
+# La Verdad Sobre El Infierno
 
-This video examines the topic of Hell. Where is it? What is its purpose? What does the Bible have to say about it?
+En este video vamos a examinar un tema que ha generado mucho temor y mucha confusión a lo largo de los siglos: el infierno. ¿Dónde está, qué es, y lo más importante, qué dice realmente la Biblia sobre él?
 
-## Dante and popular ideas of Hell
+Para muchas personas la palabra infierno trae inmediatamente a la mente un lugar de fuego ardiente. Un lugar donde los malvados son torturados para siempre. Pero esa imagen del infierno como un lugar de tormento eterno no proviene principalmente de la Biblia. Gran parte de nuestra percepción actual del infierno fue formada por fuentes posteriores, como la Visión de Tundal y el famoso poema del siglo XIV llamado *La Divina Comedia*. En ellos, el infierno se presenta como un enorme mundo subterráneo compuesto de nueve círculos de tormento, cada uno diseñado para castigar a diferentes tipos de pecadores. Pero la pregunta que debemos hacernos es sencilla: ¿describe realmente la Biblia algo semejante? Para responder esto, debemos comenzar con una pregunta más básica. ¿Qué sucede cuando una persona muere?
 
-You may be surprised to learn that much of what people conceptualize Hell to be was influenced by a narrative poem written in 14th Century by Italian writer, Dante Alighieri (1265–1321). In *The Divine Comedy*, he describes the journey of a fictionalized version of himself going through Hell, guided by the ancient Roman poet Virgil. Hell is depicted as nine concentric circles of torment located within the Earth. It is a place of torture and purification of the soul.
+La Biblia da una respuesta muy clara. En el Salmo 146 dice:
 
-Unfortunately, with the Divine Comedy in mind, many read into passages in the Bible this same vision of a burning hell. **But does the Bible actually describe anything remotely like this?**
+> "Sale su espíritu, se vuelve a la tierra; en ese mismo día perecen sus pensamientos."
 
-## The death state in Scripture
+Eclesiastés nos dice:
 
-To understand Hell, we need to first have an understanding about what the Bible teaches us about the death state. Is there consciousness after death? Do we have a soul that continues on without our body?
+> "No hay obra, ni trabajo, ni ciencia, ni sabiduría, en el Seol adonde vas."
 
-Well, the Bible is very clear on this. **There is no conscious existence outside of the body.** Here’s a few examples of what the Bible teaches.
+Según estos pasajes, cuando una persona muere sus pensamientos cesan, no hay conciencia, los muertos no están activos en otro mundo; más bien, descansan en la tumba.
 
-> Put not your trust in princes, in a son of man, in whom there is no salvation. When his breath departs, he returns to the earth; on that very day his plans perish.  
-> — Psalm 146:3–4 (ESV)
+La palabra hebrea para tumba es *Seol*. Aparece muchas veces a lo largo del Antiguo Testamento y, dependiendo de la traducción, puede traducirse como la tumba, la fosa, o a veces como infierno, pero todas esas traducciones se refieren al mismo lugar: la tumba. De hecho, incluso el profeta Jonás usó esta palabra Seol al describir su experiencia dentro del gran pez. Dice que clamó desde el Seol, aunque todavía estaba vivo. Así que la palabra en hebreo simplemente describe un lugar de oscuridad y de muerte, no un lugar ardiente de tormento.
 
-> Whatever your hand finds to do, do it with your might, for there is no work or thought or knowledge or wisdom in Sheol, to which you are going.  
-> — Ecclesiastes 9:10 (ESV)
+A lo largo de la Biblia, el Seol se describe repetidamente como el destino de todos los mortales. El Salmo 49 dice:
 
-When we die, all consciousness ceases. We will remain this way forever, unless we are resurrected to life by the Lord Jesus Christ, which is the hope of believers.
+> "El hombre en su prosperidad no permanecerá; es semejante a las bestias que perecen... Como ovejas son destinados al Seol."
 
-## Sheol: one word, several English renderings
+En otras palabras, la muerte es algo que comparten todos los seres vivos.
 
-But did you notice that word, “sheol” in Ecclesiastes 9? That is an important word, untranslated from the original Hebrew. In numerous translations of the Bible, this term is rendered as “the grave.” That makes sense, since the grave is where unconscious bodies are placed. But the word sheol is translated several ways in the Bible. In some places it is simply “pit.” But in other places it is translated as “hell.” But it is all the same word, sheol. Even Jonah, when he was in the belly of the fish for three days, described it as sheol, or hell.
+Entonces, ¿qué hay de la idea de que el infierno es este lugar de castigo después de la muerte? Muchas personas creen que cuando una persona malvada muere, va inmediatamente a un lugar de tormento. Sin embargo, la Biblia nos muestra algo muy interesante: incluso Jesús mismo estuvo en el Hades. En el libro de Hechos, el apóstol Pedro cita una profecía del rey David sobre la resurrección de Cristo. Y Pedro dice:
 
-**The grave, or hell, is not a place of torment.** It is a place of darkness and unconsciousness. It is the destiny of all mortals, both men and animals.
+> "... no fue abandonado en el Hades, ni su carne vio corrupción."
 
-> Man in his pomp will not remain; he is like the beasts that perish. Like sheep they are appointed for Sheol; death shall be their shepherd, and the upright shall rule over them in the morning. Their form shall be consumed in Sheol, with no place to dwell  
-> — Psalm 49:12, 14 (ESV)
+Entonces, si el Hades se refiere a ese mismo lugar ardiente de tormento, ¿debemos suponer que Jesús, un hombre sin pecado y perfecto, estuvo en el infierno durante un período de tiempo? Por supuesto que no. Aquí el Hades es simplemente el equivalente griego del Seol. También significa la tumba. Después de que Jesús fue crucificado, su cuerpo fue colocado en una tumba. En otras palabras, estuvo en el Hades, la palabra griega para tumba. Entonces, cuando las Escrituras dicen que Jesús no fue abandonado al Hades, simplemente significa que no fue dejado en la tumba.
 
-## Was Jesus “in Hell”?
+Puedes ver el mismo entendimiento en la historia de Lázaro. Cuando Lázaro murió, Jesús le dijo a su hermana Marta:
 
-So, let’s return to the concept of Hell being a place of torment. Some understand Hell as being a place where evil people are sent after death, to be tormented under the supervision of a supernatural devil. But would it surprise you to know that **even Jesus was in Hell?**
+> "Tu hermano resucitará."
 
-Peter spoke of the assurance that King David had written about. David knew that one of his descendants, his Seed, would not perish in the grave, but be resurrected.
+Y Marta respondió:
 
-> Being therefore a prophet, and knowing that God had sworn with an oath to him that he would set one of his descendants on his throne, he foresaw and spoke about the resurrection of the Christ, that he was not abandoned to Hades, nor did his flesh see corruption. This Jesus God raised up, and of that we all are witnesses  
-> — Acts 2:30–32
+> "Yo sé que resucitará en la resurrección, en el día final."
 
-Since the New Testament was written in Greek, we see another word appearing here—**Hades.** But we know that Jesus was laid in the grave. After his crucifixion, Jesus was unconscious, lying in the tomb. He was in Hades, or sheol, as it would have been in Hebrew. It only means that Jesus was dead. It required God to raise him from the dead.
+Marta entendió algo con mucha claridad. Entendió que los muertos no están vivos en otro lugar. Están esperando tranquilamente en la tumba hasta la resurrección. Esta es una esperanza constante presentada a lo largo de toda la Biblia. Los muertos duermen en la tumba hasta el día en que Cristo regrese y los llame. Por eso también el Nuevo Testamento dice que el juicio ocurre en el futuro, cuando Jesús regrese. Pablo le escribió a Timoteo:
 
-## Lazarus and the resurrection hope
+> "Cristo Jesús... ha de juzgar a los vivos y a los muertos en su manifestación y en su Reino."
 
-You may also remember that in his mortal life, Jesus performed the incredible act of raising Lazarus from the dead. Lazarus was unconscious, having been lying in a tomb for four days. Before Jesus raised Lazarus, Martha, the sister of Lazarus, was told by Jesus:
+Entonces, el juicio no ocurre inmediatamente después de la muerte. Ocurre cuando Cristo regrese, y hasta entonces, los muertos permanecen dormidos en la tumba.
 
-> “Your brother will rise again.” Martha said to him, “I know that he will rise again in the resurrection on the last day.”  
-> — John 11:23–24 (ESV)
+Así que, el gran enemigo del que habla la Biblia no es un lugar de tortura eterna; el enemigo es la muerte misma, y las buenas nuevas del evangelio son que Jesús vino a derrotar a ese enemigo. Cuando Cristo regrese, los fieles serán levantados de entre los muertos y se les dará la inmortalidad, y en ese momento se cumplirán finalmente las palabras de la Escritura que dicen:
 
-Martha was under no misconception about the state of the dead. She knew that her brother was dead and that he would not be alive again until “the resurrection at the last day.” This is the case of all men and women. When we die, we do not go to a burning hell to be tormented, but rather we wait unconsciously until the day when Jesus returns, raises the dead, and judges both the dead and the living.
+> "¿Dónde está, oh muerte, tu aguijón? ¿Dónde está, oh sepulcro, tu victoria?"
 
-## Judgment when Jesus returns
+Porque la muerte y la tumba finalmente perderán su poder.
 
-Another reason we need not fear a burning hell is because **all judgment will not happen until Jesus returns to the earth.** The Apostle Paul tells us that God has appointed a day in which the judgment will occur, through Jesus Christ. He further wrote to Timothy:
+Pero hay un último pensamiento que vale la pena considerar, porque la idea de este lugar donde las personas son torturadas para siempre plantea una pregunta importante sobre el carácter de Dios. La Biblia describe constantemente a Dios como misericordioso, paciente y compasivo. De hecho, Dios mismo dice en Ezequiel:
 
-> I charge you in the presence of God and of Christ Jesus, who is to judge the living and the dead, and by his appearing and his kingdom  
-> — 2 Timothy 4:1 (ESV)
+> "No quiero la muerte del impío... sino que se vuelva el impío de su camino, y que viva."
 
-The Judgment of mankind will occur only when Jesus returns to the earth. There is no conscious existence or condemnation that occurs before that time. Those who have died remain asleep, waiting for the call of the Lord Jesus Christ from the grave.
-
-The Apostle Paul knew that the enemy to be destroyed was sin and death. When Jesus returns, he will grant immortality to the faithful. Then it can be said:
-
-> O death, where is thy sting? O grave, where is thy victory?  
-> — 1 Corinthians 15:55 (KJV)
-
-## God’s character
-
-One final thought on this topic. The idea of Hell and torture is completely inconsistent with what we know about the character of God. God is merciful, gracious, longsuffering, abundant in mercy and truth. He does command obedience from men and women, and He has appointed His Son to perform that Judgment. But we are also told that **God takes no pleasure in the death of wicked men and women.**
-
-> Say to them, As I live, declares the Lord God, I have no pleasure in the death of the wicked, but that the wicked turn from his way and live; turn back, turn back from your evil ways, for why will you die, O house of Israel?  
-> — Ezekiel 33:11 (ESV)
-
-Our Heavenly Father is not an angry vindictive God. He does not wish to torment the dead. Rather, what He desires is for men and women to repent, to turn back to Him in their life. We need not worry about a supernatural being and a burning Hell. God is working with you to save you, to bring you to repentance. When His Son returns to the earth, may you, by God’s grace, be raised to immortality. **This is the true Christian hope.**
+Así que el deseo de Dios no es atormentar a las personas. Su deseo es salvarlas. Él llama a las personas al arrepentimiento. Las invita a volver a Él. El mensaje de la Biblia no es uno de tortura sin fin; es un mensaje de resurrección, juicio y, finalmente, vida. Cuando Jesús regrese, resucitará a los muertos y juzgará al mundo con justicia, y aquellos que sean hallados fieles recibirán el increíble regalo de la inmortalidad, y esa es la verdadera esperanza que ofrece la Escritura.

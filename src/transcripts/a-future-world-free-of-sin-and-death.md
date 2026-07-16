@@ -1,52 +1,37 @@
 ---
-title: "A future World free of Sin and Death — video overview (transcript)"
-description: "Transcript for the video on A future World free of Sin and Death "
-permalink: /transcripts/world-free-of-sin-and-death/
-videoTitle: "A future World free of Sin and Death"
-youtubeVideoId: "IGbjT0MQ-Ew"
+title: "Un Mundo Libre de Pecado y Muerte"
+description: "Transcripción del video sobre un futuro mundo libre de pecado y muerte."
+permalink: /transcripts/un-mundo-libre-de-pecado-y-muerte/
+videoTitle: "Un Mundo Libre de Pecado y Muerte"
+youtubeVideoId: "ZB5tyumcuKo"
 backUrl: "/videos/"
-backLabel: "Back to Videos"
+backLabel: "Volver a Videos"
 ---
 
-The Bible does not teach that there is a supernatural being, or a fallen angel that is nurturing evil in the world. We know that angels are immortal. Immortal beings cannot sin, and are not subject to death. It is completely illogical and inconsistent to believe that there was a rebellion in heaven of an angel, or that God would permit that angel to bring havoc on His creation. **The enemy has always been us.** Sin comes from within us, out of our own hearts.
+# Un Mundo Libre de Pecado y Muerte
 
-## Imagining a world without sin
+Imagina un mundo sin pecado, un mundo sin violencia, sin corrupción, sin tristeza y sin muerte. Para la mayoría de nosotros, eso es casi imposible de imaginar. Todo lo que hemos experimentado ha ocurrido en un mundo marcado por el pecado y la mortalidad. La vida es temporal, las instituciones humanas surgen y desaparecen, y cada generación finalmente pasa.
 
-So, for a moment, try to imagine a world without sin. A world without sorrow and death. It is almost impossible to form a picture in our mind because all we have known is a world of sin, corruption, and death. Life is temporary for all. As the Scripture says, we are like a vapor that is here one moment, and gone the next. Like the grass that rises up in majesty, it soon withers and is blown away.
+Incluso la Biblia a menudo describe nuestra vida como un vapor: aquí por un momento y luego desaparece. Pero la Escritura va más allá y nos dice que este mundo presente no es el capítulo final del plan de Dios. De hecho, la Biblia habla repetidamente de un tiempo futuro en el que el pecado y la muerte finalmente serán eliminados de la tierra.
 
-It’s even harder to imagine the world being filled with men and women who only serve God, who are not torn by internal fleshly desires.
+Pero antes de hablar de ese futuro, necesitamos entender algo muy importante sobre el mundo presente. Muchas personas creen que el mal en el mundo es impulsado por un ángel caído sobrenatural, el diablo. Sin embargo, en otros videos hemos explorado cómo la Biblia enseña consistentemente que el verdadero problema está mucho más cerca de casa: que el pecado proviene del corazón humano. Nuestros propios deseos, el orgullo y el egoísmo, llevan a las personas a actuar en contra de la voluntad de Dios. Por eso el mundo en el que vivimos está lleno de injusticia, sufrimiento y muerte. Pero la Biblia nos dice que esta condición no durará para siempre. Nos dice que Jesucristo va a regresar para establecer un Reino que transformará la tierra.
 
-But this is exactly world that Jesus Christ is returning to create. We are told that when he returns to the earth, he will set up an everlasting kingdom. The Prophet Daniel spoke of this kingdom. Describing a metallic image that represented the kingdoms of men who would rule over Israel, Daniel assured God’s people that this would end.
+En el libro de Daniel, el profeta describió una visión de los reinos de los hombres, imperios que surgirían y caerían a lo largo de la historia. Pero a Daniel también se le mostró algo extraordinario. Escribió:
 
-> And in the days of those kings the God of heaven will set up a kingdom that shall never be destroyed, nor shall the kingdom be left to another people. It shall break in pieces all these kingdoms and bring them to an end, and it shall stand forever  
-> — Daniel 2:44 (ESV)
+> "Y en los días de estos reyes, el Dios del cielo levantará un reino que no será jamás destruido… desmenuzará y consumirá a todos estos reinos, y él permanecerá para siempre."
 
-Jesus will replace all the kingdoms of men. Jesus will usher in righteousness and justice. He will reverse the problems of pollution, hunger, and violence. This transformational process will occur over 1,000 years. Over time, men and women will experience a world where righteousness reigns.
+En otras palabras, los reinos de los hombres finalmente serán reemplazados por el Reino de Dios, y ese Reino será gobernado por Jesucristo.
 
-## The throne that will not end
+El ángel Gabriel anunció esta misma promesa a María antes de que Jesús naciera. Le dijo:
 
-The Angel Gabriel spoke to Mary before she conceived Jesus about the role Jesus would play in that kingdom.
+> "Concebirás en tu vientre y darás a luz un hijo, y le pondrás por nombre Jesús. Él será grande, y será llamado Hijo del Altísimo. El Señor Dios le dará el trono de David su padre, y reinará sobre la casa de Jacob para siempre, y su Reino no tendrá fin."
 
-> And behold, you will conceive in your womb and bear a son, and you shall call his name Jesus. He will be great and will be called the Son of the Most High. And the Lord God will give to him the throne of his father David, and he will reign over the house of Jacob forever, and of his kingdom there will be no end  
-> — Luke 1:31–33 (ESV)
+Así que Jesús no nació simplemente para comenzar una nueva religión, sino que nació para llegar a ser el futuro rey del mundo. Y cuando regrese, establecerá un Reino que traerá justicia y rectitud a la tierra. Los problemas con los que hoy lucha la humanidad —la guerra, la corrupción, la pobreza, la violencia— finalmente serán resueltos bajo su gobierno. La Biblia también describe un período extraordinario durante este futuro Reino. Describe el tiempo en que Cristo reinará sobre la tierra durante 1000 años, y durante ese tiempo el mundo será transformado. Las naciones serán gobernadas con justicia. La verdad reemplazará al engaño. La rectitud comenzará a moldear la sociedad humana.
 
-As king over all the earth, Jesus will bring about a renovation of the world which not one of us has experienced. But still, during the 1,000-year reign, there will be mortal men, women, and children, inhabiting the earth. They will be ruled over by immortalized saints, who will act in both a spiritual leadership and judicial role. It will be marvelous! The problems that man cannot resolve today will be dissolved by the Lord Jesus Christ.
+Ahora bien, es cierto que durante este reinado de mil años, la tierra seguirá siendo habitada por hombres y mujeres mortales. La gente seguirá viviendo vidas normales, formando familias, trabajando y aprendiendo los caminos de Dios. La diferencia es que serán guiados por el gobierno de Cristo y de aquellos que hayan sido hechos inmortales mediante la resurrección. Estos santos inmortales servirán junto a Cristo como líderes y jueces en el Reino. El mundo experimentará algo que la humanidad nunca ha conocido antes: una sociedad dirigida enteramente por los principios de Dios. El pecado seguirá existiendo durante este tiempo, pero no dominará el mundo como lo hace hoy, y finalmente, la Biblia nos dice que incluso esta etapa de la historia llevará a algo aún mayor.
 
-## Sin and death during the millennium
+Al final de los mil años habrá un juicio final. Aquellos que hayan seguido fielmente a Dios recibirán la inmortalidad. Los rebeldes serán eliminados. Y en ese momento, el propósito de Dios para la tierra finalmente alcanzará su plenitud. El libro de Apocalipsis describe este momento con palabras poderosas. Dice:
 
-During the 1,000 years, there will still be sin and death. However, sin will not be rampant or as unchecked as it is today. People will still become ill. Death will come, but likely at a later age than we experience today. There will still be sorrow, because though sin is greatly diminished, it is still in existence.
+> "He aquí el tabernáculo de Dios con los hombres, y él morará con ellos; y ellos serán su pueblo… Enjugará toda lágrima de sus ojos, y ya no habrá muerte, ni habrá más llanto, ni clamor, ni dolor, porque las primeras cosas han pasado."
 
-## When sin and death end forever
-
-It is not until the end of the 1,000 years when a final rebellion occurs. At that time, those who have been faithful will be judged as righteous by Jesus, and join the existing saints as immortals. The rebellious will be destroyed. When that is accomplished, the earth will be filled with immortal, sinless people. **No more sin. No more death.**
-
-This will fulfill the plan and purpose of God with mankind. Jesus also will have accomplished his work when he hands the kingdom over to his Father. But how will life be different? Let’s let the Revelation describe it for us.
-
-> And I heard a loud voice from the throne saying, “Behold, the dwelling place of God is with man. He will dwell with them, and they will be his people, and God himself will be with them as their God. He will wipe away every tear from their eyes, and death shall be no more, neither shall there be mourning, nor crying, nor pain anymore, for the former things have passed away.”  
-> — Revelation 21:3–4
-
-This is why Jesus destroyed the power of the devil. This is why he gave himself on the cross. It is to create a world filled with men and women who glorify and praise God forever. It is to erase the barrier between God and man.
-
-## God’s patience today
-
-Today, God sees the injustices of humans. He sees the most vulnerable being abused. He sees what men do in secret, as well as in public. He hears the insanity of men and women who deny Him, and reject Him as the Creator. But He is longsuffering, and patient. He has a plan for our redemption, and He has revealed it to us. For believers, the conquest of sin and death will lead to an eternal existence, beyond any joy we have known.
+Este es el futuro que promete la Biblia: un mundo donde la tristeza ha desaparecido, un mundo donde la muerte ya no existe, un mundo lleno de hombres y mujeres que viven en armonía con su Creador. Por eso Jesús dio su vida. A través de su muerte y resurrección, abrió un camino para que la humanidad sea liberada del poder del pecado y de la muerte. Dios ve el sufrimiento y la injusticia que existen hoy en el mundo. Ve el daño que las personas se hacen unas a otras, tanto abierta como secretamente. Pero las Escrituras nos dicen que Dios es paciente, que está dando tiempo a las personas para que se vuelvan a Él, porque su propósito no es simplemente juzgar al mundo, sino restaurarlo. Y para aquellos que ponen su esperanza en Él, el futuro que describe la Biblia es mucho más que un sueño lejano. Es la promesa de un mundo más allá de todo lo que hemos experimentado jamás, un mundo que finalmente está libre de pecado y de muerte.

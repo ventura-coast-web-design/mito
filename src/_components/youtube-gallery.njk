@@ -27,7 +27,7 @@
           {% if v.transcript != false %}
             {% set transcriptSlug = v.transcriptSlug | default(v.slug) %}
             <p class="video-card__transcript-wrap">
-              <a class="video-card__transcript" href="/transcripts/{{ transcriptSlug }}/">Transcript</a>
+              <a class="video-card__transcript" href="/transcripts/{{ transcriptSlug }}/">Transcripción</a>
             </p>
           {% endif %}
         </article>

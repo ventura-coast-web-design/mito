@@ -1,6 +1,6 @@
 ---
-title: "Transcripts"
-description: "Transcripts for presentation videos."
+title: "Transcripciones"
+description: "Transcripciones de los videos de las presentaciones."
 permalink: /transcripts/
 layout: base.njk
 mainClass: site-main--bright
@@ -9,12 +9,12 @@ eleventyExcludeFromCollections: true
 ---
 
 <div class="page-header page-header--bright">
-  Transcripts
+  Transcripciones
 </div>
 
 <div class="container transcript-index">
   <p class="bright-lead transcript-index__intro">
-    Transcripts for videos on this site. Open a page to read or print; each file lives in <code class="transcript-index__code">src/transcripts/</code> as Markdown.
+    Transcripciones de los videos de este sitio. Abre una página para leerla o imprimirla.
   </p>
 
   {% if collections.transcript | length %}
@@ -29,6 +29,6 @@ eleventyExcludeFromCollections: true
       {% endfor %}
     </ul>
   {% else %}
-    <p class="bright-muted">No transcripts yet.</p>
+    <p class="bright-muted">Aún no hay transcripciones.</p>
   {% endif %}
 </div>

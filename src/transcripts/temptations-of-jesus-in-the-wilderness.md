@@ -1,68 +1,57 @@
 ---
-title: "Temptation of Jesus in the Wilderness — video overview (transcript)"
-description: "Transcript for the video on Temptation of Jesus in the Wilderness"
-permalink: /transcripts/temptation-in-wilderness/
-videoTitle: "Temptation of Jesus in the Wilderness"
-youtubeVideoId: "IGbjT0MQ-Ew"
+title: "Las Tentaciones De Jesús en el Desierto"
+description: "Transcripción del video sobre las tentaciones de Jesús en el desierto."
+permalink: /transcripts/las-tentaciones-de-jesus-en-el-desierto/
+videoTitle: "Las Tentaciones De Jesús en el Desierto"
+youtubeVideoId: "Y8BOW6Fw9Ic"
 backUrl: "/videos/"
-backLabel: "Back to Videos"
+backLabel: "Volver a Videos"
 ---
 
-In this video, we will discuss the temptation of Jesus Christ in the wilderness.
+# La Tentación de Jesús en el Desierto
 
-## Baptism and the Spirit
+Poco después de que Jesús fue bautizado, ocurrió algo poco común. El evangelio nos dice que, inmediatamente después de su bautismo, Jesús fue llevado al desierto y tentado durante 40 días. Probablemente ya conoces la historia básica. Jesús tenía hambre después de no haber comido durante 40 días, y una figura llamada Satanás se le apareció para tentarlo en tres ocasiones distintas. Pero cuando leemos el relato con atención, comienzan a surgir varias preguntas. ¿Quién estaba realmente tentando a Jesús? ¿Por qué ocurrió este evento justo después de su bautismo? ¿Y qué nos pueden enseñar estas tentaciones sobre la manera en que Jesús venció el pecado? En este video vamos a examinar de cerca la tentación de Jesús en el desierto: qué sucedió, qué significa, y por qué es tan importante para nosotros hoy.
 
-You may recall that Jesus was baptized by John the Baptist in the Jordan River. After Jesus emerged from the water, God proclaimed:
+Para entender las tentaciones de Jesús en el desierto, primero necesitamos comprender lo que acababa de suceder en su vida. En Mateo capítulo 3, Jesús fue bautizado por Juan en el río Jordán, y cuando salió del agua, Mateo dice:
 
-> “This is my beloved son, in whom I am well pleased.” *(Matthew 3:17)*
+> "Los cielos se abrieron, y vio al Espíritu de Dios que descendía como paloma y venía sobre él… y una voz de los cielos decía: Este es mi Hijo amado, en quien tengo complacencia."
 
-Additionally, the Spirit descended on Jesus. We are told in John’s gospel (John 3:34) that Jesus was not given a measure, or portion of the Holy Spirit, but rather without limit. This marks an important development in the life of Jesus, as he now is fully capable of performing all miracles.
+El evangelio de Juan explica más adelante que Jesús recibió el Espíritu sin medida. Es decir, a diferencia de los profetas anteriores a él, quienes recibieron porciones del Espíritu de Dios para tareas específicas, Jesús recibió el Espíritu en su plenitud. Pero entonces ocurrió algo sorprendente. Inmediatamente, se nos dice, el Espíritu llevó a Jesús al desierto, y durante 40 días permaneció allí en ayuno, enfrentando una serie de tentaciones que marcarían la manera en que llevaría a cabo su ministerio.
 
-Luke’s gospel tells us that when Jesus left the Jordan, where he was baptized, he was **“full of the Holy Spirit.”**
+Pero antes de examinar las tentaciones en sí, es importante recordar algo que la Biblia dice acerca de Jesús. El escritor de la carta a los Hebreos nos dice que Jesús fue tentado en todo según nuestra semejanza, pero sin pecado. En otras palabras, las tentaciones que Jesús experimentó no eran completamente distintas de las nuestras. Eran parte de la misma lucha humana que enfrenta toda persona. La diferencia es que Jesús nunca cedió ante ellas. Así que este período en el desierto fue un tiempo en que Jesús confrontó sus propios deseos humanos y aprendió la obediencia perfecta a la voluntad de su Padre. Al observar las tres tentaciones registradas en los evangelios, vemos que todas giran alrededor de un tema similar: cómo usaría Jesús el poder que acababa de recibir de Dios. ¿Lo usaría para su propia comodidad? ¿Lo usaría para obtener fama y reconocimiento? ¿O para demostrar ante otros quién era? Veamos cada tentación por separado.
 
-## Driven into the wilderness
+La primera tentación ocurrió después de que Jesús había ayunado durante 40 días. Como era de esperar, tenía muchísima hambre, y en ese momento surgió un pensamiento. Las piedras esparcidas por el desierto se veían muy parecidas a pequeños panes. Y ahora que Jesús poseía el poder del Espíritu, tenía la capacidad de hacer milagros. Así que la tentación era muy simple: ¿por qué no convertir las piedras en pan? Eso resolvería de inmediato su hambre, pero Jesús se negó. En cambio, respondió citando el libro de Deuteronomio. Dijo:
 
-Immediately, we are told, he is “driven” into the wilderness. In fact, we are told that the Spirit drove him into the wilderness. He was there 40 days and nights, not eating or drinking. It is important to note that **the Spirit led the temptations of Jesus.** They were not the creation of a supernatural being, or even another person. This was a time for Jesus to learn obedience by confronting his own will, and subjecting it to his Father’s.
+> "No solo de pan vivirá el hombre, sino de toda palabra que sale de la boca de Dios."
 
-Before we begin looking at the temptation of Jesus, we need to remind ourselves that Jesus was **“tempted in all points like we are, yet without sin.”** His temptations to sin were just like ours. He experienced the pull of the flesh. We will see in the three temptations that are named, the main struggles that Jesus would face were about using the Spirit for personal gain, glory, and exaltation.
+Jesús entendía que las necesidades físicas no eran lo más importante. Su vida y su misión debían ser guiadas por la voluntad de Dios, no por los deseos de la carne, y así resistió la tentación fundamentando su pensamiento en las Escrituras.
 
-So, if Jesus were tempted by an external force, one that had an intimate discussion with him, this would be far different than what we experience with our temptation to sin. We suggest that the temptations of Jesus are his own internal struggles against the flesh. Let’s look at each.
+La siguiente tentación se describe como Jesús viendo todos los reinos del mundo en un instante, desde un monte muy alto, y por supuesto no existe ningún monte en la tierra tan alto como para ver literalmente todos los reinos del mundo a la vez. Esto nos indica que la tentación se entiende mejor como algo que ocurrió dentro de la mente de Jesús: una visión de las posibilidades futuras que tenía ante sí. Jesús sabía que había sido escogido para ser rey en el Reino de Dios. La tentación consistía en tomar esa autoridad de inmediato. Podía aceptar la gloria, el poder y el reconocimiento en ese mismo momento. Podía ser el rey que todo el pueblo esperaba. Sin embargo, Jesús sabía que ese no era el camino que Dios había escogido. Una vez más, respondió citando la ley de Moisés:
 
-### First temptation: stones into bread
+> "Al Señor tu Dios adorarás, y a él solo servirás."
 
-The first temptation is to turn the stones into bread. We are told that Jesus was hungry, not having eaten for more than a month. His temptation was associated with the knowledge that he now possessed the power to turn these rounded stones in the wilderness into bread that could nourish him. This was a new temptation for Jesus, having now been given the Spirit without measure. Jesus answered the temptation by quoting from Deuteronomy: **“It is written, That man shall not live by bread alone, but by every word of God.”** *(Luke 4:4)*
+Así que rechazó la tentación de ser rey antes de que llegara el tiempo apropiado.
 
-Jesus used the Scriptures to shape and transform his mind. Jesus thought back to the Law of Moses. We can also use principles in the Bible to govern our lives. Jesus did not need an external tempter to imagine the stones being bread. It was a reasonable thought of a man who now had the power to end his hunger with a miracle.
+La tentación final tuvo lugar en las almenas del templo, y la idea que se presentó a Jesús fue dramática: ¿qué pasaría si se lanzaba desde el punto más alto del templo? Después de todo, el Salmo 91 decía:
 
-### Second temptation: all the kingdoms
+> "Que él mandará a sus ángeles que te guarden en todos tus caminos."
 
-The second temptation is where he is taken to “a very high mountain” and shown all the kingdoms of the world in a moment. This is the plainest example of where this is **not a literal event,** but rather one of the temptations that Jesus worked though in his own mind. There is no mountain that is high enough for all the kingdoms of the world to be seen at once—it’s physically impossible. But as Jesus worked through the gift of the Holy Spirit, he understood that there would be times where he would be tempted to introduce his kingdom right away, to accept the accolades and exaltation of the crowds. However, once again Jesus goes back to Deuteronomy, noting that all worship should be of God alone.
+Esta tentación incluso incorporaba una cita de las mismas Escrituras, pero Jesús reconoció de inmediato la falla en ese razonamiento. Usar el poder de Dios de esa manera no sería un acto de fe; sería poner a Dios a prueba. Así que Jesús, una vez más, recurrió a Deuteronomio y respondió:
 
-### Third temptation: the temple pinnacle
+> "No tentarás al Señor tu Dios."
 
-The third temptation is said to be in Jerusalem, where he is told that he could cast himself from the pinnacle of the temple, but the angels would be there to bear him up. Note that the “Satan” actually quotes Scripture in this temptation, quoting Psalm 91. This appears to be a more difficult and subtle temptation. Could he justify using the Spirit to prove he was the Son of God to those who did not believe? Psalm 91 seemed to indicate this. But Jesus responds with another citation from Deuteronomy, **“Thou shalt not tempt the Lord thy God.”**
+En otras palabras, Jesús se negó a usar mal el poder de Dios simplemente para demostrar algo ante otros.
 
-## Was there a supernatural adversary?
+En este punto muchas personas toman el texto de manera literal y suponen que estas tentaciones deben haber venido de un ser sobrenatural llamado Satanás. Pero cuando en realidad examinamos la palabra griega que está detrás de "Satanás" en la Biblia, simplemente significa un adversario u opositor. A lo largo de la Biblia, "Satanás" se usa como símbolo de cualquier fuerza que se opone a la voluntad de Dios, y eso incluye los deseos pecaminosos dentro de la naturaleza humana. La Biblia en realidad explica con mucha claridad de dónde proviene la tentación. En el libro de Santiago se dice:
 
-So, was there a supernatural adversary, or Satan, that was doing this to Jesus? Did he get escorted to an exceedingly high mountain, or taken to the temple pinnacle in Jerusalem? Mark’s gospel makes it clear that the full 40-day period was in the wilderness. **The visions of Jerusalem and a high mountain were created in the mind of the Lord.**
+> "Nadie diga cuando es tentado: Soy tentado por Dios; porque Dios no puede ser tentado por el mal, ni él tienta a nadie. Sino que cada uno es tentado, cuando es atraído y seducido por su propia pasión. Entonces la pasión, después que ha concebido, da a luz el pecado; y el pecado, siendo consumado, da a luz la muerte."
 
-## What “Satan” means
+Esto significa que las tentaciones que Jesús experimentó eran parte de la misma lucha humana que todos experimentamos. La diferencia es que Jesús siempre eligió la obediencia a Dios.
 
-Satan is a term that is used often in the Bible. It simply means **“an opponent,”** or **“an adversary.”** There is a Satan in the book of Job that reasons with God. Satan brings about calamities on Job, but none of them are outside the control of God. Satan is often used as a symbol of sin. In Revelation 20, Satan is included with other symbols of sin, to include the dragon, the old serpent, and the Devil. All of these symbols are about to be destroyed in Revelation 20 at the end of the 1,000-year reign of Jesus on the earth. We learn at the end of Revelation 20 that the final destruction of the dragon, serpent, devil and Satan is realized when sin and death are finally destroyed.
+Entonces, ¿por qué fue tentado Jesús inmediatamente después de ser bautizado y de recibir el Espíritu? Bueno, estas tentaciones lo prepararon para los desafíos que enfrentaría a lo largo de su ministerio. Habría momentos en los que podría usar el poder milagroso para servirse a sí mismo. Habría momentos en los que las multitudes intentarían hacerlo rey. Y habría ocasiones en las que la gente exigiría que demostrara quién era mediante milagros espectaculares. Pero Jesús ya se había preparado mentalmente para esos momentos. Sabía que su misión no se trataba de comodidad personal, ni de fama, ni de demostrar algo. Se trataba de cumplir fielmente la voluntad de Dios. Este mismo compromiso fue puesto a prueba nuevamente en el huerto de Getsemaní, donde Jesús oró en profunda angustia antes de su crucifixión. Aun así, eligió decir:
 
-## Why these temptations matter
+> "No se haga mi voluntad, sino la tuya."
 
-How are these temptations in the wilderness relevant? Why would the Spirit want Jesus to experience these trials? Each of these three temptations would be extremely germane, and preparatory to the Lord as he began his ministry. There would be many times when he could choose to use the Holy Spirit to provide for his own needs. But instead, Jesus learned to rely on his Father for all care and sustenance. Several times crowds were so impressed with his miracles and his preaching that they wanted to make him king. Jesus resisted this, realizing that his kingdom was not of this world. His glory and exaltation will be when he returns to the earth and sets up the everlasting Kingdom of God. Finally, Jesus had times when unbelievers demanded him to prove his authenticity, and he could have used a miracle to silence them. For example, when Jesus was on the cross, mockers cried out for Jesus to come down from the cross, and then they would believe. But Jesus had already prepared his mind for this, and would not misuse the Spirit for this purpose.
+La tentación de Jesús en el desierto nos enseña una lección importante sobre el origen de la tentación y cómo puede superarse. Igual que Jesús, todos enfrentamos deseos que nos alejan de la voluntad de Dios. Y igual que Jesús, tenemos la libertad de decidir cómo responder. A lo largo de estas tentaciones, Jesús recurrió constantemente a la palabra de Dios para guiar su pensamiento. Las Escrituras moldearon la manera en que respondió a cada desafío, y de la misma manera, cuando permitimos que la enseñanza de la Biblia moldee nuestro pensamiento, estamos mucho mejor preparados para resistir los impulsos que conducen al pecado.
 
-## Where temptation comes from
-
-The Bible is clear where temptation comes from.
-
-> Let no one say when he is tempted, “I am being tempted by God,” for God cannot be tempted with evil, and he himself tempts no one. But each person is tempted when he is lured and enticed by his own desire. Then desire when it has conceived gives birth to sin, and sin when it is fully grown brings forth death  
-> — James 1:13–15 (ESV)
-
-## Gethsemane and our example
-
-We understand the temptation in the wilderness to be an important progression in the ministry of the Lord Jesus Christ. During his ministry, he would struggle with the impulses we all would have to use the powerful Spirit in ways that did not bring glory to God. He overcame these temptations by turning to the word of God, and citing holy principles. None of these temptations were greater than when he was in the Garden of Gethsemane the night of his betrayal. He prayed earnestly, and was in great sorrow. But ultimately, he had the faith required to put his Father’s will above his own.
-
-In our own temptations, which happen within our own hearts, we too would do well to turn to the instruction of Scripture, to put the will of God above our own. **Jesus did this as our example.**
+Así que la tentación de Jesús en el desierto fue mucho más que una historia extraña al comienzo de los evangelios. Fue un momento crucial en la preparación del ministerio de Jesús. Durante esos 40 días, Jesús enfrentó el mismo tipo de deseos que experimenta todo ser humano: el deseo de comodidad, poder y reconocimiento. Pero en lugar de ceder ante esos impulsos, eligió la obediencia a Dios, y al hacerlo, dejó el ejemplo perfecto de cómo debe vivirse una vida dedicada a Dios.

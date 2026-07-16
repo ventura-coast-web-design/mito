@@ -1,66 +1,43 @@
 ---
-title: "Lucifer — video overview (transcript)"
-description: "Transcript for the video on Lucifer."
-permalink: /transcripts/lucifer/
-videoTitle: "Lucifer"
-youtubeVideoId: "IGbjT0MQ-Ew"
+title: "¿Quién es Lucero?"
+description: "Transcripción del video sobre Lucero."
+permalink: /transcripts/quien-es-lucero/
+videoTitle: "¿Quién es Lucero?"
+youtubeVideoId: "XJ34oXKE-HI"
 backUrl: "/videos/"
-backLabel: "Back to Videos"
+backLabel: "Volver a Videos"
 ---
 
-In today’s video, we will be talking about Lucifer. Where does the name Lucifer occur in the Bible, and is it a formal name for a supernatural satanic being?
+# ¿Quién es Lucero?
 
-## Where “Lucifer” comes from
+Muchas personas suponen que Lucero es el nombre original de un poderoso ser sobrenatural, frecuentemente identificado con Satanás. Pero ¿es esto realmente lo que enseña la Biblia? Para responder esta pregunta, debemos observar cuidadosamente dónde aparece esta palabra en la Escritura y qué dice el contexto que la rodea.
 
-The word Lucifer first appeared in the 4th Century A.D. in the Latin Vulgate, a translation by Jerome (347–420). The Hebrew word is *helel*, which means “morning star.” The King James Version uses this translation. Most modern translations of the Bible do not use “Lucifer,” but instead Day Star, Morning Star, or Shining One. **“Lucifer” is only found once in the Bible,** in Isaiah 14:12–15 (KJV).
+Sorprendentemente, la palabra Lucero aparece solo una vez en toda la Biblia, y únicamente en ciertas traducciones. En la versión Reina-Valera, leemos en Isaías capítulo 14:
 
-> How art thou fallen from heaven, O Lucifer, son of the morning! how art thou cut down to the ground, which didst weaken the nations! For thou hast said in thine heart, I will ascend into heaven, I will exalt my throne above the stars of God: I will sit also upon the mount of the congregation, in the sides of the north: I will ascend above the heights of the clouds; I will be like the most High. Yet thou shalt be brought down to hell, to the sides of the pit.
+> "¡Cómo caíste de los cielos, oh Lucero, hijo de la mañana! Cortado fuiste por tierra, tú que debilitabas las naciones."
 
-## So, who is Isaiah writing about?
+A primera vista este lenguaje suena dramático: alguien que cae del cielo y es llevado al juicio. Debido a esta imagen, muchos lectores han supuesto que Isaías debe estar describiendo la caída de un ángel rebelde convertido en un diablo sobrenatural. Pero antes de llegar a esa conclusión, deberíamos hacernos una pregunta importante. ¿De quién está hablando realmente Isaías? Y para responder esto, necesitamos dar un paso atrás y examinar el contexto de la profecía de Isaías.
 
-This is a great example of where understanding the context of a Bible passage can clarify what may otherwise be misread. Isaiah 13 begins a series of prophecies against real nations that were enemies of Israel. It includes such countries as Babylon, Moab, Syria, Ethiopia, Egypt, and ancient Tyre. In each case, these countries were being held accountable by God for their cruelty against His people Israel. So, when we read Isaiah 14, we need to keep this context in mind.
+Comenzando en Isaías capítulo 13, el profeta registra una serie de mensajes contra varias naciones que habían oprimido a Israel. Esas naciones incluían a Babilonia, Moab, Siria, Egipto, y otras. Cada profecía describe cómo Dios haría responsables a esas naciones por su crueldad y su arrogancia. Cuando llegamos a Isaías capítulo 14, el pasaje mismo nos dice claramente a quién está dirigido el mensaje. En el versículo 4, Isaías escribe:
 
-The chapter begins by clarifying who this taunt is written to.
+> "Pronunciarás este proverbio sobre el rey de Babilonia..."
 
-> Take up this proverb against the king of Babylon, and say, How hath the oppressor ceased! The golden city ceased! *(verse 4)*
+Así que el tema de Isaías capítulo 14 es el rey de Babilonia.
 
-Clearly, **Isaiah 14 is about the King of Babylon.** He would be an oppressor to Israel. In 586 BC, Nebuchadnezzar, King of Babylon, would complete his invasion of Israel, sacking Jerusalem and burning the Temple. There had been no power quite like Nebuchadnezzar and his Kingdom. He would rule from the Fertile Crescent area all the way to Egypt. The power and riches of his kingdom would be unlike any other that the world had seen to that point. It wasn’t until about 130 years ago that archeologists began to unearth ancient Babylon. It revealed a massive city with fabled hanging gardens and opulent palaces.
+Babilonia fue uno de los imperios más poderosos que el mundo había visto jamás. Bajo reyes como Nabucodonosor, su influencia se extendía por todo el antiguo Cercano Oriente, desde la Media Luna Fértil hasta Egipto. Babilonia conquistó naciones, destruyó ciudades y finalmente invadió Jerusalén misma, quemando el templo y llevando cautivo al pueblo de Israel. Para muchos, Babilonia debía parecer imparable, pero la profecía de Isaías declaraba que este poderoso reino no duraría para siempre. De hecho, el capítulo describe cómo las naciones que Babilonia había oprimido se alegrarían finalmente cuando su poder colapsara. Isaías escribe que la tierra finalmente descansaría y las naciones dirían:
 
-But as strong as Babylon was, its kingdom lasted a very short time. It would rise quickly, but fall to the Persian Empire and vanish almost in a moment.
+> "Tú también te has debilitado como nosotros, te has hecho semejante a nosotros."
 
-## The fall of the king of Babylon
+Este poderoso gobernante que una vez aterrorizó al mundo sería derribado. Isaías incluso describe a la gente mirando a este rey caído y diciendo:
 
-This is what Isaiah was prophesying about. Let’s look at some of the language used to describe the power and subsequent fall of the King of Babylon.
+> "¿Es este el hombre que hacía temblar la tierra, que hacía temblar los reinos?"
 
-> The Lord has broken the staff of the wicked, the scepter of rulers, that struck the peoples in wrath with unceasing blows, that ruled the nations in anger with unrelenting persecution. The whole earth is at rest and quiet; they break forth into singing. The cypresses rejoice at you, the cedars of Lebanon, saying, Since you were laid low, no woodcutter comes up against us.’ Sheol beneath is stirred up to meet you when you come; it rouses the shades to greet you, all who were leaders of the earth; it raises from their thrones all who were kings of the nations. All of them will answer and say to you: ‘You too have become as weak as we! You have become like us!’ Your pomp is brought down to Sheol, the sound of your harps; maggots are laid as a bed beneath you, and worms are your covers. *(verses 5–12, ESV)*
+Ahora, nota bien esa frase: "¿es este el hombre?" Así que la profecía habla de un gobernante humano, no de un ser sobrenatural.
 
-These are the voices of the nations who would be oppressed by Babylon. They rejoiced because Babylon, once their captor, was now humbled and brought low. The power of Babylon had ceased.
+Entonces, ¿de dónde viene esta palabra Lucero? Bueno, el término tiene su origen en la Vulgata Latina, una traducción latina de la Biblia que fue producida en el siglo IV y que se usó principalmente durante cerca de mil años. En esa traducción, la palabra hebrea *helel* fue traducida al latín como *Lucifer*, que significa "portador de luz" o "estrella de la mañana", y de allí pasó a la Reina-Valera como "Lucero". La frase original en hebreo esencialmente significa lo mismo: resplandeciente, o estrella de la mañana. Por eso, la mayoría de las traducciones modernas de la Biblia traducen el versículo de manera diferente. Por ejemplo, en lugar de decir Lucero, la Nueva Versión Internacional traduce: "Has caído del cielo, ¡oh astro de la mañana!" La Biblia Dios Habla Hoy lo traduce: "¡Astro brillante, hijo de la aurora, has caído del cielo!"
 
-Isaiah continues to identify this man, a ruler, who is now defeated and brought low.
+Así que Isaías está usando una imagen poética. En el mundo antiguo, la estrella de la mañana, frecuentemente asociada con el planeta Venus, aparece muy brillante en el cielo justo antes del amanecer. Pero a medida que el sol sale, esa estrella brillante rápidamente se desvanece y desaparece, y esa imagen describe perfectamente lo que le sucedió a Babilonia. El reino crece rápidamente y se muestra con un poder y una riqueza increíbles, pero con la misma rapidez desapareció de su lugar de gloria cuando fue conquistado por el Imperio Persa.
 
-> Those who see you will stare at you and ponder over you: ‘Is this the man who made the earth tremble, who shook kingdoms, who made the world like a desert and overthrew its cities, who did not let his prisoners go home?’ *(verses 16–17)*
+Así que la profecía de Isaías describía el ascenso y la caída repentina de un orgulloso gobernante terrenal. Y este tema del orgullo es algo que vemos claramente ilustrado en la vida del mismo Nabucodonosor. En el libro de Daniel, el rey se jacta de la grandeza del reino que construyó, solo para ser humillado rápidamente por Dios. Así que el mensaje de Isaías 14 no trata sobre un ser sobrenatural cayendo del cielo; más bien, es una poderosa descripción poética de cómo el orgullo humano conduce a la caída. Este gobernante que una vez se exaltó a sí mismo por encima de todas las naciones sería finalmente llevado a la tumba.
 
-## Why people confuse “Lucifer” with a supernatural being
-
-So why is it that so many have confused Lucifer with a supernatural being? This is an example of reading into a passage, rather than reading it in context.
-
-It is helpful to see how more modern translations have interpreted this word.
-
-- The **ESV** interprets this as “O Day Star, son of Dawn!”
-- The **New American Standard Bible** interprets it as “You star of the morning, son of the dawn!”
-
-So why did the King James Version use the word “Lucifer?” This is due to the influence of the Latin Vulgate on the translation of the King James Version. Lucifer comes from Latin meaning “light bringer” or “morning star.” This is consistent with the modern translations.
-
-It is believed that the reference to the morning star, the “Day Star” is to the planet Venus. Venus rises late in the sky, and is the brightest of the heavenly lights. But it is at its brightest just as the sun rises. As the sun fills the sky, Venus disappears rapidly.
-
-We can see that it was a very appropriate way for Isaiah to describe the pomp and glory of Babylon. It would rise like the morning star, dominating the sky. But it would disappear and be thrown down from its glory in a moment.
-
-It was the King of Babylon, filled with pride that we read about in Daniel 4. He boasted about his kingdom that he had built. He was called “king of kings.” But God would humble Nebuchadnezzar and eventually the entire kingdom.
-
-The chapter continues with references to the destruction of Babylon.
-
-## Conclusion
-
-Lucifer is not a supernatural power who falls from the literal heavens, as some might suppose. Rather it is a parable about a real man, a real kingdom, that was to rapidly be brought down to the ground by God.
-
-This is a great example of why reading the context of the passage helps us to understand what the prophet intended readers to understand. It allows us to be freed from the false narratives about a supernatural being, named Lucifer, that is tormenting men and women on the earth.
+Este pasaje también nos recuerda algo muy importante al leer la Biblia, y es que el contexto importa. Cuando leemos versículos de forma aislada, es fácil malinterpretar lo que los profetas realmente estaban diciendo, pero cuando leemos los capítulos que los rodean y prestamos atención a quién se está dirigiendo realmente el mensaje, el significado se vuelve mucho más claro. Isaías no estaba revelando el origen de un diablo sobrenatural llamado Lucero; estaba advirtiendo que incluso los reinos y gobernantes más poderosos están sujetos al juicio de Dios. Porque no importa cuán brillante pueda resplandecer un reino por un momento, el orgullo y la opresión eventualmente lo harán colapsar.

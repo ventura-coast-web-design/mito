@@ -75,3 +75,73 @@
   from = "/christadelphians/"
   to = "/about/"
   status = 301
+
+[[redirects]]
+  from = "/transcripts/hell"
+  to = "/transcripts/la-verdad-sobre-el-infierno/"
+  status = 301
+
+[[redirects]]
+  from = "/transcripts/hell/"
+  to = "/transcripts/la-verdad-sobre-el-infierno/"
+  status = 301
+
+[[redirects]]
+  from = "/transcripts/lucifer"
+  to = "/transcripts/quien-es-lucero/"
+  status = 301
+
+[[redirects]]
+  from = "/transcripts/lucifer/"
+  to = "/transcripts/quien-es-lucero/"
+  status = 301
+
+[[redirects]]
+  from = "/transcripts/demons"
+  to = "/transcripts/que-son-realmente-los-demonios/"
+  status = 301
+
+[[redirects]]
+  from = "/transcripts/demons/"
+  to = "/transcripts/que-son-realmente-los-demonios/"
+  status = 301
+
+[[redirects]]
+  from = "/transcripts/jesus-destroyed-the-devil"
+  to = "/transcripts/jesus-destruyo-las-obras-del-diablo/"
+  status = 301
+
+[[redirects]]
+  from = "/transcripts/jesus-destroyed-the-devil/"
+  to = "/transcripts/jesus-destruyo-las-obras-del-diablo/"
+  status = 301
+
+[[redirects]]
+  from = "/transcripts/temptation-in-wilderness"
+  to = "/transcripts/las-tentaciones-de-jesus-en-el-desierto/"
+  status = 301
+
+[[redirects]]
+  from = "/transcripts/temptation-in-wilderness/"
+  to = "/transcripts/las-tentaciones-de-jesus-en-el-desierto/"
+  status = 301
+
+[[redirects]]
+  from = "/transcripts/world-free-of-sin-and-death"
+  to = "/transcripts/un-mundo-libre-de-pecado-y-muerte/"
+  status = 301
+
+[[redirects]]
+  from = "/transcripts/world-free-of-sin-and-death/"
+  to = "/transcripts/un-mundo-libre-de-pecado-y-muerte/"
+  status = 301
+
+[[redirects]]
+  from = "/transcripts/the-origin-of-satan-and-the-devil"
+  to = "/transcripts/el-origen-de-satanas-y-el-diablo/"
+  status = 301
+
+[[redirects]]
+  from = "/transcripts/the-origin-of-satan-and-the-devil/"
+  to = "/transcripts/el-origen-de-satanas-y-el-diablo/"
+  status = 301

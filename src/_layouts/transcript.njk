@@ -11,9 +11,9 @@ mainClass: site-main--bright
   {% if videoTitle or youtubeVideoId %}
     <div class="transcript-page__toolbar">
       {% if youtubeVideoId and videoTitle %}
-        <a class="btn btn--bright-primary transcript-page__watch" href="https://www.youtube.com/watch?v={{ youtubeVideoId }}">Watch &ldquo;{{ videoTitle }}&rdquo;</a>
+        <a class="btn btn--bright-primary transcript-page__watch" href="https://www.youtube.com/watch?v={{ youtubeVideoId }}">Ver &ldquo;{{ videoTitle }}&rdquo;</a>
       {% elif youtubeVideoId %}
-        <a class="btn btn--bright-primary transcript-page__watch" href="https://www.youtube.com/watch?v={{ youtubeVideoId }}">Watch on YouTube</a>
+        <a class="btn btn--bright-primary transcript-page__watch" href="https://www.youtube.com/watch?v={{ youtubeVideoId }}">Ver en YouTube</a>
       {% elif videoTitle %}
         <span class="transcript-page__video-label">{{ videoTitle }}</span>
       {% endif %}
@@ -24,12 +24,12 @@ mainClass: site-main--bright
     {{ content | safe }}
   </article>
 
-  <nav class="transcript-page__footer-nav" aria-label="Transcript navigation">
+  <nav class="transcript-page__footer-nav" aria-label="Navegación de transcripciones">
     {% if backUrl %}
-      <a class="btn btn--bright-outline" href="{{ backUrl }}">{{ backLabel or "Back" }}</a>
+      <a class="btn btn--bright-outline" href="{{ backUrl }}">{{ backLabel or "Volver" }}</a>
     {% else %}
-      <a class="btn btn--bright-outline" href="/transcripts/">All transcripts</a>
-      <a class="btn btn--bright-outline" href="/about/">About</a>
+      <a class="btn btn--bright-outline" href="/transcripts/">Todas las transcripciones</a>
+      <a class="btn btn--bright-outline" href="/quienes-somos/">Quiénes somos</a>
     {% endif %}
   </nav>
 </div>
