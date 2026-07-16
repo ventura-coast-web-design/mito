@@ -15,6 +15,9 @@
               <p class="location-card__badge">Clase en español</p>
               <h4 class="location-card__title">
                 {{ place.city }}{% if place.region %}, {{ place.region }}{% endif %}
+                {% if place.sessions and place.sessions[0] and place.sessions[0].date %}
+                  <span class="location-card__date">{{ place.sessions[0].date }}</span>
+                {% endif %}
               </h4>
               {% if place.venueName %}
                 <p class="location-card__venue">{{ place.venueName }}</p>
@@ -47,6 +50,9 @@
             <li class="location-card">
               <h4 class="location-card__title">
                 {{ place.city }}{% if place.region %}, {{ place.region }}{% endif %}
+                {% if place.sessions and place.sessions[0] and place.sessions[0].date %}
+                  <span class="location-card__date">{{ place.sessions[0].date }}</span>
+                {% endif %}
               </h4>
               {% if place.venueName %}
                 <p class="location-card__venue">{{ place.venueName }}</p>

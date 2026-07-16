@@ -17,7 +17,8 @@
     "sessions": [
       {
         "title": "Clase pública",
-        "when": "4 p.m., sábado 26 de septiembre",
+        "date": "sábado 26 de septiembre",
+        "time": "4 p.m.",
         "speaker": "Jason"
       }
     ]
@@ -40,7 +41,8 @@
     "sessions": [
       {
         "title": "Clase pública",
-        "when": "4 p.m., domingo 4 de octubre",
+        "date": "domingo 4 de octubre",
+        "time": "4 p.m.",
         "speaker": "Jason"
       }
     ]
@@ -63,9 +65,11 @@
     "sessions": [
       {
         "title": "Clase pública",
-        "when": "4 p.m., domingo 13 de septiembre",
+        "date": "domingo 13 de septiembre",
+        "time": "4 p.m.",
         "speaker": "Dave"
-      }]
+      }
+    ]
   },
   {
     "slug": "los-angeles",
@@ -85,7 +89,8 @@
     "sessions": [
       {
         "title": "Clase pública",
-        "when": "4 p.m., sábado 26 de septiembre",
+        "date": "sábado 26 de septiembre",
+        "time": "4 p.m.",
         "speaker": "Christian"
       }
     ]
@@ -108,7 +113,8 @@
     "sessions": [
       {
         "title": "Clase pública — título por confirmar",
-        "when": "4 p.m., domingo 20 de septiembre",
+        "date": "domingo 20 de septiembre",
+        "time": "4 p.m.",
         "speaker": "Allen"
       }
     ]
@@ -120,10 +126,10 @@
     "venueName": "San Diego Christadelphian Hall",
     "addressLines": [
       "651 West 7th Ave.",
-      "San Diego, CA 92025"
+      "Escondido, CA 92025"
     ],
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=San+Diego%2C+CA",
-    "mapEmbedQuery": "San Diego Christadelphian Hall, San Diego, CA 92025",
+    "mapEmbedQuery": "San Diego Christadelphian Hall, Escondido, CA 92025",
     "netlifyFormName": "local-contact-san-diego",
     "speakerSlug": "allen-laban",
     "language": "en",
@@ -131,7 +137,8 @@
     "sessions": [
       {
         "title": "Clase pública — título por confirmar",
-        "when": "4 p.m., domingo 27 de septiembre",
+        "date": "domingo 27 de septiembre",
+        "time": "4 p.m.",
         "speaker": "Allen"
       }
     ]
@@ -154,7 +161,8 @@
     "sessions": [
       {
         "title": "Clase pública",
-        "when": "7:30 p.m., miércoles 30 de septiembre",
+        "date": "miércoles 30 de septiembre",
+        "time": "7:30 p.m.",
         "speaker": "James"
       }
     ]

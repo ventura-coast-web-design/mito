@@ -4,7 +4,19 @@ const cities = require("../../../src/_data/cities.json");
 const templates = require("./email-templates");
 const REGISTRATION_FORM_PREFIX = "local-contact-";
 
-function parseSessionWhen(when) {
+function getSessionSchedule(session) {
+  if (!session) {
+    return { seminarDate: "", seminarTime: "" };
+  }
+
+  if (session.date || session.time) {
+    return {
+      seminarDate: session.date || "",
+      seminarTime: session.time || "",
+    };
+  }
+
+  const when = session.when;
   if (!when) {
     return { seminarDate: "", seminarTime: "" };
   }
@@ -50,7 +62,7 @@ function renderTemplate(template, values) {
 function buildRegistrationEmailValues(formData) {
   const city = findCity(formData["city-slug"]);
   const session = city?.sessions?.[0];
-  const { seminarDate, seminarTime } = parseSessionWhen(session?.when);
+  const { seminarDate, seminarTime } = getSessionSchedule(session);
 
   return {
     FirstName: formData["first-name"] || "",
