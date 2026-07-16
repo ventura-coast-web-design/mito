@@ -3,7 +3,7 @@ title: "Resumen sobre los Cristadelfianos"
 description: "Transcripción del video de resumen para la página Quiénes somos."
 permalink: /transcripts/about-overview/
 videoTitle: "Resumen sobre los Cristadelfianos"
-youtubeVideoId: "ZamZVQ3btik"
+youtubeVideoId: "ZhAH3WTNEPE"
 backUrl: "/quienes-somos/"
 backLabel: "Volver a Quiénes somos"
 ---
