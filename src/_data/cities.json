@@ -107,7 +107,7 @@
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pomona%2C+CA",
     "mapEmbedQuery": "Pomona Christadelphian Hall, Pomona, CA 91766",
     "netlifyFormName": "local-contact-pomona",
-    "speakerSlug": "allen-laban",
+    "speakerSlug": "allen",
     "language": "en",
     "scheduleIntro": "Horario — confirma localmente (suelen ser por la tarde/noche, hora del Pacífico).",
     "sessions": [
@@ -120,8 +120,8 @@
     ]
   },
   {
-    "slug": "san-diego",
-    "city": "San Diego",
+    "slug": "escondido",
+    "city": "Escondido",
     "region": "CA",
     "venueName": "San Diego Christadelphian Hall",
     "addressLines": [
@@ -130,8 +130,8 @@
     ],
     "mapUrl": "https://www.google.com/maps/search/?api=1&query=San+Diego%2C+CA",
     "mapEmbedQuery": "San Diego Christadelphian Hall, Escondido, CA 92025",
-    "netlifyFormName": "local-contact-san-diego",
-    "speakerSlug": "allen-laban",
+    "netlifyFormName": "local-contact-escondido",
+    "speakerSlug": "allen",
     "language": "en",
     "scheduleIntro": "Horario",
     "sessions": [
