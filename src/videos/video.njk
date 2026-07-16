@@ -52,11 +52,11 @@ eleventyComputed:
       </a>
       <div class="video-viewer__embed">
         <iframe
-          src="https://www.youtube.com/embed/{{ video.youtubeId }}"
+          src="https://www.youtube.com/embed/{{ video.youtubeId }}?rel=0&playsinline=1&iv_load_policy=3"
           title="{{ video.title }}"
           loading="lazy"
           referrerpolicy="strict-origin-when-cross-origin"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
       </div>
