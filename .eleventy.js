@@ -1,11 +1,11 @@
 const sass = require("sass");
 
 module.exports = function(eleventyConfig) {
-  // Copy static assets
-  eleventyConfig.addPassthroughCopy("src/assets");
+  // Copy static assets (explicit output path so deploy matches local)
+  eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "favicon/": "/" });
-  eleventyConfig.addPassthroughCopy("src/css");
-  eleventyConfig.addPassthroughCopy("src/js");
+  eleventyConfig.addPassthroughCopy({ "src/css": "css" });
+  eleventyConfig.addPassthroughCopy({ "src/js": "js" });
 
   // Watch for CSS changes
   eleventyConfig.addWatchTarget("./src/css/main.css");
