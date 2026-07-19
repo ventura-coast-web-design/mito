@@ -71,6 +71,31 @@
   color: variables.$accent-yellow;
 }
 
+.location-card__zoom {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0 0 0.65rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid color.change(variables.$accent-yellow, $alpha: 0.55);
+  background: color.change(variables.$accent-yellow, $alpha: 0.1);
+  font-family: variables.$font-family-condensed;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: color.adjust(variables.$accent-yellow, $lightness: -20%);
+}
+
+.location-card__zoom-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: variables.$primary-color;
+  box-shadow: 0 0 0 3px color.change(variables.$primary-color, $alpha: 0.22);
+}
+
 .location-card__speaker {
   margin: 0 0 1rem;
   padding-left: 0.1rem;

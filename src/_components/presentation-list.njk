@@ -13,6 +13,12 @@
           {% if place.language == "es" %}
             <li class="location-card location-card--featured">
               <p class="location-card__badge">Clase en español</p>
+              {% if place.zoom %}
+                <p class="location-card__zoom">
+                  <span class="location-card__zoom-dot" aria-hidden="true"></span>
+                  También disponible por Zoom
+                </p>
+              {% endif %}
               <h4 class="location-card__title">
                 {{ place.city }}{% if place.region %}, {{ place.region }}{% endif %}
                 {% if place.sessions and place.sessions[0] and place.sessions[0].date %}
