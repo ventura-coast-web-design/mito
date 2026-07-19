@@ -55,6 +55,20 @@ eleventyExcludeFromCollections: true
             </li>
           {% endfor %}
         </ol>
+        {% if city.zoom %}
+          <aside class="city-page__zoom" role="note" aria-labelledby="zoom-title">
+            <p id="zoom-title" class="city-page__zoom-badge">
+              <span class="city-page__zoom-badge-dot" aria-hidden="true"></span>
+              Disponible por Zoom
+            </p>
+            <p class="city-page__zoom-note">{{ city.zoom.note }}</p>
+            {% if city.zoom.url %}
+              <p class="city-page__zoom-link">
+                <a href="{{ city.zoom.url }}" rel="noopener noreferrer">{{ city.zoom.linkLabel or "Unirse por Zoom" }}</a>
+              </p>
+            {% endif %}
+          </aside>
+        {% endif %}
         {% if speaker %}
           <div class="city-page__speaker" aria-labelledby="speaker-title">
             <h3 id="speaker-title" class="city-page__speaker-title">Ponente</h3>

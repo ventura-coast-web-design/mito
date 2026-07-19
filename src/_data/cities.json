@@ -69,7 +69,10 @@
         "time": "4 p.m.",
         "speaker": "Dave"
       }
-    ]
+    ],
+    "zoom": {
+      "note": "Esta clase en español también estará disponible por Zoom para quienes estén fuera del área. Regístrate y te enviaremos el enlace para participar en línea."
+    }
   },
   {
     "slug": "los-angeles",
