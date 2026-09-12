@@ -11,7 +11,7 @@ Hora: {{SeminarTime}}
 Lugar: {{VenueName}}
 Dirección: {{VenueAddress}}
 Número de asistentes: {{AttendeeCount}}
-
+{{ZoomSectionText}}
 La vestimenta es informal y no necesitas traer nada. Una Biblia puede ser útil, pero no es obligatoria.
 
 Si tienes alguna pregunta antes del evento, simplemente responde a este correo.

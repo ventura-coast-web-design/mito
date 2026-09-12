@@ -77,7 +77,9 @@
       }
     ],
     "zoom": {
-      "note": "Esta clase en español también estará disponible por Zoom para quienes estén fuera del área. Regístrate y te enviaremos el enlace para participar en línea."
+      "note": "Esta clase en español también estará disponible por Zoom para quienes estén fuera del área.",
+      "url": "https://us02web.zoom.us/j/83931458312",
+      "linkLabel": "Unirse por Zoom"
     }
   },
   {
@@ -124,11 +126,39 @@
     "language": "en",
     "scheduleIntro": "Horario — confirma localmente (suelen ser por la tarde/noche, hora del Pacífico).",
     "sessions": [
-      {
-        "title": "Clase pública — título por confirmar",
+        {
+        "title": "Clase pública",
         "date": "domingo 20 de septiembre",
         "time": "4 p.m.",
         "speaker": "Allen"
+      }
+    ]
+  },
+  {
+    "slug": "tujunga",
+    "city": "Tujunga",
+    "region": "CA",
+    "venueName": "Verdugo Hills Christadelphian Hall",
+    "addressLines": [
+      "10210 Commerce Ave.",
+      "Tujunga, CA 91042"
+    ],
+    "lat": 34.254606,
+    "lng": -118.290871,
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3297.7624107158495!2d-118.29087138839232!3d34.25460570690514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2eb509bb245af%3A0x515f3611ac409975!2sVerdugo%20Hills%20Christadelphians!5e0!3m2!1sen!2sus!4v1783049047609!5m2!1sen!2sus",
+    "mapEmbedQuery": "Verdugo Hills Christadelphian Hall, Tujunga, CA 91042",
+    "netlifyFormName": "local-contact-tujunga",
+    "speakerSlug": "christian",
+    "scheduleIntro": "Schedule and time",
+    "sessions": [
+      {
+        "title": "Clase pública",
+        "date": "domingo 20 de septiembre",
+        "time": "4 p.m.",
+        "start": "2026-09-20T16:00:00",
+        "end": "2026-09-20T17:30:00",
+        "timezone": "America/Los_Angeles",
+        "speaker": "Christian"
       }
     ]
   },
@@ -151,7 +181,7 @@
     "scheduleIntro": "Horario",
     "sessions": [
       {
-        "title": "Clase pública — título por confirmar",
+        "title": "Clase pública",
         "date": "domingo 27 de septiembre",
         "time": "4 p.m.",
         "speaker": "Allen"

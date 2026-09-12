@@ -52,6 +52,45 @@ function formatVenueAddress(city) {
   return city.addressLines.join(", ");
 }
 
+function buildZoomSections(city) {
+  const url = city?.zoom?.url;
+  if (!url) {
+    return { ZoomSectionHtml: "", ZoomSectionText: "\n" };
+  }
+
+  const label = city.zoom.linkLabel || "Unirse por Zoom";
+
+  return {
+    ZoomSectionHtml: `
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="background-color:#faf8f5;border:1px solid #ece7df;border-radius:8px;margin-bottom:28px;">
+                <tr>
+                  <td style="padding:20px 24px;">
+                    <p style="margin:0 0 8px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#d32f2f;">
+                      Disponible por Zoom
+                    </p>
+                    <p style="margin:0 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.6;color:#3d3d3d;">
+                      Si no puedes asistir en persona, únete en línea con este enlace:
+                    </p>
+                    <p style="margin:0;">
+                      <a href="${url}" style="display:inline-block;background-color:#d32f2f;color:#ffffff;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:15px;font-weight:600;text-decoration:none;padding:12px 20px;border-radius:6px;">
+                        ${label}
+                      </a>
+                    </p>
+                    <p style="margin:12px 0 0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:13px;line-height:1.5;color:#6b6b6b;word-break:break-all;">
+                      ${url}
+                    </p>
+                  </td>
+                </tr>
+              </table>`,
+    ZoomSectionText: `
+Disponible por Zoom
+
+Si no puedes asistir en persona, únete en línea con este enlace:
+${url}
+`,
+  };
+}
+
 function renderTemplate(template, values) {
   return Object.entries(values).reduce((result, [key, value]) => {
     const pattern = new RegExp(`\\{\\{${key}\\}\\}`, "g");
@@ -63,6 +102,7 @@ function buildRegistrationEmailValues(formData) {
   const city = findCity(formData["city-slug"]);
   const session = city?.sessions?.[0];
   const { seminarDate, seminarTime } = getSessionSchedule(session);
+  const zoomSections = buildZoomSections(city);
 
   return {
     FirstName: formData["first-name"] || "",
@@ -73,6 +113,7 @@ function buildRegistrationEmailValues(formData) {
     VenueName: city?.venueName || "",
     VenueAddress: formatVenueAddress(city),
     AttendeeCount: formData["how-many"] || "1",
+    ...zoomSections,
   };
 }
 
