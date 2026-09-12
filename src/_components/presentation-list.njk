@@ -4,6 +4,18 @@
       <h2 id="locations-title">DÓNDE SE REALIZARÁN LAS CLASES</h2>
     </header>
 
+    <div class="locations__map-wrap">
+      <div
+        id="locations-map"
+        class="locations__map"
+        data-locale="es"
+        role="region"
+        aria-label="Mapa de ubicaciones de las clases en California"
+      ></div>
+      <script type="application/json" id="locations-map-data">{{ cities | locationsMapData | safe }}</script>
+      <p class="locations__map-hint">Toca un marcador para ver detalles e inscripción.</p>
+    </div>
+
     <div class="locations__group" aria-labelledby="spanish-classes-title">
       <h3 id="spanish-classes-title" class="locations__group-title">en Español</h3>
       <p class="locations__group-lede">

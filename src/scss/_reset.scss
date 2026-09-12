@@ -17,6 +17,7 @@ body {
   color: variables.$text-color;
   background-color: variables.$ink;
   position: relative;
+  overflow-x: hidden;
 }
 
 // Heavy film grain — distressed poster feel

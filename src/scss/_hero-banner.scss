@@ -71,6 +71,7 @@ $hero-background-mobile:
 
 .hero__content {
   grid-area: content;
+  min-width: 0;
   max-width: min(62ch, 100%);
   width: 100%;
 
@@ -107,8 +108,20 @@ $hero-background-mobile:
 .hero__img {
   display: block;
   width: 100%;
+  max-width: 100%;
   height: auto;
   margin-top: 1rem;
+}
+
+// Title lockup in the content column — keep it from dominating the viewport.
+.hero__content > .hero__img {
+  width: auto;
+  max-width: min(100%, 22rem);
+  max-height: clamp(4.5rem, 14vh, 7.5rem);
+  margin-top: 0.35rem;
+  margin-inline: auto;
+  object-fit: contain;
+  object-position: center;
 }
 
 .hero__cta {
@@ -201,7 +214,7 @@ $hero-background-mobile:
 
 @media (min-width: variables.$breakpoint-md) {
   .hero__inner {
-    grid-template-columns: minmax(min-content, 1.1fr) minmax(0, 0.9fr);
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
     grid-template-areas: "content media";
     gap: clamp(2rem, 4vw, 3.5rem);
     align-items: start;
@@ -216,6 +229,13 @@ $hero-background-mobile:
     .hero__subtitle {
       margin-bottom: 0;
     }
+
+    > .hero__img {
+      margin-inline: 0;
+      max-width: min(100%, 26rem);
+      max-height: clamp(5rem, 16vh, 8.5rem);
+      object-position: left center;
+    }
   }
 
   .hero__cta--below-subtitle {
@@ -227,6 +247,7 @@ $hero-background-mobile:
     flex-direction: column;
     grid-area: media;
     align-items: stretch;
+    min-width: 0;
     max-width: none;
     justify-self: end;
     width: 100%;
