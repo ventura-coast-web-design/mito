@@ -201,6 +201,15 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: color.adjust(variables.$accent-yellow, $lightness: -20%);
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .location-card__zoom-dot {

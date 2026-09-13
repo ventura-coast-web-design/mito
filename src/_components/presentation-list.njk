@@ -28,7 +28,11 @@
               {% if place.zoom %}
                 <p class="location-card__zoom">
                   <span class="location-card__zoom-dot" aria-hidden="true"></span>
-                  También disponible por Zoom
+                  {% if place.zoom.url %}
+                    <a href="{{ place.zoom.url }}" rel="noopener noreferrer">{{ place.zoom.linkLabel or "Unirse por Zoom" }}</a>
+                  {% else %}
+                    También disponible por Zoom
+                  {% endif %}
                 </p>
               {% endif %}
               <h4 class="location-card__title">
@@ -47,6 +51,11 @@
               </address>
               <p class="location-card__actions">
                 <a href="/local-presentations/{{ place.slug }}/"><button class="btn btn--primary" type="button">Inscríbete</button></a>
+                {% if place.zoom and place.zoom.url %}
+                  <a class="location-card__link location-card__link--primary" href="{{ place.zoom.url }}" rel="noopener noreferrer">
+                    {{ place.zoom.linkLabel or "Unirse por Zoom" }}
+                  </a>
+                {% endif %}
                 <a class="location-card__link location-card__link--primary" href="/local-presentations/{{ place.slug }}/">
                   Detalles del lugar
                 </a>
