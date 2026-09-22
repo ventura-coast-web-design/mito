@@ -57,20 +57,17 @@ $hero-background-mobile:
   max-width: variables.$container-max-width;
   margin-inline: auto;
   padding-inline: clamp(1.25rem, 5vw, 2.75rem);
-  padding-block: 0;
+  padding-block: 0.35rem 2.25rem;
   flex: 1;
   box-sizing: border-box;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-areas: "content";
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-items: center;
-  gap: 0;
+  gap: 1.35rem;
   text-align: center;
 }
 
 .hero__content {
-  grid-area: content;
   min-width: 0;
   max-width: min(62ch, 100%);
   width: 100%;
@@ -88,183 +85,16 @@ $hero-background-mobile:
   }
 }
 
-// Mobile: no secondary photo — only title stack + Learn More under subtitle.
-.hero__media {
-  display: none;
-}
-
-.hero__cta--below-subtitle {
-  display: flex;
-  margin-top: 1.25rem;
-  width: 100%;
-  max-width: min(22rem, 100%);
-  margin-inline: auto;
-}
-
-.hero__cta--with-media {
-  display: none;
-}
-
 .hero__img {
   display: block;
-  width: 100%;
-  max-width: 100%;
-  height: auto;
-  margin-top: 1rem;
-}
-
-// Title lockup in the content column — keep it from dominating the viewport.
-.hero__content > .hero__img {
   width: auto;
   max-width: min(100%, 22rem);
   max-height: clamp(4.5rem, 14vh, 7.5rem);
+  height: auto;
   margin-top: 0.35rem;
   margin-inline: auto;
   object-fit: contain;
   object-position: center;
-}
-
-.hero__cta {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  gap: 1rem;
-  width: 100%;
-}
-
-// Gold CTA: black frame, hard shadow, bottom rule — fill uses site accent yellow.
-.hero__cta-register {
-  position: relative;
-  z-index: 0;
-  isolation: isolate;
-  box-sizing: border-box;
-  width: 100%;
-  justify-content: center;
-  margin-bottom: 0.75rem;
-  padding-block: 1rem 1.05rem;
-  padding-inline: 1.25rem;
-  border: 1px solid #000;
-  border-radius: 0;
-  font-family:
-    Impact,
-    Haettenschweiler,
-    "Franklin Gothic Bold",
-    "Arial Narrow Bold",
-    variables.$font-family-display,
-    sans-serif;
-  font-size: clamp(1.5rem, 2.4vw, 2.4rem);
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  line-height: 1.15;
-  color: #000;
-  text-shadow: none;
-  background-color: transparent;
-  box-shadow: 2px 2px 0 #000;
-
-  &::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    inset: 1px;
-    pointer-events: none;
-    background-color: variables.$accent-yellow;
-    background-image: linear-gradient(180deg, color.change(#fff, $alpha: 0.2) 0%, transparent 42%);
-  }
-
-  // 1px black gap (reads with bottom border as ~2px separation) + yellow rule; must stay above page bg
-  &::after {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    top: 100%;
-    width: 100%;
-    height: 4px;
-    background: linear-gradient(
-      to bottom,
-      #000 0,
-      #000 1px,
-      variables.$accent-yellow 1px,
-      variables.$accent-yellow 4px
-    );
-    box-shadow: 2px 2px 0 #000;
-    pointer-events: none;
-  }
-
-  &:hover {
-    color: #000;
-
-    &::before {
-      filter: brightness(1.08);
-    }
-  }
-
-  &:focus-visible {
-    outline: 2px solid variables.$accent-yellow;
-    outline-offset: 4px;
-  }
-}
-
-.hero__cta-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem 1rem;
-  justify-content: center;
-}
-
-@media (min-width: variables.$breakpoint-md) {
-  .hero__inner {
-    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
-    grid-template-areas: "content media";
-    gap: clamp(2rem, 4vw, 3.5rem);
-    align-items: start;
-    justify-items: stretch;
-    text-align: left;
-  }
-
-  .hero__content {
-    justify-self: start;
-    text-align: left;
-
-    .hero__subtitle {
-      margin-bottom: 0;
-    }
-
-    > .hero__img {
-      margin-inline: 0;
-      max-width: min(100%, 26rem);
-      max-height: clamp(5rem, 16vh, 8.5rem);
-      object-position: left center;
-    }
-  }
-
-  .hero__cta--below-subtitle {
-    display: none;
-  }
-
-  .hero__media {
-    display: flex;
-    flex-direction: column;
-    grid-area: media;
-    align-items: stretch;
-    min-width: 0;
-    max-width: none;
-    justify-self: end;
-    width: 100%;
-  }
-
-  .hero__cta--with-media {
-    display: flex;
-    margin-top: 0;
-  }
-
-  .hero__img {
-    max-width: 100%;
-  }
-
-  .hero__cta-row {
-    justify-content: flex-start;
-  }
 }
 
 .hero__content h1 {
@@ -284,8 +114,88 @@ $hero-background-mobile:
   font-weight: 500;
 }
 
-.hero .btn--accent {
+.hero__video {
+  width: 100%;
+  max-width: 56rem;
+}
+
+.hero__video-title {
+  margin: 0 0 0.4rem;
+  color: #fff;
+  font-family: variables.$font-family-display;
+  font-size: clamp(1.65rem, 4vw, 2.35rem);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  line-height: 1.15;
+  text-transform: uppercase;
+  text-shadow:
+    0 2px 0 rgba(0, 0, 0, 0.45),
+    0 0 40px rgba(211, 47, 47, 0.25);
+}
+
+.hero__video-lead {
+  margin: 0 0 1rem;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.hero__video-embed {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 2px solid variables.$border-strong;
+  border-radius: 2px;
+  background: #000;
   box-shadow:
-    0 0 0 1px rgba(0, 0, 0, 0.35),
-    0 3px 0 rgba(0, 0, 0, 0.25);
+    0 0 0 1px rgba(0, 0, 0, 0.45),
+    0 8px 0 rgba(0, 0, 0, 0.35),
+    0 24px 48px rgba(0, 0, 0, 0.4);
+
+  iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+}
+
+@media (min-width: variables.$breakpoint-md) {
+  .hero__inner {
+    display: grid;
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.25fr);
+    grid-template-areas: "content video";
+    align-items: center;
+    justify-items: stretch;
+    gap: clamp(1.75rem, 4vw, 3rem);
+    padding-block: 0.75rem 2.5rem;
+    text-align: left;
+  }
+
+  .hero__content {
+    grid-area: content;
+    justify-self: start;
+    text-align: left;
+
+    .hero__subtitle {
+      justify-content: flex-start;
+      text-align: left;
+      font-size: clamp(1.65rem, 2.4vw, 2.15rem);
+    }
+  }
+
+  .hero__img {
+    margin-inline: 0;
+    max-width: min(100%, 26rem);
+    max-height: clamp(5rem, 16vh, 8.5rem);
+    object-position: left center;
+  }
+
+  .hero__video {
+    grid-area: video;
+    max-width: none;
+    text-align: left;
+  }
 }
