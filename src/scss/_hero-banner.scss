@@ -2,7 +2,7 @@
 @use "variables";
 
 $hero-noise: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-$hero-nav-overlap: calc(2rem + clamp(6.5rem, 16vmin, 9.5rem));
+$hero-nav-overlap: calc(2rem + clamp(7.25rem, 18vmin, 10.75rem));
 
 $hero-background:
   radial-gradient(ellipse 100% 90% at 50% 100%, color.change(variables.$primary-color, $alpha: 0.35), transparent 58%),
